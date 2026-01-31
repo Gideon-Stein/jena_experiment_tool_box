@@ -9,10 +9,10 @@ Scripts and notebooks for processing raw weather station data and producing clea
 **Purpose**: Combines raw Excel station downloads into a single CSV and fixes duplicated columns and malformed records.
 
 **What it does**:
-- concatenates all Excel files in `--data_path`
-- merges duplicated columns (e.g., `Tpot1` -> `Tpot`)
-- drops known junk columns and a known bad row
-- truncates timestamps to minute resolution
+- Concatenates all Excel files in `--data_path`
+- Merges duplicated columns (e.g., `Tpot1` → `Tpot`)
+- Drops known junk columns and a known bad row
+- Truncates timestamps to minute resolution
 
 **Usage**:
 
@@ -51,15 +51,14 @@ python 2_transform_station_filter.py \
 
 ---
 
-
 ### 3_transform_station_fill.py
 
 **Purpose**: Fills missing station values using a mean-based fill and produces fill-tracking files.
 
 **What it does**:
-- logs missing values to `station_filling.txt`
-- labels all missing entries as “Full filler”
-- fills using `fill_with_mean(plots=False)`
+- Logs missing values to `station_filling.txt`
+- Labels all missing entries as “Full filler”
+- Fills using `fill_with_mean(plots=False)`
 
 **Usage**:
 
@@ -75,10 +74,9 @@ python 3_transform_station_fill.py \
 
 ---
 
-
 ### 4_transform_alternative_station_mpi
 
-**Purpose**: Filters and aggregates an alternative station source  (MPI weatherstation) to a clean 10-minute series and then resamples to a chosen resolution.
+**Purpose**: Filters and aggregates an alternative station source (MPI weather station) to a clean 10-minute series and then resamples to a chosen resolution.
 
 **Notes**:
 - Reads all CSVs in `--data_path`
@@ -104,12 +102,12 @@ python 4_transform_alternative_station_mpi.py \
 **Purpose**: Shared utilities for filtering, resampling, logging, and consistency checks used by the scripts above.
 Key helpers include `threshold_filter()`, `time_sum()`, `sum_mins()`, and `fill_with_mean()`.
 
-
 ## Other files
-- station_filling.txt: fill log written by `transform_station_fill.py`.
+
+- station_filling.txt: fill log written by 3_transform_station_fill.py.
 
 ## Notes
 
-Default paths in scripts point to local datasets; pass `--data_path`/`--output_path` for your environment.
+Default paths in scripts point to local datasets; pass `--data_path` and `--output_path` for your environment.
 
 

@@ -13,17 +13,18 @@ This folder contains notebooks and helpers used to prepare covariate and managem
 
 Most covariate sources are currently available through 2020; newer years may require updates in the notebooks or source files.
 
+## Notebook details
 
-#### `covariate_preprocessing.ipynb`
-**Purpose**: Processes environmental covariates and supplementary data to bring them into a machine learning friendly format.
-- Integrates biomass, cover, height, LAI, and root biomass data (2003-2020)
+#### covariate_preprocessing.ipynb
+**Purpose**: Processes environmental covariates and supplementary data to bring them into a machine-learning-friendly format.
+- Integrates biomass, cover, height, LAI, and root biomass data (2003–2020)
 - Processes soil respiration and microbial biomass measurements
 - Handles SPEI (Standardized Precipitation-Evapotranspiration Index) data
 - Validates realized diversity measurements
-- **Note**: Most data extends only to 2020, requires updates for recent years
+- **Note**: Most data extends only to 2020; update for recent years as needed
 
-#### `management_preprocessing.ipynb`
+#### management_preprocessing.ipynb
 **Purpose**: Processes experimental management and treatment data.
 
-#### `snow_cover.ipynb`
+#### snow_cover.ipynb
 **Purpose**: Processes snow cover data from the DWD for the area of Jena.

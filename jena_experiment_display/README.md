@@ -1,125 +1,110 @@
 # Jena experiment display
 
-
 ![](sources/display.png)
 
+This repository provides a script to animate numerical data associated with Jena Experiment plots. Animations can also be saved as videos.
 
-This repository features a script that can be used to animate any kind of numerical information that is related to the different plots of the Jena experiment. You can also save the animation as a video.
+## Installation
 
-
-
-
-### Installation
-
-Clone this repository, create and activate your python environment (conda or virtualenv)  and run this the following command. You should be good to go. 
+Clone this repository, create and activate your Python environment (conda or virtualenv), then run:
 
 ```
-conda env create -f environment.yml 
-
+conda env create -f environment.yml
 ```
 
+## Basic functionality
 
-### Basic functionality
-
-By running
+Run:
 
 ```
 python display.py --path sources/example_format.csv --what 2
 python display.py --path sources/field_diversity.csv --what --static 2 # static case
-
 ```
-the script will attempt to load the CSV file specified with by "--path", Compute a color range and animate the data. 
-You need to specify which column of the CSV file should be displayed. This is done by specifying the index of a column with "--what" 
 
+The script loads the CSV specified by `--path`, computes a color range, and animates the data. Specify which column to display using the column index passed to `--what`.
 
-### Table format
+## Table format
 
-Your table should include a column "datetime" that the specifies the time and a column "plotcode" which specifies the plot. Check "example_format.csv" for further clarification. 
+The table must include a `datetime` column specifying time and a `plotcode` column specifying the plot. See `example_format.csv` for reference.
 
+## Additional options
 
+The script supports the following options:
 
-### Additional options
-
-The script comes with a number of options:
-
-
-Add if you want to display a variable that has no time dimension.
+Add if you want to display a variable with no time dimension:
 ```
  --static
 ```
 
-Add if you want to average the data over diversity levels.
+Add if you want to average the data over diversity levels:
 ```
  --averaging
 ```
 
-Specifies how many different colors are used for the heat map (default =20).
+Specifies how many colors are used for the heat map (default = 20):
 ```
  --heat_boxes int
 ```
 
-Specifies the speed of the animation (Time between frame changes in seconds) (default =0.1).
+Specifies the speed of the animation (time between frame changes in seconds; default = 0.1):
 ```
  --speed float
 ```
 
-Specifices how the plots of the Jena experiment are grouped. "Real" displays the plots in their original layout. "diversity" groups the plots into diversity levels. (default ="real").
+Specifies how plots are grouped. `real` displays the original layout; `diversity` groups by diversity levels (default = "real"):
 ```
  --layout diversity/real/block2
 ```
 
-Specifies the path to the colors that should be used for the heatmap. There are three different color ranges in /heats. You can also create your own ones with e.g. with https://github.com/hihayk/scale and save the color codes to a .txt file
+Specifies the path to the color palette used for the heat map. There are three preset color ranges in /heats. You can also create your own using https://github.com/hihayk/scale and save the color codes to a .txt file:
 ```
  --heat path
 ```
 
-Add if you want to display the numeric values on the plots.
+Add if you want to display numeric values on the plots:
 ```
  --display_values
 ```
 
-Add if you want to prevent the script from caching your table (Cashing speeds up the script when the table is really big).
+Add if you want to prevent caching of the table (caching speeds up the script for large tables):
 ```
  --no_csv_cash
 ```
 
-Specifices the color that is used for missing values. Color shold be given in RGB format. Defaults to white (255,255,255).
+Specifies the color used for missing values. Provide RGB values; defaults to white (255, 255, 255):
 ```
  --nan_color 255 255 255
 ```
 
-Specifices the lower and uppper boundaries for displaying extreme values. Defaults to (-1.,30.0).
+Specifies the lower and upper boundaries for displaying extreme values. Defaults to (-1., 30.0):
 ```
- --up_extreme float/int  --low_ extreme float/int
-```
-
-Specifices the first and last time step that is animated. If not specified, all data is animated.
-
-```
- --start int   --end int 
+ --up_extreme float/int  --low_extreme float/int
 ```
 
+Specifies the first and last time step to animate. If not specified, all data is animated:
 
-Add if you want to record your animation. (will be saved under /videos)
+```
+ --start int   --end int
+```
+
+Add if you want to record the animation (saved under /videos):
 ```
  --record
 ```
 
-Specifies the unit that is displayed (Defaults to °C)
+Specifies the unit to display (default = °C):
 ```
  --unit str
 ```
 
-
-
-### Example usage
+## Example usage
 
 ```
 cd jena_experiment_display
-python display.py --path sources/example_format.csv --what 2 --layout diversity --display_values --nan_color 128 0  256 --up_extreme 4.0 --speed 0.5
+python display.py --path sources/example_format.csv --what 2 --layout diversity --display_values --nan_color 128 0 256 --up_extreme 4.0 --speed 0.5
 ```
 
+###### Feel free to contact me if you have any questions.
+Specifies the unit that is displayed (Defaults to °C)
 
-
-###### Feel free to contact me if you have any questions. 
-
+```
