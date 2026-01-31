@@ -1,11 +1,6 @@
 # Jena experiment data preprocessing
 
-This section contains data preprocessing pipelines based on raw data products from the Jena Experiment. This repository reflects the final state prepared for public release. For the most up-to-date version, refer to: https://github.com/Gideon-Stein/jena_experiment_tool_box
-
-The publication branch contains the submitted code associated with the publication: 
-https://www.nature.com/articles/s41561-023-01338-5
-
-![Jena experiment](je.jpg)
+This section contains data preprocessing pipelines based on raw data products from the Jena Experiment.
 
 ## Contents
 
