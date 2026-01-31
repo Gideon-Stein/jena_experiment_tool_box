@@ -1,0 +1,1096 @@
+Found this many missing values from: 28180980 values
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Found this many missing values from: 28180980 values
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Found this many missing values from: 28180980 values
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Found this many missing values from: 28180980 values
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Found this many missing values from: 28180980 values
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+Unnamed: 0            0
+soil_temp_05cm    41313
+soil_temp_15cm    41313
+dtype: int64
+Nans remaining after vertical filling:
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+Unnamed: 0            0
+soil_temp_05cm    41365
+soil_temp_15cm    41313
+dtype: int64
+Found this many missing values from: 28180980 values
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+Unnamed: 0            0
+soil_temp_05cm    41313
+soil_temp_15cm    41313
+dtype: int64
+Nans remaining after vertical filling:
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+Unnamed: 0            0
+soil_temp_05cm    41365
+soil_temp_15cm    41313
+dtype: int64
+Found this many missing values from: 28180980 values
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+Unnamed: 0            0
+soil_temp_05cm    41313
+soil_temp_15cm    41313
+dtype: int64
+Nans remaining after vertical filling:
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+Unnamed: 0            0
+soil_temp_05cm    41365
+soil_temp_15cm    41313
+dtype: int64
+Found this many missing values from: 28180980 values
+Unnamed: 0              0
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+Unnamed: 0            0
+soil_temp_05cm    41313
+soil_temp_15cm    41313
+dtype: int64
+Found this many missing values from: 28180980 values
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm    41365
+soil_temp_15cm    41313
+dtype: int64
+Nans remaining after vertical filling:
+datetime                0
+plotcode                0
+soil_temp_05cm    3722798
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm    41365
+soil_temp_15cm    41365
+dtype: int64
+Nans remaining after vertical filling:
+datetime                0
+plotcode                0
+soil_temp_05cm    3722798
+soil_temp_15cm    3722798
+dtype: int64
+Found this many missing values from: 28180980 values
+datetime                0
+plotcode                0
+soil_temp_05cm    6796687
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm    41365
+soil_temp_15cm    41313
+dtype: int64
+Nans remaining after vertical filling:
+datetime                0
+plotcode                0
+soil_temp_05cm    3722798
+soil_temp_15cm    6707975
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm    41365
+soil_temp_15cm    41365
+dtype: int64
+Nans remaining after vertical filling:
+datetime                0
+plotcode                0
+soil_temp_05cm    3722798
+soil_temp_15cm    3722798
+dtype: int64
+Nans remaining after Horizontal filling
+datetime          0
+plotcode          0
+soil_temp_05cm    0
+soil_temp_15cm    0
+dtype: int64
+Nans remaining after Horizontal filling
+datetime          0
+plotcode          0
+soil_temp_05cm    0
+soil_temp_15cm    0
+dtype: int64
+Found this many missing values from: 6888684 values
+datetime                         0
+plotcode                         0
+soil_temp_05cm             1541485
+soil_temp_15cm             1432631
+soil_temp_60cm             1593097
+air_temp_30cm              1914781
+air_rel_humidiy_30cm       2061966
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm             1432631
+soil_temp_60cm             1593097
+air_temp_30cm              1914781
+air_rel_humidiy_30cm       2061966
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm              961554
+soil_temp_60cm             1593097
+air_temp_30cm              1914781
+air_rel_humidiy_30cm       2061966
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm              961554
+soil_temp_60cm              964458
+air_temp_30cm              1914781
+air_rel_humidiy_30cm       2061966
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm              961554
+soil_temp_60cm              964458
+air_temp_30cm              1197834
+air_rel_humidiy_30cm       2061966
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm              961554
+soil_temp_60cm              964458
+air_temp_30cm              1197834
+air_rel_humidiy_30cm        745360
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm              961554
+soil_temp_60cm              964458
+air_temp_30cm              1197834
+air_rel_humidiy_30cm        745360
+surface_temp_south_west     964480
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                   0
+plotcode                   0
+soil_temp_05cm             0
+soil_temp_15cm             0
+soil_temp_60cm             0
+air_temp_30cm              0
+air_rel_humidiy_30cm       0
+surface_temp_south_west    0
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                   0
+plotcode                   0
+soil_temp_05cm             0
+soil_temp_15cm             0
+soil_temp_60cm             0
+air_temp_30cm              0
+air_rel_humidiy_30cm       0
+surface_temp_south_west    0
+dtype: int64
+Found this many missing values from: 6888684 values
+datetime                         0
+plotcode                         0
+soil_temp_05cm             1541485
+soil_temp_15cm             1432631
+soil_temp_60cm             1593097
+air_temp_30cm              1914781
+air_rel_humidiy_30cm       2061966
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm             1432631
+soil_temp_60cm             1593097
+air_temp_30cm              1914781
+air_rel_humidiy_30cm       2061966
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm              961554
+soil_temp_60cm             1593097
+air_temp_30cm              1914781
+air_rel_humidiy_30cm       2061966
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm              961554
+soil_temp_60cm              964458
+air_temp_30cm              1914781
+air_rel_humidiy_30cm       2061966
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm              961554
+soil_temp_60cm              964458
+air_temp_30cm              1197834
+air_rel_humidiy_30cm       2061966
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm              961554
+soil_temp_60cm              964458
+air_temp_30cm              1197834
+air_rel_humidiy_30cm        745360
+surface_temp_south_west    1875754
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm             43707
+soil_temp_15cm             43707
+soil_temp_60cm             43839
+air_temp_30cm              54447
+air_rel_humidiy_30cm       33880
+surface_temp_south_west    43840
+dtype: int64
+Nans remaining after vertical filling:
+datetime                         0
+plotcode                         0
+soil_temp_05cm              961554
+soil_temp_15cm              961554
+soil_temp_60cm              964458
+air_temp_30cm              1197834
+air_rel_humidiy_30cm        745360
+surface_temp_south_west     964480
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                   0
+plotcode                   0
+soil_temp_05cm             0
+soil_temp_15cm             0
+soil_temp_60cm             0
+air_temp_30cm              0
+air_rel_humidiy_30cm       0
+surface_temp_south_west    0
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                   0
+plotcode                   0
+soil_temp_05cm             0
+soil_temp_15cm             0
+soil_temp_60cm             0
+air_temp_30cm              0
+air_rel_humidiy_30cm       0
+surface_temp_south_west    0
+dtype: int64
+Found this many missing values from: 31557600 values
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    7560239
+soil_temp_15cm_depth    7480588
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    45345
+soil_temp_15cm_depth    45345
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    4081050
+soil_temp_15cm_depth    7480588
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    45345
+soil_temp_15cm_depth    45345
+dtype: int64
+Found this many missing values from: 31557600 values
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    7560239
+soil_temp_15cm_depth    7480588
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    45345
+soil_temp_15cm_depth    45345
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    4081050
+soil_temp_15cm_depth    7480588
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    45345
+soil_temp_15cm_depth    45345
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    4081050
+soil_temp_15cm_depth    4081050
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                0
+plotcode                0
+soil_temp_05cm_depth    0
+soil_temp_15cm_depth    0
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                0
+plotcode                0
+soil_temp_05cm_depth    0
+soil_temp_15cm_depth    0
+dtype: int64
+Found this many missing values from: 7714080 values
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth        1743418
+soil_temp_15cm_depth        1538169
+soil_temp_05cm_depth        1669637
+air_temp_30cm_hei           1861580
+surface_temp_south_west     1966680
+air_rel_humidiy_30cm_hei    2268363
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        48055
+soil_temp_15cm_depth        47923
+soil_temp_05cm_depth        47923
+air_temp_30cm_hei           58663
+surface_temp_south_west     48056
+air_rel_humidiy_30cm_hei    48515
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth        1057210
+soil_temp_15cm_depth        1538169
+soil_temp_05cm_depth        1669637
+air_temp_30cm_hei           1861580
+surface_temp_south_west     1966680
+air_rel_humidiy_30cm_hei    2268363
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        48055
+soil_temp_15cm_depth        47923
+soil_temp_05cm_depth        47923
+air_temp_30cm_hei           58663
+surface_temp_south_west     48056
+air_rel_humidiy_30cm_hei    48515
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth        1057210
+soil_temp_15cm_depth        1054306
+soil_temp_05cm_depth        1669637
+air_temp_30cm_hei           1861580
+surface_temp_south_west     1966680
+air_rel_humidiy_30cm_hei    2268363
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        48055
+soil_temp_15cm_depth        47923
+soil_temp_05cm_depth        47923
+air_temp_30cm_hei           58663
+surface_temp_south_west     48056
+air_rel_humidiy_30cm_hei    48515
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth        1057210
+soil_temp_15cm_depth        1054306
+soil_temp_05cm_depth        1054306
+air_temp_30cm_hei           1861580
+surface_temp_south_west     1966680
+air_rel_humidiy_30cm_hei    2268363
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        48055
+soil_temp_15cm_depth        47923
+soil_temp_05cm_depth        47923
+air_temp_30cm_hei           58663
+surface_temp_south_west     48056
+air_rel_humidiy_30cm_hei    48515
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth        1057210
+soil_temp_15cm_depth        1054306
+soil_temp_05cm_depth        1054306
+air_temp_30cm_hei           1290586
+surface_temp_south_west     1966680
+air_rel_humidiy_30cm_hei    2268363
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        48055
+soil_temp_15cm_depth        47923
+soil_temp_05cm_depth        47923
+air_temp_30cm_hei           58663
+surface_temp_south_west     48056
+air_rel_humidiy_30cm_hei    48515
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth        1057210
+soil_temp_15cm_depth        1054306
+soil_temp_05cm_depth        1054306
+air_temp_30cm_hei           1290586
+surface_temp_south_west     1057232
+air_rel_humidiy_30cm_hei    2268363
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        48055
+soil_temp_15cm_depth        47923
+soil_temp_05cm_depth        47923
+air_temp_30cm_hei           58663
+surface_temp_south_west     48056
+air_rel_humidiy_30cm_hei    48515
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth        1057210
+soil_temp_15cm_depth        1054306
+soil_temp_05cm_depth        1054306
+air_temp_30cm_hei           1290586
+surface_temp_south_west     1057232
+air_rel_humidiy_30cm_hei    1067330
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                    0
+plotcode                    0
+soil_temp_60cm_depth        0
+soil_temp_15cm_depth        0
+soil_temp_05cm_depth        0
+air_temp_30cm_hei           0
+surface_temp_south_west     0
+air_rel_humidiy_30cm_hei    0
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                    0
+plotcode                    0
+soil_temp_60cm_depth        0
+soil_temp_15cm_depth        0
+soil_temp_05cm_depth        0
+air_temp_30cm_hei           0
+surface_temp_south_west     0
+air_rel_humidiy_30cm_hei    0
+dtype: int64
+Found this many missing values from: 8099520 values
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth        1606636
+soil_temp_15cm_depth        1350007
+soil_temp_05cm_depth        1514540
+air_temp_30cm_hei           1712457
+surface_temp_south_west     1865714
+air_rel_humidiy_30cm_hei    2208544
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        36798
+soil_temp_15cm_depth        36666
+soil_temp_05cm_depth        36666
+air_temp_30cm_hei           47406
+surface_temp_south_west     36799
+air_rel_humidiy_30cm_hei    37731
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         809556
+soil_temp_15cm_depth        1350007
+soil_temp_05cm_depth        1514540
+air_temp_30cm_hei           1712457
+surface_temp_south_west     1865714
+air_rel_humidiy_30cm_hei    2208544
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        36798
+soil_temp_15cm_depth        36666
+soil_temp_05cm_depth        36666
+air_temp_30cm_hei           47406
+surface_temp_south_west     36799
+air_rel_humidiy_30cm_hei    37731
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         809556
+soil_temp_15cm_depth         806652
+soil_temp_05cm_depth        1514540
+air_temp_30cm_hei           1712457
+surface_temp_south_west     1865714
+air_rel_humidiy_30cm_hei    2208544
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        36798
+soil_temp_15cm_depth        36666
+soil_temp_05cm_depth        36666
+air_temp_30cm_hei           47406
+surface_temp_south_west     36799
+air_rel_humidiy_30cm_hei    37731
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         809556
+soil_temp_15cm_depth         806652
+soil_temp_05cm_depth         806652
+air_temp_30cm_hei           1712457
+surface_temp_south_west     1865714
+air_rel_humidiy_30cm_hei    2208544
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        36798
+soil_temp_15cm_depth        36666
+soil_temp_05cm_depth        36666
+air_temp_30cm_hei           47406
+surface_temp_south_west     36799
+air_rel_humidiy_30cm_hei    37731
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         809556
+soil_temp_15cm_depth         806652
+soil_temp_05cm_depth         806652
+air_temp_30cm_hei           1042932
+surface_temp_south_west     1865714
+air_rel_humidiy_30cm_hei    2208544
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        36798
+soil_temp_15cm_depth        36666
+soil_temp_05cm_depth        36666
+air_temp_30cm_hei           47406
+surface_temp_south_west     36799
+air_rel_humidiy_30cm_hei    37731
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         809556
+soil_temp_15cm_depth         806652
+soil_temp_05cm_depth         806652
+air_temp_30cm_hei           1042932
+surface_temp_south_west      809578
+air_rel_humidiy_30cm_hei    2208544
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        36798
+soil_temp_15cm_depth        36666
+soil_temp_05cm_depth        36666
+air_temp_30cm_hei           47406
+surface_temp_south_west     36799
+air_rel_humidiy_30cm_hei    37731
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         809556
+soil_temp_15cm_depth         806652
+soil_temp_05cm_depth         806652
+air_temp_30cm_hei           1042932
+surface_temp_south_west      809578
+air_rel_humidiy_30cm_hei     830082
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                    0
+plotcode                    0
+soil_temp_60cm_depth        0
+soil_temp_15cm_depth        0
+soil_temp_05cm_depth        0
+air_temp_30cm_hei           0
+surface_temp_south_west     0
+air_rel_humidiy_30cm_hei    0
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                    0
+plotcode                    0
+soil_temp_60cm_depth        0
+soil_temp_15cm_depth        0
+soil_temp_05cm_depth        0
+air_temp_30cm_hei           0
+surface_temp_south_west     0
+air_rel_humidiy_30cm_hei    0
+dtype: int64
+Found this many missing values from: 33134400 values
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    7336967
+soil_temp_15cm_depth    7240130
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    34088
+soil_temp_15cm_depth    34088
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    3067920
+soil_temp_15cm_depth    7240130
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    34088
+soil_temp_15cm_depth    34088
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    3067920
+soil_temp_15cm_depth    3067920
+dtype: int64
+Found this many missing values from: 33134400 values
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    7336967
+soil_temp_15cm_depth    7240130
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    34088
+soil_temp_15cm_depth    34088
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    3067920
+soil_temp_15cm_depth    7240130
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    34088
+soil_temp_15cm_depth    34088
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    3067920
+soil_temp_15cm_depth    3067920
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                0
+plotcode                0
+soil_temp_05cm_depth    0
+soil_temp_15cm_depth    0
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                0
+plotcode                0
+soil_temp_05cm_depth    0
+soil_temp_15cm_depth    0
+dtype: int64
+Found this many missing values from: 34715520 values
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    7840990
+soil_temp_15cm_depth    7741789
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    35034
+soil_temp_15cm_depth    35034
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    3153060
+soil_temp_15cm_depth    7741789
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    35034
+soil_temp_15cm_depth    35034
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    3153060
+soil_temp_15cm_depth    3153060
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                0
+plotcode                0
+soil_temp_05cm_depth    0
+soil_temp_15cm_depth    0
+dtype: int64
+Found this many missing values from: 34715520 values
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    7840990
+soil_temp_15cm_depth    7741789
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    35034
+soil_temp_15cm_depth    35034
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    3153060
+soil_temp_15cm_depth    7741789
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    35034
+soil_temp_15cm_depth    35034
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    3153060
+soil_temp_15cm_depth    3153060
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                0
+plotcode                0
+soil_temp_05cm_depth    0
+soil_temp_15cm_depth    0
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                0
+plotcode                0
+soil_temp_05cm_depth    0
+soil_temp_15cm_depth    0
+dtype: int64
+Found this many missing values from: 8486016 values
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth        1700008
+soil_temp_15cm_depth        1436197
+soil_temp_05cm_depth        1608776
+air_temp_30cm_hei           1804170
+surface_temp_south_west     1969036
+air_rel_humidiy_30cm_hei    2331811
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        37744
+soil_temp_15cm_depth        37612
+soil_temp_05cm_depth        37612
+air_temp_30cm_hei           48352
+surface_temp_south_west     37745
+air_rel_humidiy_30cm_hei    38677
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         830368
+soil_temp_15cm_depth        1436197
+soil_temp_05cm_depth        1608776
+air_temp_30cm_hei           1804170
+surface_temp_south_west     1969036
+air_rel_humidiy_30cm_hei    2331811
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        37744
+soil_temp_15cm_depth        37612
+soil_temp_05cm_depth        37612
+air_temp_30cm_hei           48352
+surface_temp_south_west     37745
+air_rel_humidiy_30cm_hei    38677
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         830368
+soil_temp_15cm_depth         827464
+soil_temp_05cm_depth        1608776
+air_temp_30cm_hei           1804170
+surface_temp_south_west     1969036
+air_rel_humidiy_30cm_hei    2331811
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        37744
+soil_temp_15cm_depth        37612
+soil_temp_05cm_depth        37612
+air_temp_30cm_hei           48352
+surface_temp_south_west     37745
+air_rel_humidiy_30cm_hei    38677
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         830368
+soil_temp_15cm_depth         827464
+soil_temp_05cm_depth         827464
+air_temp_30cm_hei           1804170
+surface_temp_south_west     1969036
+air_rel_humidiy_30cm_hei    2331811
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        37744
+soil_temp_15cm_depth        37612
+soil_temp_05cm_depth        37612
+air_temp_30cm_hei           48352
+surface_temp_south_west     37745
+air_rel_humidiy_30cm_hei    38677
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         830368
+soil_temp_15cm_depth         827464
+soil_temp_05cm_depth         827464
+air_temp_30cm_hei           1063744
+surface_temp_south_west     1969036
+air_rel_humidiy_30cm_hei    2331811
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        37744
+soil_temp_15cm_depth        37612
+soil_temp_05cm_depth        37612
+air_temp_30cm_hei           48352
+surface_temp_south_west     37745
+air_rel_humidiy_30cm_hei    38677
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         830368
+soil_temp_15cm_depth         827464
+soil_temp_05cm_depth         827464
+air_temp_30cm_hei           1063744
+surface_temp_south_west      830390
+air_rel_humidiy_30cm_hei    2331811
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_60cm_depth        37744
+soil_temp_15cm_depth        37612
+soil_temp_05cm_depth        37612
+air_temp_30cm_hei           48352
+surface_temp_south_west     37745
+air_rel_humidiy_30cm_hei    38677
+dtype: int64
+Nans remaining after vertical filling:
+datetime                          0
+plotcode                          0
+soil_temp_60cm_depth         830368
+soil_temp_15cm_depth         827464
+soil_temp_05cm_depth         827464
+air_temp_30cm_hei           1063744
+surface_temp_south_west      830390
+air_rel_humidiy_30cm_hei     850894
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                    0
+plotcode                    0
+soil_temp_60cm_depth        0
+soil_temp_15cm_depth        0
+soil_temp_05cm_depth        0
+air_temp_30cm_hei           0
+surface_temp_south_west     0
+air_rel_humidiy_30cm_hei    0
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                    0
+plotcode                    0
+soil_temp_60cm_depth        0
+soil_temp_15cm_depth        0
+soil_temp_05cm_depth        0
+air_temp_30cm_hei           0
+surface_temp_south_west     0
+air_rel_humidiy_30cm_hei    0
+dtype: int64
+Found this many missing values from: 34715520 values
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    7840990
+soil_temp_15cm_depth    7741789
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    35034
+soil_temp_15cm_depth    35034
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    3153060
+soil_temp_15cm_depth    7741789
+dtype: int64
+Calculated the following Vertical means:
+soil_temp_05cm_depth    35034
+soil_temp_15cm_depth    35034
+dtype: int64
+Nans remaining after vertical filling:
+datetime                      0
+plotcode                      0
+soil_temp_05cm_depth    3153060
+soil_temp_15cm_depth    3153060
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                0
+plotcode                0
+soil_temp_05cm_depth    0
+soil_temp_15cm_depth    0
+dtype: int64
+Nans remaining after Horizontal filling
+datetime                0
+plotcode                0
+soil_temp_05cm_depth    0
+soil_temp_15cm_depth    0
+dtype: int64
