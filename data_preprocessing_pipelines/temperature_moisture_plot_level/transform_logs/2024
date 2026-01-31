@@ -1,0 +1,1188 @@
+load all tables --- 4.0531158447265625e-06 seconds ---
+Broken tables and faulty table times detected: 0 from 0
+load all tables --- 9.5367431640625e-07 seconds ---
+Broken tables and faulty table times detected: 0 from 0
+Faulty Time column detected./home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20240100914.csv Reworking it
+Faulty Time column detected./home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20240100930.csv Reworking it
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241161458.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241560949.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241920858.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241921127.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241921200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242321401.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243040807.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243400802.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250010802.csv
+load all tables --- 91.90174531936646 seconds ---
+Broken tables and faulty table times detected: 11 from 1642
+join all tables --- 105.23666262626648 seconds ---
+drop Unamed columns --- 116.38419151306152 seconds ---
+round to minutes --- 116.53804540634155 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]']
+map wrong columns --- 116.54008507728577 seconds ---
+Missing columns: ['soil_temp_05cm_depth_1A10M[°C]', 'soil_temp_15cm_depth_1A10M[°C]', 'soil_temp_05cm_depth_2A18M[°C]', 'soil_temp_15cm_depth_2A18M[°C]', 'air_temp_30cm_hei_2A18M[°C]', 'soil_temp_60cm_depth_2A18M[°C]', 'soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]']
+add missing columns --- 116.5700614452362 seconds ---
+Time uplicated dates: 1879
+2024-07-10 14:15:00    3
+2024-07-10 14:26:00    3
+2024-01-10 11:59:00    3
+2024-07-10 14:14:00    3
+2024-07-10 14:27:00    3
+                      ..
+2025-02-03 22:15:00    1
+2025-02-03 22:16:00    1
+2025-02-03 22:17:00    1
+2025-02-03 22:19:00    1
+2025-02-05 02:45:00    1
+Name: t[s], Length: 547752, dtype: int64
+Out of year dates: 49723
+spread table to full timeSeries.  --- 124.00450921058655 seconds ---
+remove duplicates --- 124.65207409858704 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.
+Loading /home/datasets4/stein/transformed_years/classic/classic_2024.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2024.csv
+Cast to long format 
+Filter 
+Values in table: 47433600
+After removals: 
+datetime                        47433600
+plotcode                        47433600
+soil_temp_05cm_depth             2686422
+soil_temp_15cm_depth             2727021
+soil_temp_05cm_depth_removed     2686422
+soil_temp_15cm_depth_removed     2727021
+dtype: int64
+After boxplot: 
+datetime                        47433600
+plotcode                        47433600
+soil_temp_05cm_depth             3975333
+soil_temp_15cm_depth             3890931
+soil_temp_05cm_depth_removed     3975333
+soil_temp_15cm_depth_removed     3890931
+dtype: int64
+After custom1: 
+datetime                        47433600
+plotcode                        47433600
+soil_temp_05cm_depth             3975333
+soil_temp_15cm_depth             3890931
+soil_temp_05cm_depth_removed     3975333
+soil_temp_15cm_depth_removed     3890931
+dtype: int64
+After custom2: 
+datetime                        47433600
+plotcode                        47433600
+soil_temp_05cm_depth             3975333
+soil_temp_15cm_depth             3890931
+soil_temp_05cm_depth_removed     3975333
+soil_temp_15cm_depth_removed     3890931
+dtype: int64
+datetime                        47433600
+plotcode                        47433600
+soil_temp_05cm_depth             3975333
+soil_temp_15cm_depth             3890931
+soil_temp_05cm_depth_removed     3975333
+soil_temp_15cm_depth_removed     3890931
+dtype: int64
+summing time..
+Loading /home/datasets4/stein/transformed_years/classic/classic_2024.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2024.csv
+Cast to long format 
+Filter 
+Values in table: 11594880
+datetime                            11594880
+plotcode                            11594880
+soil_temp_05cm_depth                  861144
+surface_temp_south_west                    0
+soil_temp_15cm_depth                  744414
+air_temp_30cm_hei                          0
+air_rel_humidiy_30cm_hei                   0
+soil_temp_60cm_depth                  609428
+soil_temp_05cm_depth_removed          861144
+surface_temp_south_west_removed            0
+soil_temp_15cm_depth_removed          744414
+air_temp_30cm_hei_removed                  0
+air_rel_humidiy_30cm_hei_removed           0
+soil_temp_60cm_depth_removed          609428
+dtype: int64
+datetime                            11594880
+plotcode                            11594880
+soil_temp_05cm_depth                  861144
+surface_temp_south_west                    0
+soil_temp_15cm_depth                  744414
+air_temp_30cm_hei                     545568
+air_rel_humidiy_30cm_hei                   0
+soil_temp_60cm_depth                  609428
+soil_temp_05cm_depth_removed          861144
+surface_temp_south_west_removed            0
+soil_temp_15cm_depth_removed          744414
+air_temp_30cm_hei_removed             545568
+air_rel_humidiy_30cm_hei_removed           0
+soil_temp_60cm_depth_removed          609428
+dtype: int64
+datetime                            11594880
+plotcode                            11594880
+soil_temp_05cm_depth                  861144
+surface_temp_south_west               957616
+soil_temp_15cm_depth                  744414
+air_temp_30cm_hei                     545568
+air_rel_humidiy_30cm_hei                   0
+soil_temp_60cm_depth                  609428
+soil_temp_05cm_depth_removed          861144
+surface_temp_south_west_removed       957616
+soil_temp_15cm_depth_removed          744414
+air_temp_30cm_hei_removed             545568
+air_rel_humidiy_30cm_hei_removed           0
+soil_temp_60cm_depth_removed          609428
+dtype: int64
+datetime                            11594880
+plotcode                            11594880
+soil_temp_05cm_depth                  861144
+surface_temp_south_west               957616
+soil_temp_15cm_depth                  744414
+air_temp_30cm_hei                     545568
+air_rel_humidiy_30cm_hei             2511736
+soil_temp_60cm_depth                  609428
+soil_temp_05cm_depth_removed          861144
+surface_temp_south_west_removed       957616
+soil_temp_15cm_depth_removed          744414
+air_temp_30cm_hei_removed             545568
+air_rel_humidiy_30cm_hei_removed     2511736
+soil_temp_60cm_depth_removed          609428
+dtype: int64
+After removals: 
+datetime                            11594880
+plotcode                            11594880
+soil_temp_05cm_depth                  861144
+surface_temp_south_west               957616
+soil_temp_15cm_depth                  744414
+air_temp_30cm_hei                     545568
+air_rel_humidiy_30cm_hei             2511736
+soil_temp_60cm_depth                  609428
+soil_temp_05cm_depth_removed          861144
+surface_temp_south_west_removed       957616
+soil_temp_15cm_depth_removed          744414
+air_temp_30cm_hei_removed             545568
+air_rel_humidiy_30cm_hei_removed     2511736
+soil_temp_60cm_depth_removed          609428
+dtype: int64
+After boxplot: 
+datetime                            11594880
+plotcode                            11594880
+soil_temp_05cm_depth                 1271354
+surface_temp_south_west              2502655
+soil_temp_15cm_depth                  938517
+air_temp_30cm_hei                    1294659
+air_rel_humidiy_30cm_hei             3504397
+soil_temp_60cm_depth                 1150708
+soil_temp_05cm_depth_removed         1271354
+surface_temp_south_west_removed      2502655
+soil_temp_15cm_depth_removed          938517
+air_temp_30cm_hei_removed            1294659
+air_rel_humidiy_30cm_hei_removed     3504397
+soil_temp_60cm_depth_removed         1150708
+dtype: int64
+After custom1: 
+datetime                            11594880
+plotcode                            11594880
+soil_temp_05cm_depth                 1271354
+surface_temp_south_west              2502655
+soil_temp_15cm_depth                  938517
+air_temp_30cm_hei                    1294659
+air_rel_humidiy_30cm_hei             3504397
+soil_temp_60cm_depth                 1150708
+soil_temp_05cm_depth_removed         1271354
+surface_temp_south_west_removed      2502655
+soil_temp_15cm_depth_removed          938517
+air_temp_30cm_hei_removed            1294659
+air_rel_humidiy_30cm_hei_removed     3504397
+soil_temp_60cm_depth_removed         1150708
+dtype: int64
+After custom2: 
+datetime                            11594880
+plotcode                            11594880
+soil_temp_05cm_depth                 1271354
+surface_temp_south_west              2502655
+soil_temp_15cm_depth                  938517
+air_temp_30cm_hei                    1294659
+air_rel_humidiy_30cm_hei             3504397
+soil_temp_60cm_depth                 1150708
+soil_temp_05cm_depth_removed         1271354
+surface_temp_south_west_removed      2502655
+soil_temp_15cm_depth_removed          938517
+air_temp_30cm_hei_removed            1294659
+air_rel_humidiy_30cm_hei_removed     3504397
+soil_temp_60cm_depth_removed         1150708
+dtype: int64
+After custom3: 
+datetime                            11594880
+plotcode                            11594880
+soil_temp_05cm_depth                 1271354
+surface_temp_south_west              2502655
+soil_temp_15cm_depth                  938517
+air_temp_30cm_hei                    1294659
+air_rel_humidiy_30cm_hei             3504397
+soil_temp_60cm_depth                 1150708
+soil_temp_05cm_depth_removed         1271354
+surface_temp_south_west_removed      2502655
+soil_temp_15cm_depth_removed          938517
+air_temp_30cm_hei_removed            1294659
+air_rel_humidiy_30cm_hei_removed     3504397
+soil_temp_60cm_depth_removed         1150708
+dtype: int64
+datetime                            11594880
+plotcode                            11594880
+soil_temp_05cm_depth                 1271354
+surface_temp_south_west              2502655
+soil_temp_15cm_depth                  938517
+air_temp_30cm_hei                    1294659
+air_rel_humidiy_30cm_hei             3504397
+soil_temp_60cm_depth                 1150708
+soil_temp_05cm_depth_removed         1271354
+surface_temp_south_west_removed      2502655
+soil_temp_15cm_depth_removed          938517
+air_temp_30cm_hei_removed            1294659
+air_rel_humidiy_30cm_hei_removed     3504397
+soil_temp_60cm_depth_removed         1150708
+dtype: int64
+summing time..
+Faulty Time column detected./home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20240100914.csv Reworking it
+Faulty Time column detected./home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20240100930.csv Reworking it
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241161458.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241560949.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241920858.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241921127.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241921200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242321401.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243040807.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243400802.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250010802.csv
+load all tables --- 103.17755365371704 seconds ---
+Broken tables and faulty table times detected: 11 from 1642
+join all tables --- 113.23366808891296 seconds ---
+drop Unamed columns --- 119.96419334411621 seconds ---
+round to minutes --- 119.9715027809143 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]']
+map wrong columns --- 119.97239136695862 seconds ---
+Missing columns: ['soil_temp_05cm_depth_1A10M[°C]', 'soil_temp_15cm_depth_1A10M[°C]', 'soil_temp_05cm_depth_2A18M[°C]', 'soil_temp_15cm_depth_2A18M[°C]', 'air_temp_30cm_hei_2A18M[°C]', 'soil_temp_60cm_depth_2A18M[°C]', 'soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]']
+add missing columns --- 119.99012112617493 seconds ---
+Time uplicated dates: 1879
+2024-07-10 14:15:00    3
+2024-07-10 14:26:00    3
+2024-01-10 11:59:00    3
+2024-07-10 14:14:00    3
+2024-07-10 14:27:00    3
+                      ..
+2025-02-03 22:15:00    1
+2025-02-03 22:16:00    1
+2025-02-03 22:17:00    1
+2025-02-03 22:19:00    1
+2025-02-05 02:45:00    1
+Name: t[s], Length: 547752, dtype: int64
+Out of year dates: 49723
+spread table to full timeSeries.  --- 126.48264336585999 seconds ---
+remove duplicates --- 127.01659512519836 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.
+Faulty Time column detected./home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20240100914.csv Reworking it
+Faulty Time column detected./home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20240100930.csv Reworking it
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241161458.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241560949.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241920858.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241921127.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241921200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242110000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242111200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242121200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242131200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242141200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242151200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242161200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242171200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242200000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242200600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242201200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242201800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242210000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242210600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242211200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242211800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242220000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242220600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242221200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242230000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242230600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242231200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242231800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242240000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242240600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242241200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242241800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242250000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242250600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242251200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242251800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242260000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242260600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242261200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242261800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242270000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242270600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242271200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242271800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242280000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242280600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242281200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242281800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242290000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242290600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242291200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242291800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242300000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242300600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242301200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242301800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242310000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242310600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242311200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242311800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242320000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242320602.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242321401.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242321405.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242321800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242330000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242341259.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242341800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242350000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242350600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242351200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242351800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242360000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242360600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242361200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242361800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242370000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242370600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242371200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242371800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242380000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242380600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242381200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242381800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242390000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242390600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242391200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242391800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242400000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242400600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242401200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242401800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242410000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242410600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242411200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242411800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242420000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242420600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242421200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242421800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242430000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242430600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242431200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242431800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242440000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242440600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242441200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242441800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242450000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242450600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242451200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242451800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242460000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242460600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242461200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242461800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242470000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242470600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242471200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242471800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242480000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242480600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242481200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242481800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242490000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242490600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242491200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242491800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242500000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242500600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242501200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242501800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242510000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242510600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242511200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242511800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242520000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242520600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242521200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242521800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242530000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242530600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242531200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242531800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242540000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242540600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242541200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242541800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242550000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242550600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242551200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242551800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242560000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242560600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242561200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242561800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242570000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242570600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242571200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242571800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242580000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242580600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242581200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242581800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242590000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242590600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242591200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242591800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242600000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242600600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242601200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242601800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242610000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242610600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242611200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242611800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242620000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242620600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242621200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242621800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242630000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242630600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242631200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242631800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242640000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242640600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242641200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242641800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242650000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242650600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242651200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242651800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242660000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242660600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242661200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242661800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242670000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242670600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242671200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242671800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242680000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242680600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242681200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242681800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242690000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242690600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242691200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242691800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242700000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242700600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242701200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242701800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242710000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242710600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242711200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242711800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242720000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242720600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242721200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242721800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242730000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242730600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242731200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242731800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242740000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242750925.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242751200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242751800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242760000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242760600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242761200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242761800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242770000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242770600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242771200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242771800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242780000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242780600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242781200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242781800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242790000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242790600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242791200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242791800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242800000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242800600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242801200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242801800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242810000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242810600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242811200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242811800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242820000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242820600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242821200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242821800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242830000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242830600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242831200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242831800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242840000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242840600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242841200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242841800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242850000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242850600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242851200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242851800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242860000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242860600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242861200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242861800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242870000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242870600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242871200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242871800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242880000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242880600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242881200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242881800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242890000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242890600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242891200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242891800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242900000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242900600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242901200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242901800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242910000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242910600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242911200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242911800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242920000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242920600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242921200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242921800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242930000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242930600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242931200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242931800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242940000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242940600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242941200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242941800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242950000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242950600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242951200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242951800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242960000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242960600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242961200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242961800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242970000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242970600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242971200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242971800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242980000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242980600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242981200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242981800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242990000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242990600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242991200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242991800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243000000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243000600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243001200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243001800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243010000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243010600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243011200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243011800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243020000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243020600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243021200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243021800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243030000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243030704.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243031200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243040807.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243040914.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243041200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243041800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243050000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243050600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243051200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243051800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243060000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243060600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243061200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243061800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243070000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243070600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243071200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243071800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243080000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243080600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243081200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243081800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243090000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243090655.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243091200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243091804.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243100000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243100600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243101200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243101800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243110000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243110600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243111200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243111800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243120000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243120600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243121200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243121800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243130000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243130600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243131200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243131800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243140000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243140600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243141200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243141800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243150000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243150600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243151200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243151800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243160000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243160647.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243161200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243161800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243170000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243170600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243171200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243171800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243180000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243180600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243181200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243181800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243190000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243190600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243191200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243191800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243200000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243200600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243201200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243201800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243210000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243211200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243211800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243220000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243220600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243221200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243221800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243230000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243230602.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243231200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243231800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243240000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243240600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243241200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243241800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243250000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243250600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243251200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243251800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243260000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243260600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243261200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243261800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243270000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243270600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243271200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243271800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243280000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243280600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243281200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243281800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243290000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243290600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243291200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243291800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243300000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243300701.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243301200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243301800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243310000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243310600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243311200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243311800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243320000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243320600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243321200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243330000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243330600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243331200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243331800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243340000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243340600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243341200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243341800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243350000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243350600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243351200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243351800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243360000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243360600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243361200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243361800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243370000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243370704.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243371200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243371800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243380000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243380600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243381200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243381800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243390000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243390600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243391200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243400802.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243401604.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243401800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243410000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243410600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243411200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243411800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243420000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243420600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243421200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243421800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243430000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243430600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243431200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243431800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243440000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243440646.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243441200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243441800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243450000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243450600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243451200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243451800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243460000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243460600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243461200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243461800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243470000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243470600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243471200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243471800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243480000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243480600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243481200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243481800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243490000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243490600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243491200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243491800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243500000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243500600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243501200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243501800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243510000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243510600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243511200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243511800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243520000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243520600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243521800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243530000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243530600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243531200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243531800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243540000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243540600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243541200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243541800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243550000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243550600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243551200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243551800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243560000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243560600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243561200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243561800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243570000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243570600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243571200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243571800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243580000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243580726.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243581200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243581800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243590000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243590600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243591200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243591800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243600000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243600600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243601200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243601800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243610000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243610600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243611200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243611800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243620000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243620600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243621200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243621800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243630000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243630600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243631200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243631800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243640000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243640600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243641200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243641800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243650000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243650702.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243651200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243651800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243660000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243660600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243661200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20243661800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250010802.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250011800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250020000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250020600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250021200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250021800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250030000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250030600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250031200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250031800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250040000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250040600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250041200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250041800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250050000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250050600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250051200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250051800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250060000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250060700.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250061200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250061800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250070000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250070600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250071200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250071800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250080000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250080600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250081200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250081800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250090000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250090600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250091200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250091800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250100000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250100600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250101200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250101800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250110000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250110600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250111200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250111800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250120000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250120600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250121200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250121800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250130000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250130654.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250131200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250131800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250140000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250140600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250141200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250141800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250150000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250150600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250151200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250151800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250160000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250160600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250161200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250161800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250170000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250170600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250171200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250171800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250180000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250180600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250181200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250181800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250190000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250190600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250191200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250191800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250200000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250200600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250201200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250201800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250210000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250210600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250211200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250211800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250220000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250220600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250221200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250221800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250230000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250230600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250231200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250231800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250240000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250241200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250241800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250250000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250250600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250251200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250251800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250260000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250260600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250261200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250261800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250270000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250270645.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250271200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250271800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250280000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250280600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250281200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250281800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250290000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250290600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250291200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250291800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250300000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250300600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250301200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250301800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250310000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250310600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250311200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250311800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250320000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250320600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250321200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250321800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250330000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250330600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250331200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250331800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250340000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250340649.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250341200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250341800.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250350000.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250350600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250351200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20250351800.csv
+load all tables --- 70.63562178611755 seconds ---
+Broken tables and faulty table times detected: 725 from 1642
+Faulty Time column detected./home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20240100914.csv Reworking it
+Faulty Time column detected./home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20240100930.csv Reworking it
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241161458.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241560949.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241920858.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241921127.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20241921200.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242321401.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242360600.csv
+Broken load: /home/datasets4/stein/jena_experiment_raw_2024//2024/data/BD20242501800.csv
+Loading /home/datasets4/stein/transformed_years/classic/classic_2024.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2024.csv
+Cast to long format 
+Filter 
+Values in table: 11594880
+datetime                            11594880
+plotcode                            11594880
+surface_temp_south_west                    0
+air_temp_30cm_hei                          0
+soil_temp_15cm_depth                  744414
+air_rel_humidiy_30cm_hei                   0
+soil_temp_60cm_depth                  609428
+soil_temp_05cm_depth                  861144
+surface_temp_south_west_removed            0
+air_temp_30cm_hei_removed                  0
+soil_temp_15cm_depth_removed          744414
+air_rel_humidiy_30cm_hei_removed           0
+soil_temp_60cm_depth_removed          609428
+soil_temp_05cm_depth_removed          861144
+dtype: int64
+datetime                            11594880
+plotcode                            11594880
+surface_temp_south_west                    0
+air_temp_30cm_hei                     545568
+soil_temp_15cm_depth                  744414
+air_rel_humidiy_30cm_hei                   0
+soil_temp_60cm_depth                  609428
+soil_temp_05cm_depth                  861144
+surface_temp_south_west_removed            0
+air_temp_30cm_hei_removed             545568
+soil_temp_15cm_depth_removed          744414
+air_rel_humidiy_30cm_hei_removed           0
+soil_temp_60cm_depth_removed          609428
+soil_temp_05cm_depth_removed          861144
+dtype: int64
+datetime                            11594880
+plotcode                            11594880
+surface_temp_south_west               957616
+air_temp_30cm_hei                     545568
+soil_temp_15cm_depth                  744414
+air_rel_humidiy_30cm_hei                   0
+soil_temp_60cm_depth                  609428
+soil_temp_05cm_depth                  861144
+surface_temp_south_west_removed       957616
+air_temp_30cm_hei_removed             545568
+soil_temp_15cm_depth_removed          744414
+air_rel_humidiy_30cm_hei_removed           0
+soil_temp_60cm_depth_removed          609428
+soil_temp_05cm_depth_removed          861144
+dtype: int64
+datetime                            11594880
+plotcode                            11594880
+surface_temp_south_west               957616
+air_temp_30cm_hei                     545568
+soil_temp_15cm_depth                  744414
+air_rel_humidiy_30cm_hei             2511736
+soil_temp_60cm_depth                  609428
+soil_temp_05cm_depth                  861144
+surface_temp_south_west_removed       957616
+air_temp_30cm_hei_removed             545568
+soil_temp_15cm_depth_removed          744414
+air_rel_humidiy_30cm_hei_removed     2511736
+soil_temp_60cm_depth_removed          609428
+soil_temp_05cm_depth_removed          861144
+dtype: int64
+After removals: 
+datetime                            11594880
+plotcode                            11594880
+surface_temp_south_west               957616
+air_temp_30cm_hei                     545568
+soil_temp_15cm_depth                  744414
+air_rel_humidiy_30cm_hei             2511736
+soil_temp_60cm_depth                  609428
+soil_temp_05cm_depth                  861144
+surface_temp_south_west_removed       957616
+air_temp_30cm_hei_removed             545568
+soil_temp_15cm_depth_removed          744414
+air_rel_humidiy_30cm_hei_removed     2511736
+soil_temp_60cm_depth_removed          609428
+soil_temp_05cm_depth_removed          861144
+dtype: int64
+After boxplot: 
+datetime                            11594880
+plotcode                            11594880
+surface_temp_south_west              2502655
+air_temp_30cm_hei                    1294659
+soil_temp_15cm_depth                  938517
+air_rel_humidiy_30cm_hei             3504397
+soil_temp_60cm_depth                 1150708
+soil_temp_05cm_depth                 1271354
+surface_temp_south_west_removed      2502655
+air_temp_30cm_hei_removed            1294659
+soil_temp_15cm_depth_removed          938517
+air_rel_humidiy_30cm_hei_removed     3504397
+soil_temp_60cm_depth_removed         1150708
+soil_temp_05cm_depth_removed         1271354
+dtype: int64
+After custom1: 
+datetime                            11594880
+plotcode                            11594880
+surface_temp_south_west              2502655
+air_temp_30cm_hei                    1294659
+soil_temp_15cm_depth                  938517
+air_rel_humidiy_30cm_hei             3504397
+soil_temp_60cm_depth                 1150708
+soil_temp_05cm_depth                 1271354
+surface_temp_south_west_removed      2502655
+air_temp_30cm_hei_removed            1294659
+soil_temp_15cm_depth_removed          938517
+air_rel_humidiy_30cm_hei_removed     3504397
+soil_temp_60cm_depth_removed         1150708
+soil_temp_05cm_depth_removed         1271354
+dtype: int64
+After custom2: 
+datetime                            11594880
+plotcode                            11594880
+surface_temp_south_west              2502655
+air_temp_30cm_hei                    1294659
+soil_temp_15cm_depth                  938517
+air_rel_humidiy_30cm_hei             3504397
+soil_temp_60cm_depth                 1150708
+soil_temp_05cm_depth                 1271354
+surface_temp_south_west_removed      2502655
+air_temp_30cm_hei_removed            1294659
+soil_temp_15cm_depth_removed          938517
+air_rel_humidiy_30cm_hei_removed     3504397
+soil_temp_60cm_depth_removed         1150708
+soil_temp_05cm_depth_removed         1271354
+dtype: int64
+After custom3: 
+datetime                            11594880
+plotcode                            11594880
+surface_temp_south_west              2502655
+air_temp_30cm_hei                    1294659
+soil_temp_15cm_depth                  938517
+air_rel_humidiy_30cm_hei             3504397
+soil_temp_60cm_depth                 1150708
+soil_temp_05cm_depth                 1271354
+surface_temp_south_west_removed      2502655
+air_temp_30cm_hei_removed            1294659
+soil_temp_15cm_depth_removed          938517
+air_rel_humidiy_30cm_hei_removed     3504397
+soil_temp_60cm_depth_removed         1150708
+soil_temp_05cm_depth_removed         1271354
+dtype: int64
+datetime                            11594880
+plotcode                            11594880
+surface_temp_south_west              2502655
+air_temp_30cm_hei                    1294659
+soil_temp_15cm_depth                  938517
+air_rel_humidiy_30cm_hei             3504397
+soil_temp_60cm_depth                 1150708
+soil_temp_05cm_depth                 1271354
+surface_temp_south_west_removed      2502655
+air_temp_30cm_hei_removed            1294659
+soil_temp_15cm_depth_removed          938517
+air_rel_humidiy_30cm_hei_removed     3504397
+soil_temp_60cm_depth_removed         1150708
+soil_temp_05cm_depth_removed         1271354
+dtype: int64
+summing time..

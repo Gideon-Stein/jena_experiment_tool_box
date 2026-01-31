@@ -1,0 +1,917 @@
+Broken load: /home/datasets4/stein/jena_experiment/raw/2009/Y2009D201bis250/BD20092040816.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2009/Y2009D201bis250/BD20092040817.csv
+Faulty Time column detected./home/datasets4/stein/jena_experiment/raw/2009/Y2009D301bis365/BD20093620601.csv Reworking it
+load all tables --- 89.57880854606628 seconds ---
+Broken tables and faulty table times detected: 3 from 1527
+join all tables --- 113.62574648857117 seconds ---
+drop Unamed columns --- 144.75165390968323 seconds ---
+round to minutes --- 144.76280641555786 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]', 'soil_temp_05cm_depth_1A01N[_]', 'soil_temp_15cm_depth_1A01N[_]', 'soil_temp_05cm_depth_1A02M[_]', 'soil_temp_15cm_depth_1A02M[_]', 'soil_temp_05cm_depth_1A03N[_]', 'soil_temp_15cm_depth_1A03N[_]', 'soil_temp_05cm_depth_1A04M[_]', 'soil_temp_15cm_depth_1A04M[_]', 'soil_temp_05cm_depth_1A05N[_]', 'soil_temp_15cm_depth_1A05N[_]', 'soil_temp_05cm_depth_1A06M[_]', 'soil_temp_15cm_depth_1A06M[_]', 'soil_temp_05cm_depth_1A07N[_]', 'soil_temp_15cm_depth_1A07N[_]', 'soil_temp_05cm_depth_1A08M[_]', 'soil_temp_15cm_depth_1A08M[_]', 'soil_temp_05cm_depth_1A09N[_]', 'soil_temp_15cm_depth_1A09N[_]', 'soil_temp_05cm_depth_1A10M[_]', 'soil_temp_15cm_depth_1A10M[_]', 'soil_temp_05cm_depth_1A11N[_]', 'soil_temp_15cm_depth_1A11N[_]', 'soil_temp_05cm_depth_1A12M[_]', 'soil_temp_15cm_depth_1A12M[_]', 'soil_temp_05cm_depth_1A13M[_]', 'soil_temp_15cm_depth_1A13M[_]', 'soil_temp_05cm_depth_1A14M[_]', 'soil_temp_15cm_depth_1A14M[_]', 'soil_temp_05cm_depth_1A15M[_]', 'soil_temp_15cm_depth_1A15M[_]', 'soil_temp_05cm_depth_1A16M[_]', 'soil_temp_15cm_depth_1A16M[_]', 'soil_temp_05cm_depth_1A17M[_]', 'soil_temp_15cm_depth_1A17M[_]', 'soil_temp_05cm_depth_1A18M[_]', 'soil_temp_15cm_depth_1A18M[_]', 'soil_temp_05cm_depth_1A19M[_]', 'soil_temp_15cm_depth_1A19M[_]', 'soil_temp_05cm_depth_1A20M[_]', 'soil_temp_15cm_depth_1A20M[_]', 'soil_temp_05cm_depth_1A21M[_]', 'soil_temp_15cm_depth_1A21M[_]', 'soil_temp_05cm_depth_1A22M[_]', 'soil_temp_15cm_depth_1A22M[_]', 'soil_temp_05cm_depth_2A01M[_]', 'soil_temp_15cm_depth_2A01M[_]', 'air_temp_30cm_hei_2A01M[_]', 'soil_temp_60cm_depth_2A01M[_]', 'surface_temp_south_west_2A01M[_]', 'spare_temp_OR_volt_in_2A01M_A[_]', 'spare_temp_OR_volt_in_2A01M_B[_]', 'soil_temp_05cm_depth_2A02M[_]', 'soil_temp_15cm_depth_2A02M[_]', 'air_temp_30cm_hei_2A02M[_]', 'soil_temp_60cm_depth_2A02M[_]', 'surface_temp_south_west_2A02M[_]', 'spare_temp_OR_volt_in_2A02M_A[_]', 'spare_temp_OR_volt_in_2A02M_B[_]', 'soil_temp_05cm_depth_2A03M[_]', 'soil_temp_15cm_depth_2A03M[_]', 'air_temp_30cm_hei_2A03M[_]', 'soil_temp_60cm_depth_2A03M[_]', 'surface_temp_south_west_2A03M[_]', 'spare_temp_OR_volt_in_2A03M_A[_]', 'spare_temp_OR_volt_in_2A03M_B[_]', 'soil_temp_05cm_depth_2A04M[_]', 'soil_temp_15cm_depth_2A04M[_]', 'air_temp_30cm_hei_2A04M[_]', 'soil_temp_60cm_depth_2A04M[_]', 'surface_temp_south_west_2A04M[_]', 'spare_temp_OR_volt_in_2A04M_A[_]', 'spare_temp_OR_volt_in_2A04M_B[_]', 'soil_temp_05cm_depth_2A05M[_]', 'soil_temp_15cm_depth_2A05M[_]', 'air_temp_30cm_hei_2A05M[_]', 'soil_temp_60cm_depth_2A05M[_]', 'surface_temp_south_west_2A05M[_]', 'spare_temp_OR_volt_in_2A05M_A[_]', 'spare_temp_OR_volt_in_2A05M_B[_]', 'soil_temp_05cm_depth_2A06M[_]', 'soil_temp_15cm_depth_2A06M[_]', 'air_temp_30cm_hei_2A06M[_]', 'soil_temp_60cm_depth_2A06M[_]', 'surface_temp_south_west_2A06M[_]', 'spare_temp_OR_volt_in_2A06M_A[_]', 'spare_temp_OR_volt_in_2A06M_B[_]', 'soil_temp_05cm_depth_2A07M[_]', 'soil_temp_15cm_depth_2A07M[_]', 'air_temp_30cm_hei_2A07M[_]', 'soil_temp_60cm_depth_2A07M[_]', 'surface_temp_south_west_2A07M[_]', 'spare_temp_OR_volt_in_2A07M_A[_]', 'spare_temp_OR_volt_in_2A07M_B[_]', 'soil_temp_05cm_depth_2A08M[_]', 'soil_temp_15cm_depth_2A08M[_]', 'air_temp_30cm_hei_2A08M[_]', 'soil_temp_60cm_depth_2A08M[_]', 'surface_temp_south_west_2A08M[_]', 'spare_temp_OR_volt_in_2A08M_A[_]', 'spare_temp_OR_volt_in_2A08M_B[_]', 'soil_temp_05cm_depth_2A09M[_]', 'soil_temp_15cm_depth_2A09M[_]', 'air_temp_30cm_hei_2A09M[_]', 'soil_temp_60cm_depth_2A09M[_]', 'surface_temp_south_west_2A09M[_]', 'spare_temp_OR_volt_in_2A09M_A[_]', 'spare_temp_OR_volt_in_2A09M_B[_]', 'soil_temp_05cm_depth_2A10M[_]', 'soil_temp_15cm_depth_2A10M[_]', 'air_temp_30cm_hei_2A10M[_]', 'soil_temp_60cm_depth_2A10M[_]', 'surface_temp_south_west_2A10M[_]', 'spare_temp_OR_volt_in_2A10M_A[_]', 'spare_temp_OR_volt_in_2A10M_B[_]', 'soil_temp_05cm_depth_2A11M[_]', 'soil_temp_15cm_depth_2A11M[_]', 'air_temp_30cm_hei_2A11M[_]', 'soil_temp_60cm_depth_2A11M[_]', 'surface_temp_south_west_2A11M[_]', 'spare_temp_OR_volt_in_2A11M_A[_]', 'spare_temp_OR_volt_in_2A11M_B[_]', 'soil_temp_05cm_depth_2A12M[_]', 'soil_temp_15cm_depth_2A12M[_]', 'air_temp_30cm_hei_2A12M[_]', 'soil_temp_60cm_depth_2A12M[_]', 'surface_temp_south_west_2A12M[_]', 'spare_temp_OR_volt_in_2A12M_A[_]', 'spare_temp_OR_volt_in_2A12M_B[_]', 'soil_temp_05cm_depth_2A13M[_]', 'soil_temp_15cm_depth_2A13M[_]', 'air_temp_30cm_hei_2A13M[_]', 'soil_temp_60cm_depth_2A13M[_]', 'surface_temp_south_west_2A13M[_]', 'spare_temp_OR_volt_in_2A13M_A[_]', 'spare_temp_OR_volt_in_2A13M_B[_]', 'soil_temp_05cm_depth_2A14M[_]', 'soil_temp_15cm_depth_2A14M[_]', 'air_temp_30cm_hei_2A14M[_]', 'soil_temp_60cm_depth_2A14M[_]', 'surface_temp_south_west_2A14M[_]', 'spare_temp_OR_volt_in_2A14M_A[_]', 'spare_temp_OR_volt_in_2A14M_B[_]', 'soil_temp_05cm_depth_2A15M[_]', 'soil_temp_15cm_depth_2A15M[_]', 'air_temp_30cm_hei_2A15M[_]', 'soil_temp_60cm_depth_2A15M[_]', 'surface_temp_south_west_2A15M[_]', 'spare_temp_OR_volt_in_2A15M_A[_]', 'spare_temp_OR_volt_in_2A15M_B[_]', 'soil_temp_05cm_depth_2A16M[_]', 'soil_temp_15cm_depth_2A16M[_]', 'air_temp_30cm_hei_2A16M[_]', 'soil_temp_60cm_depth_2A16M[_]', 'surface_temp_south_west_2A16M[_]', 'spare_temp_OR_volt_in_2A16M_A[_]', 'spare_temp_OR_volt_in_2A16M_B[_]', 'soil_temp_05cm_depth_2A17M[_]', 'soil_temp_15cm_depth_2A17M[_]', 'air_temp_30cm_hei_2A17M[_]', 'soil_temp_60cm_depth_2A17M[_]', 'surface_temp_south_west_2A17M[_]', 'spare_temp_OR_volt_in_2A17M_A[_]', 'spare_temp_OR_volt_in_2A17M_B[_]', 'soil_temp_05cm_depth_2A18M[_]', 'soil_temp_15cm_depth_2A18M[_]', 'air_temp_30cm_hei_2A18M[_]', 'soil_temp_60cm_depth_2A18M[_]', 'surface_temp_south_west_2A18M[_]', 'spare_temp_OR_volt_in_2A18M_A[_]', 'spare_temp_OR_volt_in_2A18M_B[_]', 'soil_temp_05cm_depth_2A19M[_]', 'soil_temp_15cm_depth_2A19M[_]', 'air_temp_30cm_hei_2A19M[_]', 'soil_temp_60cm_depth_2A19M[_]', 'surface_temp_south_west_2A19M[_]', 'spare_temp_OR_volt_in_2A19M_A[_]', 'spare_temp_OR_volt_in_2A19M_B[_]', 'soil_temp_05cm_depth_2A20M[_]', 'soil_temp_15cm_depth_2A20M[_]', 'air_temp_30cm_hei_2A20M[_]', 'soil_temp_60cm_depth_2A20M[_]', 'surface_temp_south_west_2A20M[_]', 'spare_temp_OR_volt_in_2A20M_A[_]', 'spare_temp_OR_volt_in_2A20M_B[_]', 'soil_temp_05cm_depth_2A21M[_]', 'soil_temp_15cm_depth_2A21M[_]', 'air_temp_30cm_hei_2A21M[_]', 'soil_temp_60cm_depth_2A21M[_]', 'surface_temp_south_west_2A21M[_]', 'spare_temp_OR_volt_in_2A21M_A[_]', 'spare_temp_OR_volt_in_2A21M_B[_]', 'soil_temp_05cm_depth_2A22M[_]', 'soil_temp_15cm_depth_2A22M[_]', 'air_temp_30cm_hei_2A22M[_]', 'soil_temp_60cm_depth_2A22M[_]', 'surface_temp_south_west_2A22M[_]', 'spare_temp_OR_volt_in_2A22M_A[_]', 'spare_temp_OR_volt_in_2A22M_B[_]', 'soil_temp_05cm_depth_3A01N[_]', 'soil_temp_15cm_depth_3A01N[_]', 'soil_temp_05cm_depth_3A02M[_]', 'soil_temp_15cm_depth_3A02M[_]', 'soil_temp_05cm_depth_3A03N[_]', 'soil_temp_15cm_depth_3A03N[_]', 'soil_temp_05cm_depth_3A04M[_]', 'soil_temp_15cm_depth_3A04M[_]', 'soil_temp_05cm_depth_3A06M[_]', 'soil_temp_15cm_depth_3A06M[_]', 'soil_temp_05cm_depth_3A07N[_]', 'soil_temp_15cm_depth_3A07N[_]', 'soil_temp_05cm_depth_3A08M[_]', 'soil_temp_15cm_depth_3A08M[_]', 'soil_temp_05cm_depth_3A09N[_]', 'soil_temp_15cm_depth_3A09N[_]', 'soil_temp_05cm_depth_3A10M[_]', 'soil_temp_15cm_depth_3A10M[_]', 'soil_temp_05cm_depth_3A11N[_]', 'soil_temp_15cm_depth_3A11N[_]', 'soil_temp_05cm_depth_3A12M[_]', 'soil_temp_15cm_depth_3A12M[_]', 'soil_temp_05cm_depth_3A13M[_]', 'soil_temp_15cm_depth_3A13M[_]', 'soil_temp_05cm_depth_3A14M[_]', 'soil_temp_15cm_depth_3A14M[_]', 'soil_temp_05cm_depth_3A15M[_]', 'soil_temp_15cm_depth_3A15M[_]', 'soil_temp_05cm_depth_3A16M[_]', 'soil_temp_15cm_depth_3A16M[_]', 'soil_temp_05cm_depth_3A17M[_]', 'soil_temp_15cm_depth_3A17M[_]', 'soil_temp_05cm_depth_3A19M[_]', 'soil_temp_15cm_depth_3A19M[_]', 'soil_temp_05cm_depth_3A20M[_]', 'soil_temp_15cm_depth_3A20M[_]', 'soil_temp_05cm_depth_3A21M[_]', 'soil_temp_15cm_depth_3A21M[_]', 'soil_temp_05cm_depth_3A22M[_]', 'soil_temp_15cm_depth_3A22M[_]', 'soil_temp_05cm_depth_3A23M[_]', 'soil_temp_15cm_depth_3A23M[_]', 'soil_temp_05cm_depth_3A24M[_]', 'soil_temp_15cm_depth_3A24M[_]', 'soil_temp_05cm_depth_4A01M[_]', 'soil_temp_15cm_depth_4A01M[_]', 'soil_temp_05cm_depth_4A02M[_]', 'soil_temp_15cm_depth_4A02M[_]', 'soil_temp_05cm_depth_4A03M[_]', 'soil_temp_15cm_depth_4A03M[_]', 'soil_temp_05cm_depth_4A04M[_]', 'soil_temp_15cm_depth_4A04M[_]', 'soil_temp_05cm_depth_4A05M[_]', 'soil_temp_15cm_depth_4A05M[_]', 'soil_temp_05cm_depth_4A06M[_]', 'soil_temp_15cm_depth_4A06M[_]', 'soil_temp_05cm_depth_4A07M[_]', 'soil_temp_15cm_depth_4A07M[_]', 'soil_temp_05cm_depth_4A08M[_]', 'soil_temp_15cm_depth_4A08M[_]', 'soil_temp_05cm_depth_4A09M[_]', 'soil_temp_15cm_depth_4A09M[_]', 'soil_temp_05cm_depth_4A10M[_]', 'soil_temp_15cm_depth_4A10M[_]', 'soil_temp_05cm_depth_4A11M[_]', 'soil_temp_15cm_depth_4A11M[_]', 'soil_temp_05cm_depth_4A12M[_]', 'soil_temp_15cm_depth_4A12M[_]', 'soil_temp_05cm_depth_4A13M[_]', 'soil_temp_15cm_depth_4A13M[_]', 'soil_temp_05cm_depth_4A14M[_]', 'soil_temp_15cm_depth_4A14M[_]', 'soil_temp_05cm_depth_4A15M[_]', 'soil_temp_15cm_depth_4A15M[_]', 'soil_temp_05cm_depth_4A16M[_]', 'soil_temp_15cm_depth_4A16M[_]', 'soil_temp_05cm_depth_4A17M[_]', 'soil_temp_15cm_depth_4A17M[_]', 'soil_temp_05cm_depth_4A18M[_]', 'soil_temp_15cm_depth_4A18M[_]', 'soil_temp_05cm_depth_4A19M[_]', 'soil_temp_15cm_depth_4A19M[_]', 'soil_temp_05cm_depth_4A20M[_]', 'soil_temp_15cm_depth_4A20M[_]', 'soil_temp_05cm_depth_4A21M[_]', 'soil_temp_15cm_depth_4A21M[_]', 'soil_temp_05cm_depth_4A22M[_]', 'soil_temp_15cm_depth_4A22M[_]', 'soil_temp_05cm_depth_4A23M[_]', 'soil_temp_15cm_depth_4A23M[_]', 'soil_temp_05cm_depth_3A05N[_]', 'soil_temp_15cm_depth_3A05N[_]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]', 'soil_temp_05cm_depth_1A01N[°C]', 'soil_temp_15cm_depth_1A01N[°C]', 'soil_temp_05cm_depth_1A02M[°C]', 'soil_temp_15cm_depth_1A02M[°C]', 'soil_temp_05cm_depth_1A03N[°C]', 'soil_temp_15cm_depth_1A03N[°C]', 'soil_temp_05cm_depth_1A04M[°C]', 'soil_temp_15cm_depth_1A04M[°C]', 'soil_temp_05cm_depth_1A05N[°C]', 'soil_temp_15cm_depth_1A05N[°C]', 'soil_temp_05cm_depth_1A06M[°C]', 'soil_temp_15cm_depth_1A06M[°C]', 'soil_temp_05cm_depth_1A07N[°C]', 'soil_temp_15cm_depth_1A07N[°C]', 'soil_temp_05cm_depth_1A08M[°C]', 'soil_temp_15cm_depth_1A08M[°C]', 'soil_temp_05cm_depth_1A09N[°C]', 'soil_temp_15cm_depth_1A09N[°C]', 'soil_temp_05cm_depth_1A10M[°C]', 'soil_temp_15cm_depth_1A10M[°C]', 'soil_temp_05cm_depth_1A11N[°C]', 'soil_temp_15cm_depth_1A11N[°C]', 'soil_temp_05cm_depth_1A12M[°C]', 'soil_temp_15cm_depth_1A12M[°C]', 'soil_temp_05cm_depth_1A13M[°C]', 'soil_temp_15cm_depth_1A13M[°C]', 'soil_temp_05cm_depth_1A14M[°C]', 'soil_temp_15cm_depth_1A14M[°C]', 'soil_temp_05cm_depth_1A15M[°C]', 'soil_temp_15cm_depth_1A15M[°C]', 'soil_temp_05cm_depth_1A16M[°C]', 'soil_temp_15cm_depth_1A16M[°C]', 'soil_temp_05cm_depth_1A17M[°C]', 'soil_temp_15cm_depth_1A17M[°C]', 'soil_temp_05cm_depth_1A18M[°C]', 'soil_temp_15cm_depth_1A18M[°C]', 'soil_temp_05cm_depth_1A19M[°C]', 'soil_temp_15cm_depth_1A19M[°C]', 'soil_temp_05cm_depth_1A20M[°C]', 'soil_temp_15cm_depth_1A20M[°C]', 'soil_temp_05cm_depth_1A21M[°C]', 'soil_temp_15cm_depth_1A21M[°C]', 'soil_temp_05cm_depth_1A22M[°C]', 'soil_temp_15cm_depth_1A22M[°C]', 'soil_temp_05cm_depth_2A01M[°C]', 'soil_temp_15cm_depth_2A01M[°C]', 'air_temp_30cm_hei_2A01M[°C]', 'soil_temp_60cm_depth_2A01M[°C]', 'surface_temp_south_west_2A01M[°C]', 'spare_temp_OR_volt_in_2A01M_A[°C]', 'spare_temp_OR_volt_in_2A01M_B[°C]', 'soil_temp_05cm_depth_2A02M[°C]', 'soil_temp_15cm_depth_2A02M[°C]', 'air_temp_30cm_hei_2A02M[°C]', 'soil_temp_60cm_depth_2A02M[°C]', 'surface_temp_south_west_2A02M[°C]', 'spare_temp_OR_volt_in_2A02M_A[°C]', 'spare_temp_OR_volt_in_2A02M_B[°C]', 'soil_temp_05cm_depth_2A03M[°C]', 'soil_temp_15cm_depth_2A03M[°C]', 'air_temp_30cm_hei_2A03M[°C]', 'soil_temp_60cm_depth_2A03M[°C]', 'surface_temp_south_west_2A03M[°C]', 'spare_temp_OR_volt_in_2A03M_A[°C]', 'spare_temp_OR_volt_in_2A03M_B[°C]', 'soil_temp_05cm_depth_2A04M[°C]', 'soil_temp_15cm_depth_2A04M[°C]', 'air_temp_30cm_hei_2A04M[°C]', 'soil_temp_60cm_depth_2A04M[°C]', 'surface_temp_south_west_2A04M[°C]', 'spare_temp_OR_volt_in_2A04M_A[°C]', 'spare_temp_OR_volt_in_2A04M_B[°C]', 'soil_temp_05cm_depth_2A05M[°C]', 'soil_temp_15cm_depth_2A05M[°C]', 'air_temp_30cm_hei_2A05M[°C]', 'soil_temp_60cm_depth_2A05M[°C]', 'surface_temp_south_west_2A05M[°C]', 'spare_temp_OR_volt_in_2A05M_A[°C]', 'spare_temp_OR_volt_in_2A05M_B[°C]', 'soil_temp_05cm_depth_2A06M[°C]', 'soil_temp_15cm_depth_2A06M[°C]', 'air_temp_30cm_hei_2A06M[°C]', 'soil_temp_60cm_depth_2A06M[°C]', 'surface_temp_south_west_2A06M[°C]', 'spare_temp_OR_volt_in_2A06M_A[°C]', 'spare_temp_OR_volt_in_2A06M_B[°C]', 'soil_temp_05cm_depth_2A07M[°C]', 'soil_temp_15cm_depth_2A07M[°C]', 'air_temp_30cm_hei_2A07M[°C]', 'soil_temp_60cm_depth_2A07M[°C]', 'surface_temp_south_west_2A07M[°C]', 'spare_temp_OR_volt_in_2A07M_A[°C]', 'spare_temp_OR_volt_in_2A07M_B[°C]', 'soil_temp_05cm_depth_2A08M[°C]', 'soil_temp_15cm_depth_2A08M[°C]', 'air_temp_30cm_hei_2A08M[°C]', 'soil_temp_60cm_depth_2A08M[°C]', 'surface_temp_south_west_2A08M[°C]', 'spare_temp_OR_volt_in_2A08M_A[°C]', 'spare_temp_OR_volt_in_2A08M_B[°C]', 'soil_temp_05cm_depth_2A09M[°C]', 'soil_temp_15cm_depth_2A09M[°C]', 'air_temp_30cm_hei_2A09M[°C]', 'soil_temp_60cm_depth_2A09M[°C]', 'surface_temp_south_west_2A09M[°C]', 'spare_temp_OR_volt_in_2A09M_A[°C]', 'spare_temp_OR_volt_in_2A09M_B[°C]', 'soil_temp_05cm_depth_2A10M[°C]', 'soil_temp_15cm_depth_2A10M[°C]', 'air_temp_30cm_hei_2A10M[°C]', 'soil_temp_60cm_depth_2A10M[°C]', 'surface_temp_south_west_2A10M[°C]', 'spare_temp_OR_volt_in_2A10M_A[°C]', 'spare_temp_OR_volt_in_2A10M_B[°C]', 'soil_temp_05cm_depth_2A11M[°C]', 'soil_temp_15cm_depth_2A11M[°C]', 'air_temp_30cm_hei_2A11M[°C]', 'soil_temp_60cm_depth_2A11M[°C]', 'surface_temp_south_west_2A11M[°C]', 'spare_temp_OR_volt_in_2A11M_A[°C]', 'spare_temp_OR_volt_in_2A11M_B[°C]', 'soil_temp_05cm_depth_2A12M[°C]', 'soil_temp_15cm_depth_2A12M[°C]', 'air_temp_30cm_hei_2A12M[°C]', 'soil_temp_60cm_depth_2A12M[°C]', 'surface_temp_south_west_2A12M[°C]', 'spare_temp_OR_volt_in_2A12M_A[°C]', 'spare_temp_OR_volt_in_2A12M_B[°C]', 'soil_temp_05cm_depth_2A13M[°C]', 'soil_temp_15cm_depth_2A13M[°C]', 'air_temp_30cm_hei_2A13M[°C]', 'soil_temp_60cm_depth_2A13M[°C]', 'surface_temp_south_west_2A13M[°C]', 'spare_temp_OR_volt_in_2A13M_A[°C]', 'spare_temp_OR_volt_in_2A13M_B[°C]', 'soil_temp_05cm_depth_2A14M[°C]', 'soil_temp_15cm_depth_2A14M[°C]', 'air_temp_30cm_hei_2A14M[°C]', 'soil_temp_60cm_depth_2A14M[°C]', 'surface_temp_south_west_2A14M[°C]', 'spare_temp_OR_volt_in_2A14M_A[°C]', 'spare_temp_OR_volt_in_2A14M_B[°C]', 'soil_temp_05cm_depth_2A15M[°C]', 'soil_temp_15cm_depth_2A15M[°C]', 'air_temp_30cm_hei_2A15M[°C]', 'soil_temp_60cm_depth_2A15M[°C]', 'surface_temp_south_west_2A15M[°C]', 'spare_temp_OR_volt_in_2A15M_A[°C]', 'spare_temp_OR_volt_in_2A15M_B[°C]', 'soil_temp_05cm_depth_2A16M[°C]', 'soil_temp_15cm_depth_2A16M[°C]', 'air_temp_30cm_hei_2A16M[°C]', 'soil_temp_60cm_depth_2A16M[°C]', 'surface_temp_south_west_2A16M[°C]', 'spare_temp_OR_volt_in_2A16M_A[°C]', 'spare_temp_OR_volt_in_2A16M_B[°C]', 'soil_temp_05cm_depth_2A17M[°C]', 'soil_temp_15cm_depth_2A17M[°C]', 'air_temp_30cm_hei_2A17M[°C]', 'soil_temp_60cm_depth_2A17M[°C]', 'surface_temp_south_west_2A17M[°C]', 'spare_temp_OR_volt_in_2A17M_A[°C]', 'spare_temp_OR_volt_in_2A17M_B[°C]', 'soil_temp_05cm_depth_2A18M[°C]', 'soil_temp_15cm_depth_2A18M[°C]', 'air_temp_30cm_hei_2A18M[°C]', 'soil_temp_60cm_depth_2A18M[°C]', 'surface_temp_south_west_2A18M[°C]', 'spare_temp_OR_volt_in_2A18M_A[°C]', 'spare_temp_OR_volt_in_2A18M_B[°C]', 'soil_temp_05cm_depth_2A19M[°C]', 'soil_temp_15cm_depth_2A19M[°C]', 'air_temp_30cm_hei_2A19M[°C]', 'soil_temp_60cm_depth_2A19M[°C]', 'surface_temp_south_west_2A19M[°C]', 'spare_temp_OR_volt_in_2A19M_A[°C]', 'spare_temp_OR_volt_in_2A19M_B[°C]', 'soil_temp_05cm_depth_2A20M[°C]', 'soil_temp_15cm_depth_2A20M[°C]', 'air_temp_30cm_hei_2A20M[°C]', 'soil_temp_60cm_depth_2A20M[°C]', 'surface_temp_south_west_2A20M[°C]', 'spare_temp_OR_volt_in_2A20M_A[°C]', 'spare_temp_OR_volt_in_2A20M_B[°C]', 'soil_temp_05cm_depth_2A21M[°C]', 'soil_temp_15cm_depth_2A21M[°C]', 'air_temp_30cm_hei_2A21M[°C]', 'soil_temp_60cm_depth_2A21M[°C]', 'surface_temp_south_west_2A21M[°C]', 'spare_temp_OR_volt_in_2A21M_A[°C]', 'spare_temp_OR_volt_in_2A21M_B[°C]', 'soil_temp_05cm_depth_2A22M[°C]', 'soil_temp_15cm_depth_2A22M[°C]', 'air_temp_30cm_hei_2A22M[°C]', 'soil_temp_60cm_depth_2A22M[°C]', 'surface_temp_south_west_2A22M[°C]', 'spare_temp_OR_volt_in_2A22M_A[°C]', 'spare_temp_OR_volt_in_2A22M_B[°C]', 'soil_temp_05cm_depth_3A01N[°C]', 'soil_temp_15cm_depth_3A01N[°C]', 'soil_temp_05cm_depth_3A02M[°C]', 'soil_temp_15cm_depth_3A02M[°C]', 'soil_temp_05cm_depth_3A03N[°C]', 'soil_temp_15cm_depth_3A03N[°C]', 'soil_temp_05cm_depth_3A04M[°C]', 'soil_temp_15cm_depth_3A04M[°C]', 'soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]', 'soil_temp_05cm_depth_3A07N[°C]', 'soil_temp_15cm_depth_3A07N[°C]', 'soil_temp_05cm_depth_3A08M[°C]', 'soil_temp_15cm_depth_3A08M[°C]', 'soil_temp_05cm_depth_3A09N[°C]', 'soil_temp_15cm_depth_3A09N[°C]', 'soil_temp_05cm_depth_3A10M[°C]', 'soil_temp_15cm_depth_3A10M[°C]', 'soil_temp_05cm_depth_3A11N[°C]', 'soil_temp_15cm_depth_3A11N[°C]', 'soil_temp_05cm_depth_3A12M[°C]', 'soil_temp_15cm_depth_3A12M[°C]', 'soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A01M[°C]', 'soil_temp_15cm_depth_4A01M[°C]', 'soil_temp_05cm_depth_4A02M[°C]', 'soil_temp_15cm_depth_4A02M[°C]', 'soil_temp_05cm_depth_4A03M[°C]', 'soil_temp_15cm_depth_4A03M[°C]', 'soil_temp_05cm_depth_4A04M[°C]', 'soil_temp_15cm_depth_4A04M[°C]', 'soil_temp_05cm_depth_4A05M[°C]', 'soil_temp_15cm_depth_4A05M[°C]', 'soil_temp_05cm_depth_4A06M[°C]', 'soil_temp_15cm_depth_4A06M[°C]', 'soil_temp_05cm_depth_4A07M[°C]', 'soil_temp_15cm_depth_4A07M[°C]', 'soil_temp_05cm_depth_4A08M[°C]', 'soil_temp_15cm_depth_4A08M[°C]', 'soil_temp_05cm_depth_4A09M[°C]', 'soil_temp_15cm_depth_4A09M[°C]', 'soil_temp_05cm_depth_4A10M[°C]', 'soil_temp_15cm_depth_4A10M[°C]', 'soil_temp_05cm_depth_4A11M[°C]', 'soil_temp_15cm_depth_4A11M[°C]', 'soil_temp_05cm_depth_4A12M[°C]', 'soil_temp_15cm_depth_4A12M[°C]', 'soil_temp_05cm_depth_4A13M[°C]', 'soil_temp_15cm_depth_4A13M[°C]', 'soil_temp_05cm_depth_4A14M[°C]', 'soil_temp_15cm_depth_4A14M[°C]', 'soil_temp_05cm_depth_4A15M[°C]', 'soil_temp_15cm_depth_4A15M[°C]', 'soil_temp_05cm_depth_4A16M[°C]', 'soil_temp_15cm_depth_4A16M[°C]', 'soil_temp_05cm_depth_4A17M[°C]', 'soil_temp_15cm_depth_4A17M[°C]', 'soil_temp_05cm_depth_4A18M[°C]', 'soil_temp_15cm_depth_4A18M[°C]', 'soil_temp_05cm_depth_4A19M[°C]', 'soil_temp_15cm_depth_4A19M[°C]', 'soil_temp_05cm_depth_4A20M[°C]', 'soil_temp_15cm_depth_4A20M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]', 'soil_temp_05cm_depth_4A22M[°C]', 'soil_temp_15cm_depth_4A22M[°C]', 'soil_temp_05cm_depth_4A23M[°C]', 'soil_temp_15cm_depth_4A23M[°C]', 'soil_temp_05cm_depth_3A05N[°C]', 'soil_temp_15cm_depth_3A05N[°C]']
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 50766, 26845))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 50766, 26845))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129373, 105963))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129373, 105963))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 45362, 12664))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 45362, 12664))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 45362, 12664))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42880, 10182))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42880, 10182))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42880, 10182))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42880, 10182))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42832, 10134))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42832, 10134))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42832, 10134))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58036, 25338))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58036, 25338))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58036, 25338))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58036, 25338))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 73086, 49676))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 73086, 49676))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 73086, 49676))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 68339, 44929))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 68339, 44929))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 68339, 44929))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51913, 19215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51913, 19215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51913, 19215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51913, 19215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51656, 18958))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51656, 18958))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51656, 18958))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51656, 18958))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 216054, 193159))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 216054, 193159))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 189131, 166236))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 189131, 166236))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 143581, 111398))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 143581, 111398))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129500, 97317))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129500, 97317))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 126550, 103140))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 126550, 103140))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 136656, 113246))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 136656, 113246))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103094, 79684))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103094, 79684))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129441, 106031))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129441, 106031))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 161203, 137793))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 161203, 137793))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58499, 25290))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58499, 25290))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 34073, 864))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 34073, 864))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46089, 12880))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46089, 12880))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 289251, 280921))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 289251, 280921))
+map wrong columns --- 249.48816800117493 seconds ---
+Missing columns: []
+add missing columns --- 249.4884593486786 seconds ---
+Time uplicated dates: 1426
+2009-07-10 00:00:00    3
+2009-03-16 05:59:00    2
+2009-08-24 17:59:00    2
+2009-08-26 05:59:00    2
+2009-11-15 18:00:00    2
+                      ..
+2009-10-04 15:20:00    1
+2009-04-03 13:36:00    1
+2009-01-21 06:49:00    1
+2009-12-21 12:53:00    1
+2009-10-18 06:01:00    1
+Name: t[s], Length: 511541, dtype: int64
+Out of year dates: 0
+spread table to full timeSeries.  --- 251.06151056289673 seconds ---
+remove duplicates --- 251.40148758888245 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.
+Values in table: 525600
+Filtered values: soil_temp_05cm_depth_1A01N[°C]        0
+soil_temp_15cm_depth_1A01N[°C]        0
+soil_temp_05cm_depth_1A02M[°C]        0
+soil_temp_15cm_depth_1A02M[°C]        0
+soil_temp_05cm_depth_1A03N[°C]       53
+soil_temp_15cm_depth_1A03N[°C]    54571
+soil_temp_05cm_depth_1A04M[°C]        0
+soil_temp_15cm_depth_1A04M[°C]        0
+soil_temp_05cm_depth_1A05N[°C]        0
+soil_temp_15cm_depth_1A05N[°C]        0
+soil_temp_05cm_depth_1A06M[°C]        0
+soil_temp_15cm_depth_1A06M[°C]        0
+soil_temp_05cm_depth_1A07N[°C]        0
+soil_temp_15cm_depth_1A07N[°C]        0
+soil_temp_05cm_depth_1A08M[°C]        0
+soil_temp_15cm_depth_1A08M[°C]        0
+soil_temp_05cm_depth_1A09N[°C]        0
+soil_temp_15cm_depth_1A09N[°C]        0
+soil_temp_05cm_depth_1A10M[°C]        0
+soil_temp_15cm_depth_1A10M[°C]        0
+soil_temp_05cm_depth_1A11N[°C]     2807
+soil_temp_15cm_depth_1A11N[°C]     2806
+soil_temp_05cm_depth_1A12M[°C]        0
+soil_temp_15cm_depth_1A12M[°C]        0
+soil_temp_05cm_depth_1A13M[°C]        0
+soil_temp_15cm_depth_1A13M[°C]        0
+soil_temp_05cm_depth_1A14M[°C]        0
+soil_temp_15cm_depth_1A14M[°C]        0
+soil_temp_05cm_depth_1A15M[°C]        0
+soil_temp_15cm_depth_1A15M[°C]        0
+soil_temp_05cm_depth_1A16M[°C]        0
+soil_temp_15cm_depth_1A16M[°C]        0
+soil_temp_05cm_depth_1A17M[°C]        0
+soil_temp_15cm_depth_1A17M[°C]        0
+soil_temp_05cm_depth_1A18M[°C]        0
+soil_temp_15cm_depth_1A18M[°C]        0
+soil_temp_05cm_depth_1A19M[°C]        0
+soil_temp_15cm_depth_1A19M[°C]        0
+soil_temp_05cm_depth_1A20M[°C]        0
+soil_temp_15cm_depth_1A20M[°C]        0
+soil_temp_05cm_depth_1A21M[°C]        0
+soil_temp_15cm_depth_1A21M[°C]        0
+soil_temp_05cm_depth_1A22M[°C]        0
+soil_temp_15cm_depth_1A22M[°C]        0
+soil_temp_05cm_depth_2A01M[°C]        0
+soil_temp_15cm_depth_2A01M[°C]        0
+soil_temp_60cm_depth_2A01M[°C]        0
+soil_temp_05cm_depth_2A02M[°C]        0
+soil_temp_15cm_depth_2A02M[°C]        0
+soil_temp_60cm_depth_2A02M[°C]        0
+soil_temp_05cm_depth_2A03M[°C]        0
+soil_temp_15cm_depth_2A03M[°C]        0
+soil_temp_60cm_depth_2A03M[°C]        0
+soil_temp_05cm_depth_2A04M[°C]        0
+soil_temp_15cm_depth_2A04M[°C]        0
+soil_temp_60cm_depth_2A04M[°C]        0
+soil_temp_05cm_depth_2A05M[°C]        0
+soil_temp_15cm_depth_2A05M[°C]        0
+soil_temp_60cm_depth_2A05M[°C]        0
+soil_temp_05cm_depth_2A06M[°C]        0
+soil_temp_15cm_depth_2A06M[°C]        0
+soil_temp_60cm_depth_2A06M[°C]        0
+soil_temp_05cm_depth_2A07M[°C]        0
+soil_temp_15cm_depth_2A07M[°C]        0
+soil_temp_60cm_depth_2A07M[°C]        0
+soil_temp_05cm_depth_2A08M[°C]        0
+soil_temp_15cm_depth_2A08M[°C]        0
+soil_temp_60cm_depth_2A08M[°C]        0
+soil_temp_05cm_depth_2A09M[°C]        0
+soil_temp_15cm_depth_2A09M[°C]        0
+soil_temp_60cm_depth_2A09M[°C]        0
+soil_temp_05cm_depth_2A10M[°C]        0
+soil_temp_15cm_depth_2A10M[°C]        0
+soil_temp_60cm_depth_2A10M[°C]        0
+soil_temp_05cm_depth_2A11M[°C]        0
+soil_temp_15cm_depth_2A11M[°C]        0
+soil_temp_60cm_depth_2A11M[°C]        0
+soil_temp_05cm_depth_2A12M[°C]       28
+soil_temp_15cm_depth_2A12M[°C]       28
+soil_temp_60cm_depth_2A12M[°C]       28
+soil_temp_05cm_depth_2A13M[°C]       28
+soil_temp_15cm_depth_2A13M[°C]       28
+soil_temp_60cm_depth_2A13M[°C]       28
+soil_temp_05cm_depth_2A14M[°C]       28
+soil_temp_15cm_depth_2A14M[°C]       28
+soil_temp_60cm_depth_2A14M[°C]       28
+soil_temp_05cm_depth_2A15M[°C]       29
+soil_temp_15cm_depth_2A15M[°C]       29
+soil_temp_60cm_depth_2A15M[°C]       29
+soil_temp_05cm_depth_2A16M[°C]       29
+soil_temp_15cm_depth_2A16M[°C]       29
+soil_temp_60cm_depth_2A16M[°C]       29
+soil_temp_05cm_depth_2A17M[°C]       29
+soil_temp_15cm_depth_2A17M[°C]       29
+soil_temp_60cm_depth_2A17M[°C]       29
+soil_temp_05cm_depth_2A18M[°C]        0
+soil_temp_15cm_depth_2A18M[°C]        0
+soil_temp_60cm_depth_2A18M[°C]        0
+soil_temp_05cm_depth_2A19M[°C]       30
+soil_temp_15cm_depth_2A19M[°C]       30
+soil_temp_60cm_depth_2A19M[°C]       30
+soil_temp_05cm_depth_2A20M[°C]       30
+soil_temp_15cm_depth_2A20M[°C]       30
+soil_temp_60cm_depth_2A20M[°C]       30
+soil_temp_05cm_depth_2A21M[°C]        0
+soil_temp_15cm_depth_2A21M[°C]        0
+soil_temp_60cm_depth_2A21M[°C]        0
+soil_temp_05cm_depth_2A22M[°C]        0
+soil_temp_15cm_depth_2A22M[°C]        0
+soil_temp_60cm_depth_2A22M[°C]        0
+soil_temp_05cm_depth_3A01N[°C]    21699
+soil_temp_15cm_depth_3A01N[°C]     9952
+soil_temp_05cm_depth_3A02M[°C]        0
+soil_temp_15cm_depth_3A02M[°C]        0
+soil_temp_05cm_depth_3A03N[°C]        0
+soil_temp_15cm_depth_3A03N[°C]        0
+soil_temp_05cm_depth_3A04M[°C]        0
+soil_temp_15cm_depth_3A04M[°C]        0
+soil_temp_05cm_depth_3A05N[°C]      141
+soil_temp_15cm_depth_3A05N[°C]      141
+soil_temp_05cm_depth_3A06N[°C]       31
+soil_temp_15cm_depth_3A06N[°C]       31
+soil_temp_05cm_depth_3A07N[°C]        0
+soil_temp_15cm_depth_3A07N[°C]        0
+soil_temp_05cm_depth_3A08M[°C]        0
+soil_temp_15cm_depth_3A08M[°C]        0
+soil_temp_05cm_depth_3A09N[°C]        0
+soil_temp_15cm_depth_3A09N[°C]        0
+soil_temp_05cm_depth_3A10M[°C]        0
+soil_temp_15cm_depth_3A10M[°C]        0
+soil_temp_05cm_depth_3A11N[°C]        0
+soil_temp_15cm_depth_3A11N[°C]        0
+soil_temp_05cm_depth_3A12M[°C]        0
+soil_temp_15cm_depth_3A12M[°C]        0
+soil_temp_05cm_depth_3A13M[°C]        0
+soil_temp_15cm_depth_3A13M[°C]        0
+soil_temp_05cm_depth_3A14M[°C]        0
+soil_temp_15cm_depth_3A14M[°C]        0
+soil_temp_05cm_depth_3A15M[°C]        0
+soil_temp_15cm_depth_3A15M[°C]        0
+soil_temp_05cm_depth_3A16M[°C]        0
+soil_temp_15cm_depth_3A16M[°C]        0
+soil_temp_05cm_depth_3A17M[°C]        0
+soil_temp_15cm_depth_3A17M[°C]        0
+soil_temp_05cm_depth_3A19M[°C]        0
+soil_temp_15cm_depth_3A19M[°C]        0
+soil_temp_05cm_depth_3A20M[°C]        0
+soil_temp_15cm_depth_3A20M[°C]        0
+soil_temp_05cm_depth_3A21M[°C]        0
+soil_temp_15cm_depth_3A21M[°C]        0
+soil_temp_05cm_depth_3A22M[°C]        0
+soil_temp_15cm_depth_3A22M[°C]        0
+soil_temp_05cm_depth_3A23M[°C]        0
+soil_temp_15cm_depth_3A23M[°C]        0
+soil_temp_05cm_depth_3A24M[°C]        0
+soil_temp_15cm_depth_3A24M[°C]        0
+soil_temp_05cm_depth_4A01M[°C]        0
+soil_temp_15cm_depth_4A01M[°C]        0
+soil_temp_05cm_depth_4A02M[°C]        0
+soil_temp_15cm_depth_4A02M[°C]        0
+soil_temp_05cm_depth_4A03M[°C]        0
+soil_temp_15cm_depth_4A03M[°C]        0
+soil_temp_05cm_depth_4A04M[°C]        0
+soil_temp_15cm_depth_4A04M[°C]        0
+soil_temp_05cm_depth_4A05M[°C]        0
+soil_temp_15cm_depth_4A05M[°C]        0
+soil_temp_05cm_depth_4A06M[°C]        0
+soil_temp_15cm_depth_4A06M[°C]        0
+soil_temp_05cm_depth_4A07M[°C]        0
+soil_temp_15cm_depth_4A07M[°C]        0
+soil_temp_05cm_depth_4A08M[°C]        0
+soil_temp_15cm_depth_4A08M[°C]        0
+soil_temp_05cm_depth_4A09M[°C]        0
+soil_temp_15cm_depth_4A09M[°C]        0
+soil_temp_05cm_depth_4A10M[°C]        0
+soil_temp_15cm_depth_4A10M[°C]        0
+soil_temp_05cm_depth_4A11M[°C]        0
+soil_temp_15cm_depth_4A11M[°C]        0
+soil_temp_05cm_depth_4A12M[°C]        0
+soil_temp_15cm_depth_4A12M[°C]        0
+soil_temp_05cm_depth_4A13M[°C]        0
+soil_temp_15cm_depth_4A13M[°C]        0
+soil_temp_05cm_depth_4A14M[°C]        0
+soil_temp_15cm_depth_4A14M[°C]        0
+soil_temp_05cm_depth_4A15M[°C]        0
+soil_temp_15cm_depth_4A15M[°C]        0
+soil_temp_05cm_depth_4A16M[°C]        0
+soil_temp_15cm_depth_4A16M[°C]        0
+soil_temp_05cm_depth_4A17M[°C]        0
+soil_temp_15cm_depth_4A17M[°C]        0
+soil_temp_05cm_depth_4A18M[°C]        0
+soil_temp_15cm_depth_4A18M[°C]        0
+soil_temp_05cm_depth_4A19M[°C]        0
+soil_temp_15cm_depth_4A19M[°C]        0
+soil_temp_05cm_depth_4A20M[°C]        0
+soil_temp_15cm_depth_4A20M[°C]        0
+soil_temp_05cm_depth_4A21M[°C]        0
+soil_temp_15cm_depth_4A21M[°C]        0
+soil_temp_05cm_depth_4A22M[°C]        0
+soil_temp_15cm_depth_4A22M[°C]        0
+soil_temp_05cm_depth_4A23M[°C]        0
+soil_temp_15cm_depth_4A23M[°C]        0
+dtype: int64
+Filtered values: air_temp_30cm_hei_2A01M[°C]     0
+air_temp_30cm_hei_2A02M[°C]     0
+air_temp_30cm_hei_2A03M[°C]     0
+air_temp_30cm_hei_2A04M[°C]     0
+air_temp_30cm_hei_2A05M[°C]     0
+air_temp_30cm_hei_2A06M[°C]     0
+air_temp_30cm_hei_2A07M[°C]     0
+air_temp_30cm_hei_2A08M[°C]     0
+air_temp_30cm_hei_2A09M[°C]     0
+air_temp_30cm_hei_2A10M[°C]     0
+air_temp_30cm_hei_2A11M[°C]     0
+air_temp_30cm_hei_2A12M[°C]    28
+air_temp_30cm_hei_2A13M[°C]    28
+air_temp_30cm_hei_2A14M[°C]    28
+air_temp_30cm_hei_2A15M[°C]    29
+air_temp_30cm_hei_2A16M[°C]    29
+air_temp_30cm_hei_2A17M[°C]    29
+air_temp_30cm_hei_2A18M[°C]     0
+air_temp_30cm_hei_2A19M[°C]    30
+air_temp_30cm_hei_2A20M[°C]    30
+air_temp_30cm_hei_2A21M[°C]     0
+air_temp_30cm_hei_2A22M[°C]     0
+dtype: int64
+Filtered values: surface_temp_south_west_2A01M[°C]       531
+surface_temp_south_west_2A02M[°C]       865
+surface_temp_south_west_2A03M[°C]       622
+surface_temp_south_west_2A04M[°C]       793
+surface_temp_south_west_2A05M[°C]       581
+surface_temp_south_west_2A06M[°C]       347
+surface_temp_south_west_2A07M[°C]       456
+surface_temp_south_west_2A08M[°C]         0
+surface_temp_south_west_2A09M[°C]         0
+surface_temp_south_west_2A10M[°C]       493
+surface_temp_south_west_2A11M[°C]       237
+surface_temp_south_west_2A12M[°C]       543
+surface_temp_south_west_2A13M[°C]    149707
+surface_temp_south_west_2A14M[°C]        90
+surface_temp_south_west_2A15M[°C]         0
+surface_temp_south_west_2A16M[°C]    124254
+surface_temp_south_west_2A17M[°C]        96
+surface_temp_south_west_2A18M[°C]     97701
+surface_temp_south_west_2A19M[°C]       171
+surface_temp_south_west_2A20M[°C]       746
+surface_temp_south_west_2A21M[°C]       561
+surface_temp_south_west_2A22M[°C]       359
+dtype: int64
+Filtered values: air_rel_humidiy_30cm_hei_2A01M[%]     44575
+air_rel_humidiy_30cm_hei_2A02M[%]     47177
+air_rel_humidiy_30cm_hei_2A03M[%]    110282
+air_rel_humidiy_30cm_hei_2A04M[%]      5940
+air_rel_humidiy_30cm_hei_2A05M[%]     47518
+air_rel_humidiy_30cm_hei_2A06M[%]     46823
+air_rel_humidiy_30cm_hei_2A07M[%]     16954
+air_rel_humidiy_30cm_hei_2A08M[%]     63065
+air_rel_humidiy_30cm_hei_2A09M[%]     52712
+air_rel_humidiy_30cm_hei_2A10M[%]    102833
+air_rel_humidiy_30cm_hei_2A11M[%]     22573
+air_rel_humidiy_30cm_hei_2A12M[%]     55413
+air_rel_humidiy_30cm_hei_2A13M[%]     56834
+air_rel_humidiy_30cm_hei_2A14M[%]     78670
+air_rel_humidiy_30cm_hei_2A15M[%]     84180
+air_rel_humidiy_30cm_hei_2A16M[%]     45840
+air_rel_humidiy_30cm_hei_2A17M[%]     99380
+air_rel_humidiy_30cm_hei_2A18M[%]     89997
+air_rel_humidiy_30cm_hei_2A19M[%]     53417
+air_rel_humidiy_30cm_hei_2A20M[%]     34689
+air_rel_humidiy_30cm_hei_2A21M[%]     50272
+air_rel_humidiy_30cm_hei_2A22M[%]     82866
+dtype: int64
+Broken load: /home/datasets4/stein/jena_experiment/raw/2009/Y2009D201bis250/BD20092040816.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2009/Y2009D201bis250/BD20092040817.csv
+Faulty Time column detected./home/datasets4/stein/jena_experiment/raw/2009/Y2009D301bis365/BD20093620601.csv Reworking it
+load all tables --- 129.04133772850037 seconds ---
+Broken tables and faulty table times detected: 3 from 1527
+join all tables --- 164.63899493217468 seconds ---
+drop Unamed columns --- 173.81715321540833 seconds ---
+round to minutes --- 173.82743382453918 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]', 'soil_temp_05cm_depth_1A01N[_]', 'soil_temp_15cm_depth_1A01N[_]', 'soil_temp_05cm_depth_1A02M[_]', 'soil_temp_15cm_depth_1A02M[_]', 'soil_temp_05cm_depth_1A03N[_]', 'soil_temp_15cm_depth_1A03N[_]', 'soil_temp_05cm_depth_1A04M[_]', 'soil_temp_15cm_depth_1A04M[_]', 'soil_temp_05cm_depth_1A05N[_]', 'soil_temp_15cm_depth_1A05N[_]', 'soil_temp_05cm_depth_1A06M[_]', 'soil_temp_15cm_depth_1A06M[_]', 'soil_temp_05cm_depth_1A07N[_]', 'soil_temp_15cm_depth_1A07N[_]', 'soil_temp_05cm_depth_1A08M[_]', 'soil_temp_15cm_depth_1A08M[_]', 'soil_temp_05cm_depth_1A09N[_]', 'soil_temp_15cm_depth_1A09N[_]', 'soil_temp_05cm_depth_1A10M[_]', 'soil_temp_15cm_depth_1A10M[_]', 'soil_temp_05cm_depth_1A11N[_]', 'soil_temp_15cm_depth_1A11N[_]', 'soil_temp_05cm_depth_1A12M[_]', 'soil_temp_15cm_depth_1A12M[_]', 'soil_temp_05cm_depth_1A13M[_]', 'soil_temp_15cm_depth_1A13M[_]', 'soil_temp_05cm_depth_1A14M[_]', 'soil_temp_15cm_depth_1A14M[_]', 'soil_temp_05cm_depth_1A15M[_]', 'soil_temp_15cm_depth_1A15M[_]', 'soil_temp_05cm_depth_1A16M[_]', 'soil_temp_15cm_depth_1A16M[_]', 'soil_temp_05cm_depth_1A17M[_]', 'soil_temp_15cm_depth_1A17M[_]', 'soil_temp_05cm_depth_1A18M[_]', 'soil_temp_15cm_depth_1A18M[_]', 'soil_temp_05cm_depth_1A19M[_]', 'soil_temp_15cm_depth_1A19M[_]', 'soil_temp_05cm_depth_1A20M[_]', 'soil_temp_15cm_depth_1A20M[_]', 'soil_temp_05cm_depth_1A21M[_]', 'soil_temp_15cm_depth_1A21M[_]', 'soil_temp_05cm_depth_1A22M[_]', 'soil_temp_15cm_depth_1A22M[_]', 'soil_temp_05cm_depth_2A01M[_]', 'soil_temp_15cm_depth_2A01M[_]', 'air_temp_30cm_hei_2A01M[_]', 'soil_temp_60cm_depth_2A01M[_]', 'surface_temp_south_west_2A01M[_]', 'spare_temp_OR_volt_in_2A01M_A[_]', 'spare_temp_OR_volt_in_2A01M_B[_]', 'soil_temp_05cm_depth_2A02M[_]', 'soil_temp_15cm_depth_2A02M[_]', 'air_temp_30cm_hei_2A02M[_]', 'soil_temp_60cm_depth_2A02M[_]', 'surface_temp_south_west_2A02M[_]', 'spare_temp_OR_volt_in_2A02M_A[_]', 'spare_temp_OR_volt_in_2A02M_B[_]', 'soil_temp_05cm_depth_2A03M[_]', 'soil_temp_15cm_depth_2A03M[_]', 'air_temp_30cm_hei_2A03M[_]', 'soil_temp_60cm_depth_2A03M[_]', 'surface_temp_south_west_2A03M[_]', 'spare_temp_OR_volt_in_2A03M_A[_]', 'spare_temp_OR_volt_in_2A03M_B[_]', 'soil_temp_05cm_depth_2A04M[_]', 'soil_temp_15cm_depth_2A04M[_]', 'air_temp_30cm_hei_2A04M[_]', 'soil_temp_60cm_depth_2A04M[_]', 'surface_temp_south_west_2A04M[_]', 'spare_temp_OR_volt_in_2A04M_A[_]', 'spare_temp_OR_volt_in_2A04M_B[_]', 'soil_temp_05cm_depth_2A05M[_]', 'soil_temp_15cm_depth_2A05M[_]', 'air_temp_30cm_hei_2A05M[_]', 'soil_temp_60cm_depth_2A05M[_]', 'surface_temp_south_west_2A05M[_]', 'spare_temp_OR_volt_in_2A05M_A[_]', 'spare_temp_OR_volt_in_2A05M_B[_]', 'soil_temp_05cm_depth_2A06M[_]', 'soil_temp_15cm_depth_2A06M[_]', 'air_temp_30cm_hei_2A06M[_]', 'soil_temp_60cm_depth_2A06M[_]', 'surface_temp_south_west_2A06M[_]', 'spare_temp_OR_volt_in_2A06M_A[_]', 'spare_temp_OR_volt_in_2A06M_B[_]', 'soil_temp_05cm_depth_2A07M[_]', 'soil_temp_15cm_depth_2A07M[_]', 'air_temp_30cm_hei_2A07M[_]', 'soil_temp_60cm_depth_2A07M[_]', 'surface_temp_south_west_2A07M[_]', 'spare_temp_OR_volt_in_2A07M_A[_]', 'spare_temp_OR_volt_in_2A07M_B[_]', 'soil_temp_05cm_depth_2A08M[_]', 'soil_temp_15cm_depth_2A08M[_]', 'air_temp_30cm_hei_2A08M[_]', 'soil_temp_60cm_depth_2A08M[_]', 'surface_temp_south_west_2A08M[_]', 'spare_temp_OR_volt_in_2A08M_A[_]', 'spare_temp_OR_volt_in_2A08M_B[_]', 'soil_temp_05cm_depth_2A09M[_]', 'soil_temp_15cm_depth_2A09M[_]', 'air_temp_30cm_hei_2A09M[_]', 'soil_temp_60cm_depth_2A09M[_]', 'surface_temp_south_west_2A09M[_]', 'spare_temp_OR_volt_in_2A09M_A[_]', 'spare_temp_OR_volt_in_2A09M_B[_]', 'soil_temp_05cm_depth_2A10M[_]', 'soil_temp_15cm_depth_2A10M[_]', 'air_temp_30cm_hei_2A10M[_]', 'soil_temp_60cm_depth_2A10M[_]', 'surface_temp_south_west_2A10M[_]', 'spare_temp_OR_volt_in_2A10M_A[_]', 'spare_temp_OR_volt_in_2A10M_B[_]', 'soil_temp_05cm_depth_2A11M[_]', 'soil_temp_15cm_depth_2A11M[_]', 'air_temp_30cm_hei_2A11M[_]', 'soil_temp_60cm_depth_2A11M[_]', 'surface_temp_south_west_2A11M[_]', 'spare_temp_OR_volt_in_2A11M_A[_]', 'spare_temp_OR_volt_in_2A11M_B[_]', 'soil_temp_05cm_depth_2A12M[_]', 'soil_temp_15cm_depth_2A12M[_]', 'air_temp_30cm_hei_2A12M[_]', 'soil_temp_60cm_depth_2A12M[_]', 'surface_temp_south_west_2A12M[_]', 'spare_temp_OR_volt_in_2A12M_A[_]', 'spare_temp_OR_volt_in_2A12M_B[_]', 'soil_temp_05cm_depth_2A13M[_]', 'soil_temp_15cm_depth_2A13M[_]', 'air_temp_30cm_hei_2A13M[_]', 'soil_temp_60cm_depth_2A13M[_]', 'surface_temp_south_west_2A13M[_]', 'spare_temp_OR_volt_in_2A13M_A[_]', 'spare_temp_OR_volt_in_2A13M_B[_]', 'soil_temp_05cm_depth_2A14M[_]', 'soil_temp_15cm_depth_2A14M[_]', 'air_temp_30cm_hei_2A14M[_]', 'soil_temp_60cm_depth_2A14M[_]', 'surface_temp_south_west_2A14M[_]', 'spare_temp_OR_volt_in_2A14M_A[_]', 'spare_temp_OR_volt_in_2A14M_B[_]', 'soil_temp_05cm_depth_2A15M[_]', 'soil_temp_15cm_depth_2A15M[_]', 'air_temp_30cm_hei_2A15M[_]', 'soil_temp_60cm_depth_2A15M[_]', 'surface_temp_south_west_2A15M[_]', 'spare_temp_OR_volt_in_2A15M_A[_]', 'spare_temp_OR_volt_in_2A15M_B[_]', 'soil_temp_05cm_depth_2A16M[_]', 'soil_temp_15cm_depth_2A16M[_]', 'air_temp_30cm_hei_2A16M[_]', 'soil_temp_60cm_depth_2A16M[_]', 'surface_temp_south_west_2A16M[_]', 'spare_temp_OR_volt_in_2A16M_A[_]', 'spare_temp_OR_volt_in_2A16M_B[_]', 'soil_temp_05cm_depth_2A17M[_]', 'soil_temp_15cm_depth_2A17M[_]', 'air_temp_30cm_hei_2A17M[_]', 'soil_temp_60cm_depth_2A17M[_]', 'surface_temp_south_west_2A17M[_]', 'spare_temp_OR_volt_in_2A17M_A[_]', 'spare_temp_OR_volt_in_2A17M_B[_]', 'soil_temp_05cm_depth_2A18M[_]', 'soil_temp_15cm_depth_2A18M[_]', 'air_temp_30cm_hei_2A18M[_]', 'soil_temp_60cm_depth_2A18M[_]', 'surface_temp_south_west_2A18M[_]', 'spare_temp_OR_volt_in_2A18M_A[_]', 'spare_temp_OR_volt_in_2A18M_B[_]', 'soil_temp_05cm_depth_2A19M[_]', 'soil_temp_15cm_depth_2A19M[_]', 'air_temp_30cm_hei_2A19M[_]', 'soil_temp_60cm_depth_2A19M[_]', 'surface_temp_south_west_2A19M[_]', 'spare_temp_OR_volt_in_2A19M_A[_]', 'spare_temp_OR_volt_in_2A19M_B[_]', 'soil_temp_05cm_depth_2A20M[_]', 'soil_temp_15cm_depth_2A20M[_]', 'air_temp_30cm_hei_2A20M[_]', 'soil_temp_60cm_depth_2A20M[_]', 'surface_temp_south_west_2A20M[_]', 'spare_temp_OR_volt_in_2A20M_A[_]', 'spare_temp_OR_volt_in_2A20M_B[_]', 'soil_temp_05cm_depth_2A21M[_]', 'soil_temp_15cm_depth_2A21M[_]', 'air_temp_30cm_hei_2A21M[_]', 'soil_temp_60cm_depth_2A21M[_]', 'surface_temp_south_west_2A21M[_]', 'spare_temp_OR_volt_in_2A21M_A[_]', 'spare_temp_OR_volt_in_2A21M_B[_]', 'soil_temp_05cm_depth_2A22M[_]', 'soil_temp_15cm_depth_2A22M[_]', 'air_temp_30cm_hei_2A22M[_]', 'soil_temp_60cm_depth_2A22M[_]', 'surface_temp_south_west_2A22M[_]', 'spare_temp_OR_volt_in_2A22M_A[_]', 'spare_temp_OR_volt_in_2A22M_B[_]', 'soil_temp_05cm_depth_3A01N[_]', 'soil_temp_15cm_depth_3A01N[_]', 'soil_temp_05cm_depth_3A02M[_]', 'soil_temp_15cm_depth_3A02M[_]', 'soil_temp_05cm_depth_3A03N[_]', 'soil_temp_15cm_depth_3A03N[_]', 'soil_temp_05cm_depth_3A04M[_]', 'soil_temp_15cm_depth_3A04M[_]', 'soil_temp_05cm_depth_3A06M[_]', 'soil_temp_15cm_depth_3A06M[_]', 'soil_temp_05cm_depth_3A07N[_]', 'soil_temp_15cm_depth_3A07N[_]', 'soil_temp_05cm_depth_3A08M[_]', 'soil_temp_15cm_depth_3A08M[_]', 'soil_temp_05cm_depth_3A09N[_]', 'soil_temp_15cm_depth_3A09N[_]', 'soil_temp_05cm_depth_3A10M[_]', 'soil_temp_15cm_depth_3A10M[_]', 'soil_temp_05cm_depth_3A11N[_]', 'soil_temp_15cm_depth_3A11N[_]', 'soil_temp_05cm_depth_3A12M[_]', 'soil_temp_15cm_depth_3A12M[_]', 'soil_temp_05cm_depth_3A13M[_]', 'soil_temp_15cm_depth_3A13M[_]', 'soil_temp_05cm_depth_3A14M[_]', 'soil_temp_15cm_depth_3A14M[_]', 'soil_temp_05cm_depth_3A15M[_]', 'soil_temp_15cm_depth_3A15M[_]', 'soil_temp_05cm_depth_3A16M[_]', 'soil_temp_15cm_depth_3A16M[_]', 'soil_temp_05cm_depth_3A17M[_]', 'soil_temp_15cm_depth_3A17M[_]', 'soil_temp_05cm_depth_3A19M[_]', 'soil_temp_15cm_depth_3A19M[_]', 'soil_temp_05cm_depth_3A20M[_]', 'soil_temp_15cm_depth_3A20M[_]', 'soil_temp_05cm_depth_3A21M[_]', 'soil_temp_15cm_depth_3A21M[_]', 'soil_temp_05cm_depth_3A22M[_]', 'soil_temp_15cm_depth_3A22M[_]', 'soil_temp_05cm_depth_3A23M[_]', 'soil_temp_15cm_depth_3A23M[_]', 'soil_temp_05cm_depth_3A24M[_]', 'soil_temp_15cm_depth_3A24M[_]', 'soil_temp_05cm_depth_4A01M[_]', 'soil_temp_15cm_depth_4A01M[_]', 'soil_temp_05cm_depth_4A02M[_]', 'soil_temp_15cm_depth_4A02M[_]', 'soil_temp_05cm_depth_4A03M[_]', 'soil_temp_15cm_depth_4A03M[_]', 'soil_temp_05cm_depth_4A04M[_]', 'soil_temp_15cm_depth_4A04M[_]', 'soil_temp_05cm_depth_4A05M[_]', 'soil_temp_15cm_depth_4A05M[_]', 'soil_temp_05cm_depth_4A06M[_]', 'soil_temp_15cm_depth_4A06M[_]', 'soil_temp_05cm_depth_4A07M[_]', 'soil_temp_15cm_depth_4A07M[_]', 'soil_temp_05cm_depth_4A08M[_]', 'soil_temp_15cm_depth_4A08M[_]', 'soil_temp_05cm_depth_4A09M[_]', 'soil_temp_15cm_depth_4A09M[_]', 'soil_temp_05cm_depth_4A10M[_]', 'soil_temp_15cm_depth_4A10M[_]', 'soil_temp_05cm_depth_4A11M[_]', 'soil_temp_15cm_depth_4A11M[_]', 'soil_temp_05cm_depth_4A12M[_]', 'soil_temp_15cm_depth_4A12M[_]', 'soil_temp_05cm_depth_4A13M[_]', 'soil_temp_15cm_depth_4A13M[_]', 'soil_temp_05cm_depth_4A14M[_]', 'soil_temp_15cm_depth_4A14M[_]', 'soil_temp_05cm_depth_4A15M[_]', 'soil_temp_15cm_depth_4A15M[_]', 'soil_temp_05cm_depth_4A16M[_]', 'soil_temp_15cm_depth_4A16M[_]', 'soil_temp_05cm_depth_4A17M[_]', 'soil_temp_15cm_depth_4A17M[_]', 'soil_temp_05cm_depth_4A18M[_]', 'soil_temp_15cm_depth_4A18M[_]', 'soil_temp_05cm_depth_4A19M[_]', 'soil_temp_15cm_depth_4A19M[_]', 'soil_temp_05cm_depth_4A20M[_]', 'soil_temp_15cm_depth_4A20M[_]', 'soil_temp_05cm_depth_4A21M[_]', 'soil_temp_15cm_depth_4A21M[_]', 'soil_temp_05cm_depth_4A22M[_]', 'soil_temp_15cm_depth_4A22M[_]', 'soil_temp_05cm_depth_4A23M[_]', 'soil_temp_15cm_depth_4A23M[_]', 'soil_temp_05cm_depth_3A05N[_]', 'soil_temp_15cm_depth_3A05N[_]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]', 'soil_temp_05cm_depth_1A01N[°C]', 'soil_temp_15cm_depth_1A01N[°C]', 'soil_temp_05cm_depth_1A02M[°C]', 'soil_temp_15cm_depth_1A02M[°C]', 'soil_temp_05cm_depth_1A03N[°C]', 'soil_temp_15cm_depth_1A03N[°C]', 'soil_temp_05cm_depth_1A04M[°C]', 'soil_temp_15cm_depth_1A04M[°C]', 'soil_temp_05cm_depth_1A05N[°C]', 'soil_temp_15cm_depth_1A05N[°C]', 'soil_temp_05cm_depth_1A06M[°C]', 'soil_temp_15cm_depth_1A06M[°C]', 'soil_temp_05cm_depth_1A07N[°C]', 'soil_temp_15cm_depth_1A07N[°C]', 'soil_temp_05cm_depth_1A08M[°C]', 'soil_temp_15cm_depth_1A08M[°C]', 'soil_temp_05cm_depth_1A09N[°C]', 'soil_temp_15cm_depth_1A09N[°C]', 'soil_temp_05cm_depth_1A10M[°C]', 'soil_temp_15cm_depth_1A10M[°C]', 'soil_temp_05cm_depth_1A11N[°C]', 'soil_temp_15cm_depth_1A11N[°C]', 'soil_temp_05cm_depth_1A12M[°C]', 'soil_temp_15cm_depth_1A12M[°C]', 'soil_temp_05cm_depth_1A13M[°C]', 'soil_temp_15cm_depth_1A13M[°C]', 'soil_temp_05cm_depth_1A14M[°C]', 'soil_temp_15cm_depth_1A14M[°C]', 'soil_temp_05cm_depth_1A15M[°C]', 'soil_temp_15cm_depth_1A15M[°C]', 'soil_temp_05cm_depth_1A16M[°C]', 'soil_temp_15cm_depth_1A16M[°C]', 'soil_temp_05cm_depth_1A17M[°C]', 'soil_temp_15cm_depth_1A17M[°C]', 'soil_temp_05cm_depth_1A18M[°C]', 'soil_temp_15cm_depth_1A18M[°C]', 'soil_temp_05cm_depth_1A19M[°C]', 'soil_temp_15cm_depth_1A19M[°C]', 'soil_temp_05cm_depth_1A20M[°C]', 'soil_temp_15cm_depth_1A20M[°C]', 'soil_temp_05cm_depth_1A21M[°C]', 'soil_temp_15cm_depth_1A21M[°C]', 'soil_temp_05cm_depth_1A22M[°C]', 'soil_temp_15cm_depth_1A22M[°C]', 'soil_temp_05cm_depth_2A01M[°C]', 'soil_temp_15cm_depth_2A01M[°C]', 'air_temp_30cm_hei_2A01M[°C]', 'soil_temp_60cm_depth_2A01M[°C]', 'surface_temp_south_west_2A01M[°C]', 'spare_temp_OR_volt_in_2A01M_A[°C]', 'spare_temp_OR_volt_in_2A01M_B[°C]', 'soil_temp_05cm_depth_2A02M[°C]', 'soil_temp_15cm_depth_2A02M[°C]', 'air_temp_30cm_hei_2A02M[°C]', 'soil_temp_60cm_depth_2A02M[°C]', 'surface_temp_south_west_2A02M[°C]', 'spare_temp_OR_volt_in_2A02M_A[°C]', 'spare_temp_OR_volt_in_2A02M_B[°C]', 'soil_temp_05cm_depth_2A03M[°C]', 'soil_temp_15cm_depth_2A03M[°C]', 'air_temp_30cm_hei_2A03M[°C]', 'soil_temp_60cm_depth_2A03M[°C]', 'surface_temp_south_west_2A03M[°C]', 'spare_temp_OR_volt_in_2A03M_A[°C]', 'spare_temp_OR_volt_in_2A03M_B[°C]', 'soil_temp_05cm_depth_2A04M[°C]', 'soil_temp_15cm_depth_2A04M[°C]', 'air_temp_30cm_hei_2A04M[°C]', 'soil_temp_60cm_depth_2A04M[°C]', 'surface_temp_south_west_2A04M[°C]', 'spare_temp_OR_volt_in_2A04M_A[°C]', 'spare_temp_OR_volt_in_2A04M_B[°C]', 'soil_temp_05cm_depth_2A05M[°C]', 'soil_temp_15cm_depth_2A05M[°C]', 'air_temp_30cm_hei_2A05M[°C]', 'soil_temp_60cm_depth_2A05M[°C]', 'surface_temp_south_west_2A05M[°C]', 'spare_temp_OR_volt_in_2A05M_A[°C]', 'spare_temp_OR_volt_in_2A05M_B[°C]', 'soil_temp_05cm_depth_2A06M[°C]', 'soil_temp_15cm_depth_2A06M[°C]', 'air_temp_30cm_hei_2A06M[°C]', 'soil_temp_60cm_depth_2A06M[°C]', 'surface_temp_south_west_2A06M[°C]', 'spare_temp_OR_volt_in_2A06M_A[°C]', 'spare_temp_OR_volt_in_2A06M_B[°C]', 'soil_temp_05cm_depth_2A07M[°C]', 'soil_temp_15cm_depth_2A07M[°C]', 'air_temp_30cm_hei_2A07M[°C]', 'soil_temp_60cm_depth_2A07M[°C]', 'surface_temp_south_west_2A07M[°C]', 'spare_temp_OR_volt_in_2A07M_A[°C]', 'spare_temp_OR_volt_in_2A07M_B[°C]', 'soil_temp_05cm_depth_2A08M[°C]', 'soil_temp_15cm_depth_2A08M[°C]', 'air_temp_30cm_hei_2A08M[°C]', 'soil_temp_60cm_depth_2A08M[°C]', 'surface_temp_south_west_2A08M[°C]', 'spare_temp_OR_volt_in_2A08M_A[°C]', 'spare_temp_OR_volt_in_2A08M_B[°C]', 'soil_temp_05cm_depth_2A09M[°C]', 'soil_temp_15cm_depth_2A09M[°C]', 'air_temp_30cm_hei_2A09M[°C]', 'soil_temp_60cm_depth_2A09M[°C]', 'surface_temp_south_west_2A09M[°C]', 'spare_temp_OR_volt_in_2A09M_A[°C]', 'spare_temp_OR_volt_in_2A09M_B[°C]', 'soil_temp_05cm_depth_2A10M[°C]', 'soil_temp_15cm_depth_2A10M[°C]', 'air_temp_30cm_hei_2A10M[°C]', 'soil_temp_60cm_depth_2A10M[°C]', 'surface_temp_south_west_2A10M[°C]', 'spare_temp_OR_volt_in_2A10M_A[°C]', 'spare_temp_OR_volt_in_2A10M_B[°C]', 'soil_temp_05cm_depth_2A11M[°C]', 'soil_temp_15cm_depth_2A11M[°C]', 'air_temp_30cm_hei_2A11M[°C]', 'soil_temp_60cm_depth_2A11M[°C]', 'surface_temp_south_west_2A11M[°C]', 'spare_temp_OR_volt_in_2A11M_A[°C]', 'spare_temp_OR_volt_in_2A11M_B[°C]', 'soil_temp_05cm_depth_2A12M[°C]', 'soil_temp_15cm_depth_2A12M[°C]', 'air_temp_30cm_hei_2A12M[°C]', 'soil_temp_60cm_depth_2A12M[°C]', 'surface_temp_south_west_2A12M[°C]', 'spare_temp_OR_volt_in_2A12M_A[°C]', 'spare_temp_OR_volt_in_2A12M_B[°C]', 'soil_temp_05cm_depth_2A13M[°C]', 'soil_temp_15cm_depth_2A13M[°C]', 'air_temp_30cm_hei_2A13M[°C]', 'soil_temp_60cm_depth_2A13M[°C]', 'surface_temp_south_west_2A13M[°C]', 'spare_temp_OR_volt_in_2A13M_A[°C]', 'spare_temp_OR_volt_in_2A13M_B[°C]', 'soil_temp_05cm_depth_2A14M[°C]', 'soil_temp_15cm_depth_2A14M[°C]', 'air_temp_30cm_hei_2A14M[°C]', 'soil_temp_60cm_depth_2A14M[°C]', 'surface_temp_south_west_2A14M[°C]', 'spare_temp_OR_volt_in_2A14M_A[°C]', 'spare_temp_OR_volt_in_2A14M_B[°C]', 'soil_temp_05cm_depth_2A15M[°C]', 'soil_temp_15cm_depth_2A15M[°C]', 'air_temp_30cm_hei_2A15M[°C]', 'soil_temp_60cm_depth_2A15M[°C]', 'surface_temp_south_west_2A15M[°C]', 'spare_temp_OR_volt_in_2A15M_A[°C]', 'spare_temp_OR_volt_in_2A15M_B[°C]', 'soil_temp_05cm_depth_2A16M[°C]', 'soil_temp_15cm_depth_2A16M[°C]', 'air_temp_30cm_hei_2A16M[°C]', 'soil_temp_60cm_depth_2A16M[°C]', 'surface_temp_south_west_2A16M[°C]', 'spare_temp_OR_volt_in_2A16M_A[°C]', 'spare_temp_OR_volt_in_2A16M_B[°C]', 'soil_temp_05cm_depth_2A17M[°C]', 'soil_temp_15cm_depth_2A17M[°C]', 'air_temp_30cm_hei_2A17M[°C]', 'soil_temp_60cm_depth_2A17M[°C]', 'surface_temp_south_west_2A17M[°C]', 'spare_temp_OR_volt_in_2A17M_A[°C]', 'spare_temp_OR_volt_in_2A17M_B[°C]', 'soil_temp_05cm_depth_2A18M[°C]', 'soil_temp_15cm_depth_2A18M[°C]', 'air_temp_30cm_hei_2A18M[°C]', 'soil_temp_60cm_depth_2A18M[°C]', 'surface_temp_south_west_2A18M[°C]', 'spare_temp_OR_volt_in_2A18M_A[°C]', 'spare_temp_OR_volt_in_2A18M_B[°C]', 'soil_temp_05cm_depth_2A19M[°C]', 'soil_temp_15cm_depth_2A19M[°C]', 'air_temp_30cm_hei_2A19M[°C]', 'soil_temp_60cm_depth_2A19M[°C]', 'surface_temp_south_west_2A19M[°C]', 'spare_temp_OR_volt_in_2A19M_A[°C]', 'spare_temp_OR_volt_in_2A19M_B[°C]', 'soil_temp_05cm_depth_2A20M[°C]', 'soil_temp_15cm_depth_2A20M[°C]', 'air_temp_30cm_hei_2A20M[°C]', 'soil_temp_60cm_depth_2A20M[°C]', 'surface_temp_south_west_2A20M[°C]', 'spare_temp_OR_volt_in_2A20M_A[°C]', 'spare_temp_OR_volt_in_2A20M_B[°C]', 'soil_temp_05cm_depth_2A21M[°C]', 'soil_temp_15cm_depth_2A21M[°C]', 'air_temp_30cm_hei_2A21M[°C]', 'soil_temp_60cm_depth_2A21M[°C]', 'surface_temp_south_west_2A21M[°C]', 'spare_temp_OR_volt_in_2A21M_A[°C]', 'spare_temp_OR_volt_in_2A21M_B[°C]', 'soil_temp_05cm_depth_2A22M[°C]', 'soil_temp_15cm_depth_2A22M[°C]', 'air_temp_30cm_hei_2A22M[°C]', 'soil_temp_60cm_depth_2A22M[°C]', 'surface_temp_south_west_2A22M[°C]', 'spare_temp_OR_volt_in_2A22M_A[°C]', 'spare_temp_OR_volt_in_2A22M_B[°C]', 'soil_temp_05cm_depth_3A01N[°C]', 'soil_temp_15cm_depth_3A01N[°C]', 'soil_temp_05cm_depth_3A02M[°C]', 'soil_temp_15cm_depth_3A02M[°C]', 'soil_temp_05cm_depth_3A03N[°C]', 'soil_temp_15cm_depth_3A03N[°C]', 'soil_temp_05cm_depth_3A04M[°C]', 'soil_temp_15cm_depth_3A04M[°C]', 'soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]', 'soil_temp_05cm_depth_3A07N[°C]', 'soil_temp_15cm_depth_3A07N[°C]', 'soil_temp_05cm_depth_3A08M[°C]', 'soil_temp_15cm_depth_3A08M[°C]', 'soil_temp_05cm_depth_3A09N[°C]', 'soil_temp_15cm_depth_3A09N[°C]', 'soil_temp_05cm_depth_3A10M[°C]', 'soil_temp_15cm_depth_3A10M[°C]', 'soil_temp_05cm_depth_3A11N[°C]', 'soil_temp_15cm_depth_3A11N[°C]', 'soil_temp_05cm_depth_3A12M[°C]', 'soil_temp_15cm_depth_3A12M[°C]', 'soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A01M[°C]', 'soil_temp_15cm_depth_4A01M[°C]', 'soil_temp_05cm_depth_4A02M[°C]', 'soil_temp_15cm_depth_4A02M[°C]', 'soil_temp_05cm_depth_4A03M[°C]', 'soil_temp_15cm_depth_4A03M[°C]', 'soil_temp_05cm_depth_4A04M[°C]', 'soil_temp_15cm_depth_4A04M[°C]', 'soil_temp_05cm_depth_4A05M[°C]', 'soil_temp_15cm_depth_4A05M[°C]', 'soil_temp_05cm_depth_4A06M[°C]', 'soil_temp_15cm_depth_4A06M[°C]', 'soil_temp_05cm_depth_4A07M[°C]', 'soil_temp_15cm_depth_4A07M[°C]', 'soil_temp_05cm_depth_4A08M[°C]', 'soil_temp_15cm_depth_4A08M[°C]', 'soil_temp_05cm_depth_4A09M[°C]', 'soil_temp_15cm_depth_4A09M[°C]', 'soil_temp_05cm_depth_4A10M[°C]', 'soil_temp_15cm_depth_4A10M[°C]', 'soil_temp_05cm_depth_4A11M[°C]', 'soil_temp_15cm_depth_4A11M[°C]', 'soil_temp_05cm_depth_4A12M[°C]', 'soil_temp_15cm_depth_4A12M[°C]', 'soil_temp_05cm_depth_4A13M[°C]', 'soil_temp_15cm_depth_4A13M[°C]', 'soil_temp_05cm_depth_4A14M[°C]', 'soil_temp_15cm_depth_4A14M[°C]', 'soil_temp_05cm_depth_4A15M[°C]', 'soil_temp_15cm_depth_4A15M[°C]', 'soil_temp_05cm_depth_4A16M[°C]', 'soil_temp_15cm_depth_4A16M[°C]', 'soil_temp_05cm_depth_4A17M[°C]', 'soil_temp_15cm_depth_4A17M[°C]', 'soil_temp_05cm_depth_4A18M[°C]', 'soil_temp_15cm_depth_4A18M[°C]', 'soil_temp_05cm_depth_4A19M[°C]', 'soil_temp_15cm_depth_4A19M[°C]', 'soil_temp_05cm_depth_4A20M[°C]', 'soil_temp_15cm_depth_4A20M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]', 'soil_temp_05cm_depth_4A22M[°C]', 'soil_temp_15cm_depth_4A22M[°C]', 'soil_temp_05cm_depth_4A23M[°C]', 'soil_temp_15cm_depth_4A23M[°C]', 'soil_temp_05cm_depth_3A05N[°C]', 'soil_temp_15cm_depth_3A05N[°C]']
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 50766, 26845))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 50766, 26845))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129373, 105963))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129373, 105963))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 41424, 8215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 45362, 12664))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 45362, 12664))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 45362, 12664))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 43774, 11076))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42327, 9629))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42880, 10182))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42880, 10182))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42880, 10182))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42880, 10182))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42832, 10134))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42832, 10134))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 42832, 10134))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58036, 25338))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58036, 25338))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58036, 25338))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58036, 25338))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 73086, 49676))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 73086, 49676))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 73086, 49676))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58884, 26186))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 68339, 44929))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 68339, 44929))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 68339, 44929))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51913, 19215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51913, 19215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51913, 19215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51913, 19215))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51656, 18958))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51656, 18958))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51656, 18958))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51656, 18958))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 51845, 19147))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129274, 97091))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 216054, 193159))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 216054, 193159))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 189131, 166236))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 189131, 166236))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 143581, 111398))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 143581, 111398))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129500, 97317))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129500, 97317))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 128417, 96234))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 126550, 103140))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 126550, 103140))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 136656, 113246))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 136656, 113246))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103094, 79684))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103094, 79684))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129441, 106031))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 129441, 106031))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 103091, 79681))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 161203, 137793))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 161203, 137793))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58499, 25290))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 58499, 25290))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 34073, 864))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 34073, 864))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46089, 12880))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46089, 12880))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 46086, 12877))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 289251, 280921))
+Columns were merged. (val duplicates, nan before, nan after): ((0, 289251, 280921))
+map wrong columns --- 352.17208099365234 seconds ---
+Missing columns: []
+add missing columns --- 352.1726086139679 seconds ---
+Time uplicated dates: 1426
+2009-07-10 00:00:00    3
+2009-03-16 05:59:00    2
+2009-08-24 17:59:00    2
+2009-08-26 05:59:00    2
+2009-11-15 18:00:00    2
+                      ..
+2009-10-04 15:20:00    1
+2009-04-03 13:36:00    1
+2009-01-21 06:49:00    1
+2009-12-21 12:53:00    1
+2009-10-18 06:01:00    1
+Name: t[s], Length: 511541, dtype: int64
+Out of year dates: 0
+spread table to full timeSeries.  --- 354.39559149742126 seconds ---
+remove duplicates --- 354.87816977500916 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.

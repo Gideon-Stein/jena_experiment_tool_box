@@ -13,6 +13,8 @@ __pycache__/
 
 
 data_preprocessing_pipeline/temperature_moisture_plot_level/transform_logs/
+jena_experiment_display/cached_csv/video.avi
+jena_experiment_display/__pycache__/
 eggs/
 .eggs/
 lib/

@@ -1,0 +1,1825 @@
+load all tables --- 31.67404294013977 seconds ---
+Broken tables and faulty table times detected: 0 from 527
+join all tables --- 32.283307790756226 seconds ---
+drop Unamed columns --- 32.533559799194336 seconds ---
+round to minutes --- 32.53740215301514 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]']
+map wrong columns --- 32.53843116760254 seconds ---
+Missing columns: ['soil_temp_05cm_depth_3A08M[°C]', 'soil_temp_15cm_depth_3A08M[°C]', 'soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]']
+add missing columns --- 32.55394911766052 seconds ---
+Time uplicated dates: 520
+2022-01-23 17:59:00    2
+2022-05-09 06:00:00    2
+2022-04-16 11:59:00    2
+2022-01-31 17:59:00    2
+2022-03-09 17:59:00    2
+                      ..
+2022-02-26 20:11:00    1
+2022-02-12 14:05:00    1
+2022-01-29 07:59:00    1
+2022-04-11 14:46:00    1
+2022-02-08 10:35:00    1
+Name: t[s], Length: 184230, dtype: int64
+Out of year dates: 724
+spread table to full timeSeries.  --- 33.373876333236694 seconds ---
+remove duplicates --- 33.70498776435852 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.
+load all tables --- 26.174443006515503 seconds ---
+Broken tables and faulty table times detected: 0 from 527
+join all tables --- 26.66718864440918 seconds ---
+drop Unamed columns --- 26.844449520111084 seconds ---
+round to minutes --- 26.847160577774048 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]']
+map wrong columns --- 26.848055839538574 seconds ---
+Missing columns: ['soil_temp_05cm_depth_3A08M[°C]', 'soil_temp_15cm_depth_3A08M[°C]', 'soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]']
+add missing columns --- 26.858333587646484 seconds ---
+Time uplicated dates: 520
+2022-01-23 17:59:00    2
+2022-05-09 06:00:00    2
+2022-04-16 11:59:00    2
+2022-01-31 17:59:00    2
+2022-03-09 17:59:00    2
+                      ..
+2022-02-26 20:11:00    1
+2022-02-12 14:05:00    1
+2022-01-29 07:59:00    1
+2022-04-11 14:46:00    1
+2022-02-08 10:35:00    1
+Name: t[s], Length: 184230, dtype: int64
+Out of year dates: 724
+spread table to full timeSeries.  --- 27.642361164093018 seconds ---
+remove duplicates --- 27.939460515975952 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.
+load all tables --- 28.65224814414978 seconds ---
+Broken tables and faulty table times detected: 0 from 527
+join all tables --- 30.386414289474487 seconds ---
+drop Unamed columns --- 35.64937996864319 seconds ---
+round to minutes --- 35.652156352996826 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_1A01N[°C]', 'soil_temp_15cm_depth_1A01N[°C]', 'spare_temp_OR_volt_in_1A01N_B[mV]', 'underpress_suction_plates_1A01N[hPa]', 'soil_temp_05cm_depth_1A02M[°C]', 'soil_temp_15cm_depth_1A02M[°C]', 'soil_temp_05cm_depth_1A03N[°C]', 'soil_temp_15cm_depth_1A03N[°C]', 'spare_temp_OR_volt_in_1A03N_B[mV]', 'underpress_suction_plates_1A03N[hPa]', 'soil_temp_05cm_depth_1A04M[°C]', 'soil_temp_15cm_depth_1A04M[°C]', 'soil_temp_05cm_depth_1A05N[°C]', 'soil_temp_15cm_depth_1A05N[°C]', 'spare_temp_OR_volt_in_1A05N_B[mV]', 'underpress_suction_plates_1A05N[hPa]', 'soil_temp_05cm_depth_1A06M[°C]', 'soil_temp_15cm_depth_1A06M[°C]', 'soil_temp_05cm_depth_1A07N[°C]', 'soil_temp_15cm_depth_1A07N[°C]', 'spare_temp_OR_volt_in_1A07N_B[mV]', 'underpress_suction_plates_1A07N[hPa]', 'soil_temp_05cm_depth_1A08M[°C]', 'soil_temp_15cm_depth_1A08M[°C]', 'soil_temp_05cm_depth_1A09N[°C]', 'soil_temp_15cm_depth_1A09N[°C]', 'spare_temp_OR_volt_in_1A09N_B[mV]', 'underpress_suction_plates_1A09N[hPa]', 'soil_temp_05cm_depth_1A10M[°C]', 'soil_temp_15cm_depth_1A10M[°C]', 'soil_temp_05cm_depth_1A11N[°C]', 'soil_temp_15cm_depth_1A11N[°C]', 'spare_temp_OR_volt_in_1A11N_B[mV]', 'underpress_suction_plates_1A11N[hPa]', 'soil_temp_05cm_depth_1A12M[°C]', 'soil_temp_15cm_depth_1A12M[°C]', 'soil_temp_05cm_depth_1A13M[°C]', 'soil_temp_15cm_depth_1A13M[°C]', 'soil_temp_05cm_depth_1A14M[°C]', 'soil_temp_15cm_depth_1A14M[°C]', 'soil_temp_05cm_depth_1A15M[°C]', 'soil_temp_15cm_depth_1A15M[°C]', 'soil_temp_05cm_depth_1A16M[°C]', 'soil_temp_15cm_depth_1A16M[°C]', 'soil_temp_05cm_depth_1A17M[°C]', 'soil_temp_15cm_depth_1A17M[°C]', 'soil_temp_05cm_depth_1A18M[°C]', 'soil_temp_15cm_depth_1A18M[°C]', 'soil_temp_05cm_depth_1A19M[°C]', 'soil_temp_15cm_depth_1A19M[°C]', 'soil_temp_05cm_depth_1A20M[°C]', 'soil_temp_15cm_depth_1A20M[°C]', 'soil_temp_05cm_depth_1A21M[°C]', 'soil_temp_15cm_depth_1A21M[°C]', 'soil_temp_05cm_depth_1A22M[°C]', 'soil_temp_15cm_depth_1A22M[°C]', 'soil_temp_05cm_depth_2A01M[°C]', 'soil_temp_15cm_depth_2A01M[°C]', 'air_temp_30cm_hei_2A01M[°C]', 'soil_temp_60cm_depth_2A01M[°C]', 'air_rel_humidiy_30cm_hei_2A01M[%]', 'surface_temp_south_west_2A01M[°C]', 'spare_temp_OR_volt_in_2A01M_A[°C]', 'spare_temp_OR_volt_in_2A01M_B[°C]', 'underpress_suc_plates_2A01S_A[hPa]', 'underpress_suc_plates_2A01S_B[hPa]', 'soil_water_tension_eT3_2A01_010[hPa]', 'soil_water_tension_eT3_2A01_020[hPa]', 'soil_temp_05cm_depth_2A02M[°C]', 'soil_temp_15cm_depth_2A02M[°C]', 'air_temp_30cm_hei_2A02M[°C]', 'soil_temp_60cm_depth_2A02M[°C]', 'air_rel_humidiy_30cm_hei_2A02M[%]', 'surface_temp_south_west_2A02M[°C]', 'spare_temp_OR_volt_in_2A02M_A[°C]', 'spare_temp_OR_volt_in_2A02M_B[°C]', 'underpress_suc_plates_2A02N_A[hPa]', 'underpress_suc_plates_2A02N_B[hPa]', 'soil_water_tension_eT3_2A02_010[hPa]', 'soil_water_tension_eT3_2A02_030[hPa]', 'soil_temp_05cm_depth_2A03M[°C]', 'soil_temp_15cm_depth_2A03M[°C]', 'air_temp_30cm_hei_2A03M[°C]', 'soil_temp_60cm_depth_2A03M[°C]', 'air_rel_humidiy_30cm_hei_2A03M[%]', 'surface_temp_south_west_2A03M[°C]', 'spare_temp_OR_volt_in_2A03M_A[°C]', 'spare_temp_OR_volt_in_2A03M_B[°C]', 'soil_temp_05cm_depth_2A04M[°C]', 'soil_temp_15cm_depth_2A04M[°C]', 'air_temp_30cm_hei_2A04M[°C]', 'soil_temp_60cm_depth_2A04M[°C]', 'air_rel_humidiy_30cm_hei_2A04M[%]', 'surface_temp_south_west_2A04M[°C]', 'spare_temp_OR_volt_in_2A04M_A[°C]', 'spare_temp_OR_volt_in_2A04M_B[°C]', 'underpress_suc_plates_2A04N_A[hPa]', 'underpress_suc_plates_2A04N_B[hPa]', 'soil_water_tension_eT3_2A04_010[hPa]', 'soil_water_tension_eT3_2A04_030[hPa]', 'soil_water_tension_eT3_2A04_060[mV]', 'soil_water_tension_eT3_2A04_100[mV]', 'soil_water_tension_eT3_2A05_010[mV]', 'soil_water_tension_eT3_2A05_030[mV]', 'soil_temp_05cm_depth_2A05M[°C]', 'soil_temp_15cm_depth_2A05M[°C]', 'air_temp_30cm_hei_2A05M[°C]', 'soil_temp_60cm_depth_2A05M[°C]', 'air_rel_humidiy_30cm_hei_2A05M[%]', 'surface_temp_south_west_2A05M[°C]', 'spare_temp_OR_volt_in_2A05M_A[°C]', 'spare_temp_OR_volt_in_2A05M_B[°C]', 'soil_temp_05cm_depth_2A06M[°C]', 'soil_temp_15cm_depth_2A06M[°C]', 'air_temp_30cm_hei_2A06M[°C]', 'soil_temp_60cm_depth_2A06M[°C]', 'air_rel_humidiy_30cm_hei_2A06M[%]', 'surface_temp_south_west_2A06M[°C]', 'spare_temp_OR_volt_in_2A06M_A[°C]', 'spare_temp_OR_volt_in_2A06M_B[°C]', 'underpress_suc_plates_2A06N_A[hPa]', 'underpress_suc_plates_2A06N_B[hPa]', 'soil_water_tension_eT3_2A06_010[hPa]', 'soil_water_tension_eT3_2A06_030[hPa]', 'soil_temp_05cm_depth_2A07M[°C]', 'soil_temp_15cm_depth_2A07M[°C]', 'air_temp_30cm_hei_2A07M[°C]', 'soil_temp_60cm_depth_2A07M[°C]', 'air_rel_humidiy_30cm_hei_2A07M[%]', 'surface_temp_south_west_2A07M[°C]', 'spare_temp_OR_volt_in_2A07M_A[°C]', 'spare_temp_OR_volt_in_2A07M_B[°C]', 'soil_temp_05cm_depth_2A08M[°C]', 'soil_temp_15cm_depth_2A08M[°C]', 'air_temp_30cm_hei_2A08M[°C]', 'soil_temp_60cm_depth_2A08M[°C]', 'air_rel_humidiy_30cm_hei_2A08M[%]', 'surface_temp_south_west_2A08M[°C]', 'spare_temp_OR_volt_in_2A08M_A[°C]', 'spare_temp_OR_volt_in_2A08M_B[°C]', 'underpress_suc_plates_2A08N_A[hPa]', 'underpress_suc_plates_2A08N_B[hPa]', 'soil_water_tension_eT3_2A08_010[hPa]', 'soil_water_tension_eT3_2A08_030[hPa]', 'soil_temp_05cm_depth_2A09M[°C]', 'soil_temp_15cm_depth_2A09M[°C]', 'air_temp_30cm_hei_2A09M[°C]', 'soil_temp_60cm_depth_2A09M[°C]', 'air_rel_humidiy_30cm_hei_2A09M[%]', 'surface_temp_south_west_2A09M[°C]', 'spare_temp_OR_volt_in_2A09M_A[°C]', 'spare_temp_OR_volt_in_2A09M_B[°C]', 'soil_temp_05cm_depth_2A10M[°C]', 'soil_temp_15cm_depth_2A10M[°C]', 'air_temp_30cm_hei_2A10M[°C]', 'soil_temp_60cm_depth_2A10M[°C]', 'air_rel_humidiy_30cm_hei_2A10M[%]', 'surface_temp_south_west_2A10M[°C]', 'spare_temp_OR_volt_in_2A10M_A[°C]', 'spare_temp_OR_volt_in_2A10M_B[°C]', 'underpress_suc_plates_2A10N_A[hPa]', 'underpress_suc_plates_2A10N_B[hPa]', 'soil_water_tension_eT3_2A10_010[hPa]', 'soil_water_tension_eT3_2A10_030[hPa]', 'soil_temp_05cm_depth_2A11M[°C]', 'soil_temp_15cm_depth_2A11M[°C]', 'air_temp_30cm_hei_2A11M[°C]', 'soil_temp_60cm_depth_2A11M[°C]', 'air_rel_humidiy_30cm_hei_2A11M[%]', 'surface_temp_south_west_2A11M[°C]', 'spare_temp_OR_volt_in_2A11M_A[°C]', 'spare_temp_OR_volt_in_2A11M_B[°C]', 'soil_temp_05cm_depth_2A12M[°C]', 'soil_temp_15cm_depth_2A12M[°C]', 'air_temp_30cm_hei_2A12M[°C]', 'soil_temp_60cm_depth_2A12M[°C]', 'air_rel_humidiy_30cm_hei_2A12M[%]', 'surface_temp_south_west_2A12M[°C]', 'spare_temp_OR_volt_in_2A12M_A[°C]', 'spare_temp_OR_volt_in_2A12M_B[°C]', 'soil_temp_05cm_depth_2A13M[°C]', 'soil_temp_15cm_depth_2A13M[°C]', 'air_temp_30cm_hei_2A13M[°C]', 'soil_temp_60cm_depth_2A13M[°C]', 'air_rel_humidiy_30cm_hei_2A13M[%]', 'surface_temp_south_west_2A13M[°C]', 'spare_temp_OR_volt_in_2A13M_A[°C]', 'spare_temp_OR_volt_in_2A13M_B[°C]', 'soil_temp_05cm_depth_2A14M[°C]', 'soil_temp_15cm_depth_2A14M[°C]', 'air_temp_30cm_hei_2A14M[°C]', 'soil_temp_60cm_depth_2A14M[°C]', 'air_rel_humidiy_30cm_hei_2A14M[%]', 'surface_temp_south_west_2A14M[°C]', 'spare_temp_OR_volt_in_2A14M_A[°C]', 'spare_temp_OR_volt_in_2A14M_B[°C]', 'soil_temp_05cm_depth_2A15M[°C]', 'soil_temp_15cm_depth_2A15M[°C]', 'air_temp_30cm_hei_2A15M[°C]', 'soil_temp_60cm_depth_2A15M[°C]', 'air_rel_humidiy_30cm_hei_2A15M[%]', 'surface_temp_south_west_2A15M[°C]', 'spare_temp_OR_volt_in_2A15M_A[°C]', 'spare_temp_OR_volt_in_2A15M_B[°C]', 'soil_temp_05cm_depth_2A16M[°C]', 'soil_temp_15cm_depth_2A16M[°C]', 'air_temp_30cm_hei_2A16M[°C]', 'soil_temp_60cm_depth_2A16M[°C]', 'air_rel_humidiy_30cm_hei_2A16M[%]', 'surface_temp_south_west_2A16M[°C]', 'spare_temp_OR_volt_in_2A16M_A[°C]', 'spare_temp_OR_volt_in_2A16M_B[°C]', 'soil_temp_05cm_depth_2A17M[°C]', 'soil_temp_15cm_depth_2A17M[°C]', 'air_temp_30cm_hei_2A17M[°C]', 'soil_temp_60cm_depth_2A17M[°C]', 'air_rel_humidiy_30cm_hei_2A17M[%]', 'surface_temp_south_west_2A17M[°C]', 'spare_temp_OR_volt_in_2A17M_A[°C]', 'spare_temp_OR_volt_in_2A17M_B[°C]', 'soil_temp_05cm_depth_2A18M[°C]', 'soil_temp_15cm_depth_2A18M[°C]', 'air_temp_30cm_hei_2A18M[°C]', 'soil_temp_60cm_depth_2A18M[°C]', 'air_rel_humidiy_30cm_hei_2A18M[%]', 'surface_temp_south_west_2A18M[°C]', 'spare_temp_OR_volt_in_2A18M_A[°C]', 'spare_temp_OR_volt_in_2A18M_B[°C]', 'soil_temp_05cm_depth_2A19M[°C]', 'soil_temp_15cm_depth_2A19M[°C]', 'air_temp_30cm_hei_2A19M[°C]', 'soil_temp_60cm_depth_2A19M[°C]', 'air_rel_humidiy_30cm_hei_2A19M[%]', 'surface_temp_south_west_2A19M[°C]', 'spare_temp_OR_volt_in_2A19M_A[°C]', 'spare_temp_OR_volt_in_2A19M_B[°C]', 'soil_temp_05cm_depth_2A20M[°C]', 'soil_temp_15cm_depth_2A20M[°C]', 'air_temp_30cm_hei_2A20M[°C]', 'soil_temp_60cm_depth_2A20M[°C]', 'air_rel_humidiy_30cm_hei_2A20M[%]', 'surface_temp_south_west_2A20M[°C]', 'spare_temp_OR_volt_in_2A20M_A[°C]', 'spare_temp_OR_volt_in_2A20M_B[°C]', 'soil_temp_05cm_depth_2A21M[°C]', 'soil_temp_15cm_depth_2A21M[°C]', 'air_temp_30cm_hei_2A21M[°C]', 'soil_temp_60cm_depth_2A21M[°C]', 'air_rel_humidiy_30cm_hei_2A21M[%]', 'surface_temp_south_west_2A21M[°C]', 'spare_temp_OR_volt_in_2A21M_A[°C]', 'spare_temp_OR_volt_in_2A21M_B[°C]', 'soil_temp_05cm_depth_2A22M[°C]', 'soil_temp_15cm_depth_2A22M[°C]', 'air_temp_30cm_hei_2A22M[°C]', 'soil_temp_60cm_depth_2A22M[°C]', 'air_rel_humidiy_30cm_hei_2A22M[%]', 'surface_temp_south_west_2A22M[°C]', 'spare_temp_OR_volt_in_2A22M_A[°C]', 'spare_temp_OR_volt_in_2A22M_B[°C]', 'soil_temp_05cm_depth_3A01N[°C]', 'soil_temp_15cm_depth_3A01N[°C]', 'spare_temp_OR_volt_in_3A01N_B[mV]', 'underpress_suction_plates_3A01N[hPa]', 'soil_temp_05cm_depth_3A02M[°C]', 'soil_temp_15cm_depth_3A02M[°C]', 'soil_temp_05cm_depth_3A03N[°C]', 'soil_temp_15cm_depth_3A03N[°C]', 'spare_temp_OR_volt_in_3A03N_B[mV]', 'underpress_suction_plates_3A03N[hPa]', 'soil_temp_05cm_depth_3A04M[°C]', 'soil_temp_15cm_depth_3A04M[°C]', 'soil_temp_05cm_depth_3A05N[°C]', 'soil_temp_15cm_depth_3A05N[°C]', 'spare_temp_OR_volt_in_3A05N_B[hPa]', 'underpress_suction_plates_3A05N[hPa]', 'soil_temp_05cm_depth_3A07N[°C]', 'soil_temp_15cm_depth_3A07N[°C]', 'spare_temp_OR_volt_in_3A07N_B[mV]', 'underpress_suction_plates_3A07N[hPa]', 'soil_temp_05cm_depth_3A09N[°C]', 'soil_temp_15cm_depth_3A09N[°C]', 'spare_temp_OR_volt_in_3A09N_B[mV]', 'underpress_suction_plates_3A09N[hPa]', 'soil_temp_05cm_depth_3A10M[°C]', 'soil_temp_15cm_depth_3A10M[°C]', 'soil_temp_05cm_depth_3A11N[°C]', 'soil_temp_15cm_depth_3A11N[°C]', 'spare_temp_OR_volt_in_3A11N_B[mV]', 'underpress_suction_plates_3A11N[hPa]', 'soil_temp_05cm_depth_3A12M[°C]', 'soil_temp_15cm_depth_3A12M[°C]', 'soil_temp_05cm_depth_4A01M[°C]', 'soil_temp_15cm_depth_4A01M[°C]', 'soil_temp_05cm_depth_4A02M[°C]', 'soil_temp_15cm_depth_4A02M[°C]', 'soil_temp_05cm_depth_4A03M[°C]', 'soil_temp_15cm_depth_4A03M[°C]', 'soil_temp_05cm_depth_4A04M[°C]', 'soil_temp_15cm_depth_4A04M[°C]', 'soil_temp_05cm_depth_4A05M[°C]', 'soil_temp_15cm_depth_4A05M[°C]', 'soil_temp_05cm_depth_4A06M[°C]', 'soil_temp_15cm_depth_4A06M[°C]', 'soil_temp_05cm_depth_4A07M[°C]', 'soil_temp_15cm_depth_4A07M[°C]', 'soil_temp_05cm_depth_4A08M[°C]', 'soil_temp_15cm_depth_4A08M[°C]', 'soil_temp_05cm_depth_4A09M[°C]', 'soil_temp_15cm_depth_4A09M[°C]', 'soil_temp_05cm_depth_4A10M[°C]', 'soil_temp_15cm_depth_4A10M[°C]', 'soil_temp_05cm_depth_4A11M[°C]', 'soil_temp_15cm_depth_4A11M[°C]', 'soil_temp_05cm_depth_4A12M[°C]', 'soil_temp_15cm_depth_4A12M[°C]', 'soil_temp_05cm_depth_4A13M[°C]', 'soil_temp_15cm_depth_4A13M[°C]', 'soil_temp_05cm_depth_4A14M[°C]', 'soil_temp_15cm_depth_4A14M[°C]', 'soil_temp_05cm_depth_4A15M[°C]', 'soil_temp_15cm_depth_4A15M[°C]', 'soil_temp_05cm_depth_4A16M[°C]', 'soil_temp_15cm_depth_4A16M[°C]', 'soil_temp_05cm_depth_4A17M[°C]', 'soil_temp_15cm_depth_4A17M[°C]', 'soil_temp_05cm_depth_4A18M[°C]', 'soil_temp_15cm_depth_4A18M[°C]', 'soil_temp_05cm_depth_4A19M[°C]', 'soil_temp_15cm_depth_4A19M[°C]', 'soil_temp_05cm_depth_4A20M[°C]', 'soil_temp_15cm_depth_4A20M[°C]', 'soil_temp_05cm_depth_4A22M[°C]', 'soil_temp_15cm_depth_4A22M[°C]', 'soil_temp_05cm_depth_4A23M[°C]', 'soil_temp_15cm_depth_4A23M[°C]']
+Attempt to correct with: [['soil_temp_05cm_depth_1A01N[_]'], ['soil_temp_15cm_depth_1A01N[_]'], [], [], ['soil_temp_05cm_depth_1A02M[_]'], ['soil_temp_15cm_depth_1A02M[_]'], ['soil_temp_05cm_depth_1A03N[_]'], ['soil_temp_15cm_depth_1A03N[_]'], [], [], ['soil_temp_05cm_depth_1A04M[_]'], ['soil_temp_15cm_depth_1A04M[_]'], ['soil_temp_05cm_depth_1A05N[_]'], ['soil_temp_15cm_depth_1A05N[_]'], [], [], ['soil_temp_05cm_depth_1A06M[_]'], ['soil_temp_15cm_depth_1A06M[_]'], ['soil_temp_05cm_depth_1A07N[_]'], ['soil_temp_15cm_depth_1A07N[_]'], [], [], ['soil_temp_05cm_depth_1A08M[_]'], ['soil_temp_15cm_depth_1A08M[_]'], ['soil_temp_05cm_depth_1A09N[_]'], ['soil_temp_15cm_depth_1A09N[_]'], [], [], ['soil_temp_05cm_depth_1A10M[_]'], ['soil_temp_15cm_depth_1A10M[_]'], ['soil_temp_05cm_depth_1A11N[_]'], ['soil_temp_15cm_depth_1A11N[_]'], [], [], ['soil_temp_05cm_depth_1A12M[_]'], ['soil_temp_15cm_depth_1A12M[_]'], ['soil_temp_05cm_depth_1A13M[_]'], ['soil_temp_15cm_depth_1A13M[_]'], ['soil_temp_05cm_depth_1A14M[_]'], ['soil_temp_15cm_depth_1A14M[_]'], ['soil_temp_05cm_depth_1A15M[_]'], ['soil_temp_15cm_depth_1A15M[_]'], ['soil_temp_05cm_depth_1A16M[_]'], ['soil_temp_15cm_depth_1A16M[_]'], ['soil_temp_05cm_depth_1A17M[_]'], ['soil_temp_15cm_depth_1A17M[_]'], ['soil_temp_05cm_depth_1A18M[_]'], ['soil_temp_15cm_depth_1A18M[_]'], ['soil_temp_05cm_depth_1A19M[_]'], ['soil_temp_15cm_depth_1A19M[_]'], ['soil_temp_05cm_depth_1A20M[_]'], ['soil_temp_15cm_depth_1A20M[_]'], ['soil_temp_05cm_depth_1A21M[_]'], ['soil_temp_15cm_depth_1A21M[_]'], ['soil_temp_05cm_depth_1A22M[_]'], ['soil_temp_15cm_depth_1A22M[_]'], ['soil_temp_05cm_depth_2A01M[_]'], ['soil_temp_15cm_depth_2A01M[_]'], ['air_temp_30cm_hei_2A01M[_]'], ['soil_temp_60cm_depth_2A01M[_]'], [], ['surface_temp_south_west_2A01M[_]'], ['spare_temp_OR_volt_in_2A01M_A[_]'], ['spare_temp_OR_volt_in_2A01M_B[_]'], [], [], [], [], ['soil_temp_05cm_depth_2A02M[_]'], ['soil_temp_15cm_depth_2A02M[_]'], ['air_temp_30cm_hei_2A02M[_]'], ['soil_temp_60cm_depth_2A02M[_]'], [], ['surface_temp_south_west_2A02M[_]'], ['spare_temp_OR_volt_in_2A02M_A[_]'], ['spare_temp_OR_volt_in_2A02M_B[_]'], [], [], [], [], ['soil_temp_05cm_depth_2A03M[_]'], ['soil_temp_15cm_depth_2A03M[_]'], ['air_temp_30cm_hei_2A03M[_]'], ['soil_temp_60cm_depth_2A03M[_]'], [], ['surface_temp_south_west_2A03M[_]'], ['spare_temp_OR_volt_in_2A03M_A[_]'], ['spare_temp_OR_volt_in_2A03M_B[_]'], ['soil_temp_05cm_depth_2A04M[_]'], ['soil_temp_15cm_depth_2A04M[_]'], ['air_temp_30cm_hei_2A04M[_]'], ['soil_temp_60cm_depth_2A04M[_]'], [], ['surface_temp_south_west_2A04M[_]'], ['spare_temp_OR_volt_in_2A04M_A[_]'], ['spare_temp_OR_volt_in_2A04M_B[_]'], [], [], [], [], [], [], [], [], ['soil_temp_05cm_depth_2A05M[_]'], ['soil_temp_15cm_depth_2A05M[_]'], ['air_temp_30cm_hei_2A05M[_]'], ['soil_temp_60cm_depth_2A05M[_]'], [], ['surface_temp_south_west_2A05M[_]'], ['spare_temp_OR_volt_in_2A05M_A[_]'], ['spare_temp_OR_volt_in_2A05M_B[_]'], ['soil_temp_05cm_depth_2A06M[_]'], ['soil_temp_15cm_depth_2A06M[_]'], ['air_temp_30cm_hei_2A06M[_]'], ['soil_temp_60cm_depth_2A06M[_]'], [], ['surface_temp_south_west_2A06M[_]'], ['spare_temp_OR_volt_in_2A06M_A[_]'], ['spare_temp_OR_volt_in_2A06M_B[_]'], [], [], [], [], ['soil_temp_05cm_depth_2A07M[_]'], ['soil_temp_15cm_depth_2A07M[_]'], ['air_temp_30cm_hei_2A07M[_]'], ['soil_temp_60cm_depth_2A07M[_]'], [], ['surface_temp_south_west_2A07M[_]'], ['spare_temp_OR_volt_in_2A07M_A[_]'], ['spare_temp_OR_volt_in_2A07M_B[_]'], ['soil_temp_05cm_depth_2A08M[_]'], ['soil_temp_15cm_depth_2A08M[_]'], ['air_temp_30cm_hei_2A08M[_]'], ['soil_temp_60cm_depth_2A08M[_]'], [], ['surface_temp_south_west_2A08M[_]'], ['spare_temp_OR_volt_in_2A08M_A[_]'], ['spare_temp_OR_volt_in_2A08M_B[_]'], [], [], [], [], ['soil_temp_05cm_depth_2A09M[_]'], ['soil_temp_15cm_depth_2A09M[_]'], ['air_temp_30cm_hei_2A09M[_]'], ['soil_temp_60cm_depth_2A09M[_]'], [], ['surface_temp_south_west_2A09M[_]'], ['spare_temp_OR_volt_in_2A09M_A[_]'], ['spare_temp_OR_volt_in_2A09M_B[_]'], ['soil_temp_05cm_depth_2A10M[_]'], ['soil_temp_15cm_depth_2A10M[_]'], ['air_temp_30cm_hei_2A10M[_]'], ['soil_temp_60cm_depth_2A10M[_]'], [], ['surface_temp_south_west_2A10M[_]'], ['spare_temp_OR_volt_in_2A10M_A[_]'], ['spare_temp_OR_volt_in_2A10M_B[_]'], [], [], [], [], ['soil_temp_05cm_depth_2A11M[_]'], ['soil_temp_15cm_depth_2A11M[_]'], ['air_temp_30cm_hei_2A11M[_]'], ['soil_temp_60cm_depth_2A11M[_]'], [], ['surface_temp_south_west_2A11M[_]'], ['spare_temp_OR_volt_in_2A11M_A[_]'], ['spare_temp_OR_volt_in_2A11M_B[_]'], ['soil_temp_05cm_depth_2A12M[_]'], ['soil_temp_15cm_depth_2A12M[_]'], ['air_temp_30cm_hei_2A12M[_]'], ['soil_temp_60cm_depth_2A12M[_]'], [], ['surface_temp_south_west_2A12M[_]'], ['spare_temp_OR_volt_in_2A12M_A[_]'], ['spare_temp_OR_volt_in_2A12M_B[_]'], ['soil_temp_05cm_depth_2A13M[_]'], ['soil_temp_15cm_depth_2A13M[_]'], ['air_temp_30cm_hei_2A13M[_]'], ['soil_temp_60cm_depth_2A13M[_]'], [], ['surface_temp_south_west_2A13M[_]'], ['spare_temp_OR_volt_in_2A13M_A[_]'], ['spare_temp_OR_volt_in_2A13M_B[_]'], ['soil_temp_05cm_depth_2A14M[_]'], ['soil_temp_15cm_depth_2A14M[_]'], ['air_temp_30cm_hei_2A14M[_]'], ['soil_temp_60cm_depth_2A14M[_]'], [], ['surface_temp_south_west_2A14M[_]'], ['spare_temp_OR_volt_in_2A14M_A[_]'], ['spare_temp_OR_volt_in_2A14M_B[_]'], ['soil_temp_05cm_depth_2A15M[_]'], ['soil_temp_15cm_depth_2A15M[_]'], ['air_temp_30cm_hei_2A15M[_]'], ['soil_temp_60cm_depth_2A15M[_]'], [], ['surface_temp_south_west_2A15M[_]'], ['spare_temp_OR_volt_in_2A15M_A[_]'], ['spare_temp_OR_volt_in_2A15M_B[_]'], ['soil_temp_05cm_depth_2A16M[_]'], ['soil_temp_15cm_depth_2A16M[_]'], ['air_temp_30cm_hei_2A16M[_]'], ['soil_temp_60cm_depth_2A16M[_]'], [], ['surface_temp_south_west_2A16M[_]'], ['spare_temp_OR_volt_in_2A16M_A[_]'], ['spare_temp_OR_volt_in_2A16M_B[_]'], ['soil_temp_05cm_depth_2A17M[_]'], ['soil_temp_15cm_depth_2A17M[_]'], ['air_temp_30cm_hei_2A17M[_]'], ['soil_temp_60cm_depth_2A17M[_]'], [], ['surface_temp_south_west_2A17M[_]'], ['spare_temp_OR_volt_in_2A17M_A[_]'], ['spare_temp_OR_volt_in_2A17M_B[_]'], ['soil_temp_05cm_depth_2A18M[_]'], ['soil_temp_15cm_depth_2A18M[_]'], ['air_temp_30cm_hei_2A18M[_]'], ['soil_temp_60cm_depth_2A18M[_]'], [], ['surface_temp_south_west_2A18M[_]'], ['spare_temp_OR_volt_in_2A18M_A[_]'], ['spare_temp_OR_volt_in_2A18M_B[_]'], ['soil_temp_05cm_depth_2A19M[_]'], ['soil_temp_15cm_depth_2A19M[_]'], ['air_temp_30cm_hei_2A19M[_]'], ['soil_temp_60cm_depth_2A19M[_]'], [], ['surface_temp_south_west_2A19M[_]'], ['spare_temp_OR_volt_in_2A19M_A[_]'], ['spare_temp_OR_volt_in_2A19M_B[_]'], ['soil_temp_05cm_depth_2A20M[_]'], ['soil_temp_15cm_depth_2A20M[_]'], ['air_temp_30cm_hei_2A20M[_]'], ['soil_temp_60cm_depth_2A20M[_]'], [], ['surface_temp_south_west_2A20M[_]'], ['spare_temp_OR_volt_in_2A20M_A[_]'], ['spare_temp_OR_volt_in_2A20M_B[_]'], ['soil_temp_05cm_depth_2A21M[_]'], ['soil_temp_15cm_depth_2A21M[_]'], ['air_temp_30cm_hei_2A21M[_]'], ['soil_temp_60cm_depth_2A21M[_]'], [], ['surface_temp_south_west_2A21M[_]'], ['spare_temp_OR_volt_in_2A21M_A[_]'], ['spare_temp_OR_volt_in_2A21M_B[_]'], ['soil_temp_05cm_depth_2A22M[_]'], ['soil_temp_15cm_depth_2A22M[_]'], ['air_temp_30cm_hei_2A22M[_]'], ['soil_temp_60cm_depth_2A22M[_]'], [], ['surface_temp_south_west_2A22M[_]'], ['spare_temp_OR_volt_in_2A22M_A[_]'], ['spare_temp_OR_volt_in_2A22M_B[_]'], ['soil_temp_05cm_depth_3A01N[_]'], ['soil_temp_15cm_depth_3A01N[_]'], [], [], ['soil_temp_05cm_depth_3A02M[_]'], ['soil_temp_15cm_depth_3A02M[_]'], ['soil_temp_05cm_depth_3A03N[_]'], ['soil_temp_15cm_depth_3A03N[_]'], [], [], ['soil_temp_05cm_depth_3A04M[_]'], ['soil_temp_15cm_depth_3A04M[_]'], ['soil_temp_05cm_depth_3A05N[_]'], ['soil_temp_15cm_depth_3A05N[_]'], [], [], ['soil_temp_05cm_depth_3A07N[_]'], ['soil_temp_15cm_depth_3A07N[_]'], [], [], ['soil_temp_05cm_depth_3A09N[_]'], ['soil_temp_15cm_depth_3A09N[_]'], [], [], ['soil_temp_05cm_depth_3A10M[_]'], ['soil_temp_15cm_depth_3A10M[_]'], ['soil_temp_05cm_depth_3A11N[_]'], ['soil_temp_15cm_depth_3A11N[_]'], [], [], ['soil_temp_05cm_depth_3A12M[_]'], ['soil_temp_15cm_depth_3A12M[_]'], ['soil_temp_05cm_depth_4A01M[_]'], ['soil_temp_15cm_depth_4A01M[_]'], ['soil_temp_05cm_depth_4A02M[_]'], ['soil_temp_15cm_depth_4A02M[_]'], ['soil_temp_05cm_depth_4A03M[_]'], ['soil_temp_15cm_depth_4A03M[_]'], ['soil_temp_05cm_depth_4A04M[_]'], ['soil_temp_15cm_depth_4A04M[_]'], ['soil_temp_05cm_depth_4A05M[_]'], ['soil_temp_15cm_depth_4A05M[_]'], ['soil_temp_05cm_depth_4A06M[_]'], ['soil_temp_15cm_depth_4A06M[_]'], ['soil_temp_05cm_depth_4A07M[_]'], ['soil_temp_15cm_depth_4A07M[_]'], ['soil_temp_05cm_depth_4A08M[_]'], ['soil_temp_15cm_depth_4A08M[_]'], ['soil_temp_05cm_depth_4A09M[_]'], ['soil_temp_15cm_depth_4A09M[_]'], ['soil_temp_05cm_depth_4A10M[_]'], ['soil_temp_15cm_depth_4A10M[_]'], ['soil_temp_05cm_depth_4A11M[_]'], ['soil_temp_15cm_depth_4A11M[_]'], ['soil_temp_05cm_depth_4A12M[_]'], ['soil_temp_15cm_depth_4A12M[_]'], ['soil_temp_05cm_depth_4A13M[_]'], ['soil_temp_15cm_depth_4A13M[_]'], ['soil_temp_05cm_depth_4A14M[_]'], ['soil_temp_15cm_depth_4A14M[_]'], ['soil_temp_05cm_depth_4A15M[_]'], ['soil_temp_15cm_depth_4A15M[_]'], ['soil_temp_05cm_depth_4A16M[_]'], ['soil_temp_15cm_depth_4A16M[_]'], ['soil_temp_05cm_depth_4A17M[_]'], ['soil_temp_15cm_depth_4A17M[_]'], ['soil_temp_05cm_depth_4A18M[_]'], ['soil_temp_15cm_depth_4A18M[_]'], ['soil_temp_05cm_depth_4A19M[_]'], ['soil_temp_15cm_depth_4A19M[_]'], ['soil_temp_05cm_depth_4A20M[_]'], ['soil_temp_15cm_depth_4A20M[_]'], ['soil_temp_05cm_depth_4A22M[_]'], ['soil_temp_15cm_depth_4A22M[_]'], ['soil_temp_05cm_depth_4A23M[_]'], ['soil_temp_15cm_depth_4A23M[_]']]
+load all tables --- 28.594248294830322 seconds ---
+Broken tables and faulty table times detected: 0 from 527
+join all tables --- 29.097910404205322 seconds ---
+drop Unamed columns --- 40.53601789474487 seconds ---
+round to minutes --- 40.538772106170654 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]']
+map wrong columns --- 40.53967809677124 seconds ---
+Missing columns: ['soil_temp_05cm_depth_3A08M[°C]', 'soil_temp_15cm_depth_3A08M[°C]', 'soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]']
+add missing columns --- 40.5502769947052 seconds ---
+Time uplicated dates: 520
+2022-01-23 17:59:00    2
+2022-05-09 06:00:00    2
+2022-04-16 11:59:00    2
+2022-01-31 17:59:00    2
+2022-03-09 17:59:00    2
+                      ..
+2022-02-26 20:11:00    1
+2022-02-12 14:05:00    1
+2022-01-29 07:59:00    1
+2022-04-11 14:46:00    1
+2022-02-08 10:35:00    1
+Name: t[s], Length: 184230, dtype: int64
+Out of year dates: 724
+spread table to full timeSeries.  --- 69.38437867164612 seconds ---
+remove duplicates --- 71.67033648490906 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.
+Loading /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Cast to long format 
+Loading /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Cast to long format 
+Filter 
+Values in table: 47304000
+After removals: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             1331143
+soil_temp_15cm_depth             1101060
+soil_temp_05cm_depth_removed     1331143
+soil_temp_15cm_depth_removed     1101060
+dtype: int64
+After boxplot: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             1900918
+soil_temp_15cm_depth             1499352
+soil_temp_05cm_depth_removed     1900918
+soil_temp_15cm_depth_removed     1499352
+dtype: int64
+After custom1: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             1900918
+soil_temp_15cm_depth             1499352
+soil_temp_05cm_depth_removed     1900918
+soil_temp_15cm_depth_removed     1499352
+dtype: int64
+After custom2: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             1900918
+soil_temp_15cm_depth             1499352
+soil_temp_05cm_depth_removed     1900918
+soil_temp_15cm_depth_removed     1499352
+dtype: int64
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             1900918
+soil_temp_15cm_depth             1499352
+soil_temp_05cm_depth_removed     1900918
+soil_temp_15cm_depth_removed     1499352
+dtype: int64
+summing time..
+Loading /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Cast to long format 
+Filter 
+Values in table: 11563200
+datetime                            11563200
+plotcode                            11563200
+air_rel_humidiy_30cm_hei                   0
+surface_temp_south_west                    0
+soil_temp_05cm_depth                  413707
+air_temp_30cm_hei                          0
+soil_temp_60cm_depth                  359867
+soil_temp_15cm_depth                  183511
+air_rel_humidiy_30cm_hei_removed           0
+surface_temp_south_west_removed            0
+soil_temp_05cm_depth_removed          413707
+air_temp_30cm_hei_removed                  0
+soil_temp_60cm_depth_removed          359867
+soil_temp_15cm_depth_removed          183511
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+air_rel_humidiy_30cm_hei                   0
+surface_temp_south_west                    0
+soil_temp_05cm_depth                  413707
+air_temp_30cm_hei                         25
+soil_temp_60cm_depth                  359867
+soil_temp_15cm_depth                  183511
+air_rel_humidiy_30cm_hei_removed           0
+surface_temp_south_west_removed            0
+soil_temp_05cm_depth_removed          413707
+air_temp_30cm_hei_removed                 25
+soil_temp_60cm_depth_removed          359867
+soil_temp_15cm_depth_removed          183511
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+air_rel_humidiy_30cm_hei                   0
+surface_temp_south_west               381305
+soil_temp_05cm_depth                  413707
+air_temp_30cm_hei                         25
+soil_temp_60cm_depth                  359867
+soil_temp_15cm_depth                  183511
+air_rel_humidiy_30cm_hei_removed           0
+surface_temp_south_west_removed       381305
+soil_temp_05cm_depth_removed          413707
+air_temp_30cm_hei_removed                 25
+soil_temp_60cm_depth_removed          359867
+soil_temp_15cm_depth_removed          183511
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+air_rel_humidiy_30cm_hei              598736
+surface_temp_south_west               381305
+soil_temp_05cm_depth                  413707
+air_temp_30cm_hei                         25
+soil_temp_60cm_depth                  359867
+soil_temp_15cm_depth                  183511
+air_rel_humidiy_30cm_hei_removed      598736
+surface_temp_south_west_removed       381305
+soil_temp_05cm_depth_removed          413707
+air_temp_30cm_hei_removed                 25
+soil_temp_60cm_depth_removed          359867
+soil_temp_15cm_depth_removed          183511
+dtype: int64
+After removals: 
+datetime                            11563200
+plotcode                            11563200
+air_rel_humidiy_30cm_hei              598736
+surface_temp_south_west               381305
+soil_temp_05cm_depth                  413707
+air_temp_30cm_hei                         25
+soil_temp_60cm_depth                  359867
+soil_temp_15cm_depth                  183511
+air_rel_humidiy_30cm_hei_removed      598736
+surface_temp_south_west_removed       381305
+soil_temp_05cm_depth_removed          413707
+air_temp_30cm_hei_removed                 25
+soil_temp_60cm_depth_removed          359867
+soil_temp_15cm_depth_removed          183511
+dtype: int64
+After boxplot: 
+datetime                            11563200
+plotcode                            11563200
+air_rel_humidiy_30cm_hei              876363
+surface_temp_south_west               858525
+soil_temp_05cm_depth                  597649
+air_temp_30cm_hei                     309455
+soil_temp_60cm_depth                  546346
+soil_temp_15cm_depth                  233457
+air_rel_humidiy_30cm_hei_removed      876363
+surface_temp_south_west_removed       858525
+soil_temp_05cm_depth_removed          597649
+air_temp_30cm_hei_removed             309455
+soil_temp_60cm_depth_removed          546346
+soil_temp_15cm_depth_removed          233457
+dtype: int64
+After custom1: 
+datetime                            11563200
+plotcode                            11563200
+air_rel_humidiy_30cm_hei              876363
+surface_temp_south_west               858525
+soil_temp_05cm_depth                  597649
+air_temp_30cm_hei                     309455
+soil_temp_60cm_depth                  546346
+soil_temp_15cm_depth                  233457
+air_rel_humidiy_30cm_hei_removed      876363
+surface_temp_south_west_removed       858525
+soil_temp_05cm_depth_removed          597649
+air_temp_30cm_hei_removed             309455
+soil_temp_60cm_depth_removed          546346
+soil_temp_15cm_depth_removed          233457
+dtype: int64
+After custom2: 
+datetime                            11563200
+plotcode                            11563200
+air_rel_humidiy_30cm_hei              876363
+surface_temp_south_west               858525
+soil_temp_05cm_depth                  597649
+air_temp_30cm_hei                     309455
+soil_temp_60cm_depth                  546346
+soil_temp_15cm_depth                  233457
+air_rel_humidiy_30cm_hei_removed      876363
+surface_temp_south_west_removed       858525
+soil_temp_05cm_depth_removed          597649
+air_temp_30cm_hei_removed             309455
+soil_temp_60cm_depth_removed          546346
+soil_temp_15cm_depth_removed          233457
+dtype: int64
+After custom3: 
+datetime                            11563200
+plotcode                            11563200
+air_rel_humidiy_30cm_hei              876363
+surface_temp_south_west               858525
+soil_temp_05cm_depth                  597649
+air_temp_30cm_hei                     309455
+soil_temp_60cm_depth                  546346
+soil_temp_15cm_depth                  233457
+air_rel_humidiy_30cm_hei_removed      876363
+surface_temp_south_west_removed       858525
+soil_temp_05cm_depth_removed          597649
+air_temp_30cm_hei_removed             309455
+soil_temp_60cm_depth_removed          546346
+soil_temp_15cm_depth_removed          233457
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+air_rel_humidiy_30cm_hei              876363
+surface_temp_south_west               858525
+soil_temp_05cm_depth                  597649
+air_temp_30cm_hei                     309455
+soil_temp_60cm_depth                  546346
+soil_temp_15cm_depth                  233457
+air_rel_humidiy_30cm_hei_removed      876363
+surface_temp_south_west_removed       858525
+soil_temp_05cm_depth_removed          597649
+air_temp_30cm_hei_removed             309455
+soil_temp_60cm_depth_removed          546346
+soil_temp_15cm_depth_removed          233457
+dtype: int64
+summing time..
+load all tables --- 1.9073486328125e-06 seconds ---
+Broken tables and faulty table times detected: 0 from 0
+load all tables --- 48.87183427810669 seconds ---
+Broken tables and faulty table times detected: 0 from 1024
+join all tables --- 52.40546917915344 seconds ---
+drop Unamed columns --- 60.54475498199463 seconds ---
+round to minutes --- 60.572741746902466 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]']
+map wrong columns --- 60.574395418167114 seconds ---
+Missing columns: ['soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]']
+add missing columns --- 60.58973145484924 seconds ---
+Time uplicated dates: 1012
+2022-07-14 11:59:00    2
+2022-07-31 11:59:00    2
+2022-11-23 17:59:00    2
+2022-06-24 17:59:00    2
+2022-09-10 17:59:00    2
+                      ..
+2022-12-31 12:00:00    1
+2022-12-31 12:10:00    1
+2022-12-31 12:12:00    1
+2022-12-31 12:13:00    1
+2023-01-01 05:59:00    1
+Name: t[s], Length: 354239, dtype: int64
+Out of year dates: 360
+spread table to full timeSeries.  --- 75.6805145740509 seconds ---
+remove duplicates --- 77.93883466720581 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.
+load all tables --- 71.05526876449585 seconds ---
+Broken tables and faulty table times detected: 0 from 1551
+join all tables --- 74.56209945678711 seconds ---
+drop Unamed columns --- 79.88403820991516 seconds ---
+round to minutes --- 79.89075255393982 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]']
+map wrong columns --- 79.89185762405396 seconds ---
+Missing columns: ['soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]']
+add missing columns --- 79.90718364715576 seconds ---
+Time uplicated dates: 15445
+2022-05-06 12:00:00    4
+2022-05-06 00:00:00    4
+2022-05-02 00:00:00    4
+2022-05-08 12:00:00    4
+2022-05-09 06:00:00    4
+                      ..
+2022-12-28 11:06:00    1
+2022-12-28 11:07:00    1
+2022-12-28 11:08:00    1
+2022-12-28 11:09:00    1
+2023-01-01 05:59:00    1
+Name: t[s], Length: 524556, dtype: int64
+Out of year dates: 1084
+spread table to full timeSeries.  --- 96.2420289516449 seconds ---
+remove duplicates --- 97.59965372085571 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.
+Loading /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Cast to long format 
+Filter 
+Values in table: 47304000
+After removals: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_15cm_depth             2825300
+soil_temp_05cm_depth             3694365
+soil_temp_15cm_depth_removed     2825300
+soil_temp_05cm_depth_removed     3694365
+dtype: int64
+After boxplot: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_15cm_depth             4023578
+soil_temp_05cm_depth             5319973
+soil_temp_15cm_depth_removed     4023578
+soil_temp_05cm_depth_removed     5319973
+dtype: int64
+After custom1: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_15cm_depth             4023578
+soil_temp_05cm_depth             5319973
+soil_temp_15cm_depth_removed     4023578
+soil_temp_05cm_depth_removed     5319973
+dtype: int64
+After custom2: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_15cm_depth             4023578
+soil_temp_05cm_depth             5319973
+soil_temp_15cm_depth_removed     4023578
+soil_temp_05cm_depth_removed     5319973
+dtype: int64
+datetime                        47304000
+plotcode                        47304000
+soil_temp_15cm_depth             4023578
+soil_temp_05cm_depth             5319973
+soil_temp_15cm_depth_removed     4023578
+soil_temp_05cm_depth_removed     5319973
+dtype: int64
+No summing...
+Loading /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Cast to long format 
+Filter 
+Values in table: 47304000
+After removals: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             3694365
+soil_temp_15cm_depth             2825300
+soil_temp_05cm_depth_removed     3694365
+soil_temp_15cm_depth_removed     2825300
+dtype: int64
+After boxplot: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             5319973
+soil_temp_15cm_depth             4023578
+soil_temp_05cm_depth_removed     5319973
+soil_temp_15cm_depth_removed     4023578
+dtype: int64
+After custom1: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             5319973
+soil_temp_15cm_depth             4023578
+soil_temp_05cm_depth_removed     5319973
+soil_temp_15cm_depth_removed     4023578
+dtype: int64
+After custom2: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             5319973
+soil_temp_15cm_depth             4023578
+soil_temp_05cm_depth_removed     5319973
+soil_temp_15cm_depth_removed     4023578
+dtype: int64
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             5319973
+soil_temp_15cm_depth             4023578
+soil_temp_05cm_depth_removed     5319973
+soil_temp_15cm_depth_removed     4023578
+dtype: int64
+summing time..
+Loading /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Loading /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2022.csv
+Cast to long format 
+Filter 
+Values in table: 11563200
+datetime                            11563200
+plotcode                            11563200
+air_temp_30cm_hei                          0
+soil_temp_15cm_depth                  327640
+air_rel_humidiy_30cm_hei                   0
+soil_temp_60cm_depth                 1035621
+surface_temp_south_west                    0
+soil_temp_05cm_depth                 1081586
+air_temp_30cm_hei_removed                  0
+soil_temp_15cm_depth_removed          327640
+air_rel_humidiy_30cm_hei_removed           0
+soil_temp_60cm_depth_removed         1035621
+surface_temp_south_west_removed            0
+soil_temp_05cm_depth_removed         1081586
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+air_temp_30cm_hei                     256486
+soil_temp_15cm_depth                  327640
+air_rel_humidiy_30cm_hei                   0
+soil_temp_60cm_depth                 1035621
+surface_temp_south_west                    0
+soil_temp_05cm_depth                 1081586
+air_temp_30cm_hei_removed             256486
+soil_temp_15cm_depth_removed          327640
+air_rel_humidiy_30cm_hei_removed           0
+soil_temp_60cm_depth_removed         1035621
+surface_temp_south_west_removed            0
+soil_temp_05cm_depth_removed         1081586
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+air_temp_30cm_hei                     256486
+soil_temp_15cm_depth                  327640
+air_rel_humidiy_30cm_hei                   0
+soil_temp_60cm_depth                 1035621
+surface_temp_south_west               763809
+soil_temp_05cm_depth                 1081586
+air_temp_30cm_hei_removed             256486
+soil_temp_15cm_depth_removed          327640
+air_rel_humidiy_30cm_hei_removed           0
+soil_temp_60cm_depth_removed         1035621
+surface_temp_south_west_removed       763809
+soil_temp_05cm_depth_removed         1081586
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+air_temp_30cm_hei                     256486
+soil_temp_15cm_depth                  327640
+air_rel_humidiy_30cm_hei             2657305
+soil_temp_60cm_depth                 1035621
+surface_temp_south_west               763809
+soil_temp_05cm_depth                 1081586
+air_temp_30cm_hei_removed             256486
+soil_temp_15cm_depth_removed          327640
+air_rel_humidiy_30cm_hei_removed     2657305
+soil_temp_60cm_depth_removed         1035621
+surface_temp_south_west_removed       763809
+soil_temp_05cm_depth_removed         1081586
+dtype: int64
+After removals: 
+datetime                            11563200
+plotcode                            11563200
+air_temp_30cm_hei                     256486
+soil_temp_15cm_depth                  327640
+air_rel_humidiy_30cm_hei             2657305
+soil_temp_60cm_depth                 1035621
+surface_temp_south_west               763809
+soil_temp_05cm_depth                 1081586
+air_temp_30cm_hei_removed             256486
+soil_temp_15cm_depth_removed          327640
+air_rel_humidiy_30cm_hei_removed     2657305
+soil_temp_60cm_depth_removed         1035621
+surface_temp_south_west_removed       763809
+soil_temp_05cm_depth_removed         1081586
+dtype: int64
+After boxplot: 
+datetime                            11563200
+plotcode                            11563200
+air_temp_30cm_hei                    1036648
+soil_temp_15cm_depth                  516084
+air_rel_humidiy_30cm_hei             3378374
+soil_temp_60cm_depth                 1516221
+surface_temp_south_west              2154698
+soil_temp_05cm_depth                 1551872
+air_temp_30cm_hei_removed            1036648
+soil_temp_15cm_depth_removed          516084
+air_rel_humidiy_30cm_hei_removed     3378374
+soil_temp_60cm_depth_removed         1516221
+surface_temp_south_west_removed      2154698
+soil_temp_05cm_depth_removed         1551872
+dtype: int64
+After custom1: 
+datetime                            11563200
+plotcode                            11563200
+air_temp_30cm_hei                    1036648
+soil_temp_15cm_depth                  516084
+air_rel_humidiy_30cm_hei             3378374
+soil_temp_60cm_depth                 1516221
+surface_temp_south_west              2154698
+soil_temp_05cm_depth                 1551872
+air_temp_30cm_hei_removed            1036648
+soil_temp_15cm_depth_removed          516084
+air_rel_humidiy_30cm_hei_removed     3378374
+soil_temp_60cm_depth_removed         1516221
+surface_temp_south_west_removed      2154698
+soil_temp_05cm_depth_removed         1551872
+dtype: int64
+After custom2: 
+datetime                            11563200
+plotcode                            11563200
+air_temp_30cm_hei                    1036648
+soil_temp_15cm_depth                  516084
+air_rel_humidiy_30cm_hei             3378374
+soil_temp_60cm_depth                 1516221
+surface_temp_south_west              2154698
+soil_temp_05cm_depth                 1551872
+air_temp_30cm_hei_removed            1036648
+soil_temp_15cm_depth_removed          516084
+air_rel_humidiy_30cm_hei_removed     3378374
+soil_temp_60cm_depth_removed         1516221
+surface_temp_south_west_removed      2154698
+soil_temp_05cm_depth_removed         1551872
+dtype: int64
+After custom3: 
+datetime                            11563200
+plotcode                            11563200
+air_temp_30cm_hei                    1036648
+soil_temp_15cm_depth                  516084
+air_rel_humidiy_30cm_hei             3378374
+soil_temp_60cm_depth                 1516221
+surface_temp_south_west              2154698
+soil_temp_05cm_depth                 1551872
+air_temp_30cm_hei_removed            1036648
+soil_temp_15cm_depth_removed          516084
+air_rel_humidiy_30cm_hei_removed     3378374
+soil_temp_60cm_depth_removed         1516221
+surface_temp_south_west_removed      2154698
+soil_temp_05cm_depth_removed         1551872
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+air_temp_30cm_hei                    1036648
+soil_temp_15cm_depth                  516084
+air_rel_humidiy_30cm_hei             3378374
+soil_temp_60cm_depth                 1516221
+surface_temp_south_west              2154698
+soil_temp_05cm_depth                 1551872
+air_temp_30cm_hei_removed            1036648
+soil_temp_15cm_depth_removed          516084
+air_rel_humidiy_30cm_hei_removed     3378374
+soil_temp_60cm_depth_removed         1516221
+surface_temp_south_west_removed      2154698
+soil_temp_05cm_depth_removed         1551872
+dtype: int64
+summing time..
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220561800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220580000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220590600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220600600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220611800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220650600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220651200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220651800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220660000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220660600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220661200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220661800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220670000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220670600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220671200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220671800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220680000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220680600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220681200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220681800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220690000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220690600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220691800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220700000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220701200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220701800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220710000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220710600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220711200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220711800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220720000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220720600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220721200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220721800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220730000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220730600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220731200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220731800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220740000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220740600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220741200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220741800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220750000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220750600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220751200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220751800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220760000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220760600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220761200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220761800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220770000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220770600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220771200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220771800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220780000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220780600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220781200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220781800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220790000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220790600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220791200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220791800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220800000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220800600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220801200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220801800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220810000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220810600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220811200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220811800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220820000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220821200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220821800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220830000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220830600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220831200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220831800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220840000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220840823.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220841200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220841801.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220850001.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220850601.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220851201.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220851801.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220860601.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220861201.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220861801.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220870001.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220870601.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220871201.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220871801.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220880001.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220880601.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220881201.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220881802.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220890002.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220890602.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220891202.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220891802.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220900002.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220900602.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220901802.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220910002.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220910602.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220911202.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220911802.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220920002.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220920602.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220921202.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220921802.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220930002.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220930602.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220931202.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220931802.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220940002.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220940602.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220941202.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220941802.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220950002.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220950602.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220951202.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220951802.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220960002.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220960602.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220961202.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220961802.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220970002.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220970602.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220971405.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220971800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220980000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220980600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220981200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220981800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220990000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220990600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220991200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20220991800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221000000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221000600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221001200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221001800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221010000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221010600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221011200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221011800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221020000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221020600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221021200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221021800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221030000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221030600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221031200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221031800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221040000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221040600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221041200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221041800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221050000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221050600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221051200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221051800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221060000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221060600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221061200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221061800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221070000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221070600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221071200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221071800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221080000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221080600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221081200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221081800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221090000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221090600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221091200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221091800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221100000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221100600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221101200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221101800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221110000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221110600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221111200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221111800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221120000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221121015.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221121200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221121800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221130000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221130600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221131200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221131800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221140000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221140600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221141200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221141800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221150000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221150600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221151200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221151800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221160000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221160600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221161200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221161800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221170000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221170600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221171200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221171800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221180000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221180600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221181200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221181800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221190000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221190600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221191200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221191801.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221200001.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221200601.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221201201.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221201801.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221210001.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221210601.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221211201.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221211801.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221220001.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221220601.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221221201.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221221230.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221221800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221230000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221230600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221231200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221231800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221240000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221240559.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221241200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221241800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221250000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221250600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221251200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221251800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221260000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221260600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221261200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221261800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221270000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221270600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221271200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221271800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221280000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221280600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221281200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221281800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221290000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221290600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/Y2022001bis129_csv/BD20221291200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221200001.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221200601.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221201201.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221201801.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221210001.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221210601.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221211201.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221211801.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221220001.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221220601.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221221201.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221221230.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221221800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221230000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221230600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221231200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221231800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221240000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221240559.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221241200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221241800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221250000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221250600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221251200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221251800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221260000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221260600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221261200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221261800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221270000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221270600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221271200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221271800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221280000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221280600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221281200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221281800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221290000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221290600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221291200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221291607.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221291622.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221291800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221300000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221300600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221301200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221301800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221310000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221310600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221311200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221311800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221320000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221320600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221321200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221321800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221330000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221330600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221331200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221331800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221340000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221340600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221341200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221341800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221350000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221350600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221351200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221351800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221360000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221360600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221361200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221361800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221370000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221370600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221371200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221371800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221380000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221380600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221381200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221381800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221390000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221390600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221391200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221391800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221400000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221400600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221401200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221401800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221410000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221410600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221411200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221411800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221420000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221420600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221421200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221421800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221430000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221430600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221431200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221431800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221440000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221440600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221441200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221441800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221450000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221450600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221451200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221451759.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221460000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221460600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221461200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221461800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221470000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221470600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221471200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221471800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221480000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221480600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221481200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221481800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221490000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221490600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221491200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221491800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221500000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221500600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221501200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221501800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221510000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221510810.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221511200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221511800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221520000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221520600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221521200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221521800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221530000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221530600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221531200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221531800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221540000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221540600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221541200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221541800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221550000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221550600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221551200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221551800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221560000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221560600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221561200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221561800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221570000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221570600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221571200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221571800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221580000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221580600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221581200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221581800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221590000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221590600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221591200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221591800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221600000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221600600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221601200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221601800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221610000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221610600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221611200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221611800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221620000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221620600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221621200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221621800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221630000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221630600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221631200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221631800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221640000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221640600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221641200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221641800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221650000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221650600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221651200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221651800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221660000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221660600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221661200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221670000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221670600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221671200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221671800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221680000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221680600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221681245.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221681404.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221681421.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221681423.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221681429.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221681434.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221681512.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221681800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221690000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221690600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221691200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221691800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221700000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221700600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221701200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221701800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221710000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221710600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221711200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221711800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221720000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221720600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221721200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221721800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221730000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221730600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221731200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221731800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221740000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221740600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221741200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221741800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221750000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221750600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221751200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221751800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221760000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221760600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221761200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221761800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221770000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221770600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221771200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221771800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221780000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221780600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221781200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221781800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221790000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221790600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221791200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221791800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221800000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221800600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221801200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221801800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221810000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221810600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221811200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221811800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221820000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221820600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221821200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221821800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221830000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221830600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221831200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221831800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221840000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221840600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221841200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221841800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221850000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221850600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221850749.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221851200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221851800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221860000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221860600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221861200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221861800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221870000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221870600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221871200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221871800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221880000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221880600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221881200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221881800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221890000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221890600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221891200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221891800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221900000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221900600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221901200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221901800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221910000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221910600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221911200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221911800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221920000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221920600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221921200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221921800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221930000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221930600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221931200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221931800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221940000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221940600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221941328.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221941800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221950000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221950600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221951200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221951800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221960000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221960600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221961200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221961800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221970000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221970600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221971200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221971800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221980000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221980600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221981200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221981800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221990000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221990600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221991200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20221991800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222000000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222000600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222001200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222001800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222010000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222010600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222011200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222011800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222020000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222020600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222021200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222021800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222030000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222030600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222031200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222031800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222040000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222040600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222041200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222041800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222050000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222050600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222051200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222051800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222060000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222060600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222061323.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222061800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222070000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222070600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222071200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222071800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222080000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222080600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222081200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222081800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222090000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222090600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222091200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222091800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222100000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222100600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222101200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222101800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222110000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222110600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222111200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222111800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222120000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222120600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222121200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222121800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222130000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222130600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222131200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222131800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222140000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222140600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222141200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222141800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222150000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222150600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222151200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222151800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222160000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222160600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222161200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222161800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222170000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222170600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222171200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222171800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222180000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222180600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222181200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222181800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222190000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222190600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222191200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222191800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222200000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222200600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222201200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222201800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222210000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222210600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222211200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222211800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222220000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222220600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222221200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222221800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222230000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222230600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222231200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222231800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222240000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222240600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222241200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222241800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222250000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222250600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222251200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222251800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222260000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222260600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222261200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222261800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222270000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222270600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222271200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222271800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222280000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222280600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222281200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222281800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222290000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222290600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222291200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222291800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222300000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222300600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222301200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222301800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222310000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222310600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222311200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222311800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222320000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222320600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222321200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222321800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222330000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222330600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222331200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222331800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222340000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222340743.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222341200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222341800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222350000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222350600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222351200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222351800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222360000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222360600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222361200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222361800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222370000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222370600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222371200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222371800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222380000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222380600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222381200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222381800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222390000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222390600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222391200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222391800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222400000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222400600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222401200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222401800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222410000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222410600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222411200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222411800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222420000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222420600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222421200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222421800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222430000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222430600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222431200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222431800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222440000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222440600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222441200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222441800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222450000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222450600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222451200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222451800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222460000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222460600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222461200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222461800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222470000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222470600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222471200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222471800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222480000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222480600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222481200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222481800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222490000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222490600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222491200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222491800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222500000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222500600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222501200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222501800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222510000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222510600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222511200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222511800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222520000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222520600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222521200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222521800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222530000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222530600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222531200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222531800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222540000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222540600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222541200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222541800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222550000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222550735.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222551200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222551800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222560000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222560600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222561200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222561800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222570000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222570600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222571200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222571800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222580000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222580600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222581200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222581800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222640000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222661800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222670000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222670600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222671200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222671800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222680000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222680600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222681200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222681800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222690000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222690600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222691200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222691800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222700000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222700600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222701200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222701800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222710000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222710600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222711200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222711800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222720000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222720600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222721200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222721800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222730000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222730600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222731200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222731800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222740000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222740600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222741200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222741800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222750000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222750600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222751200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222751800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222760000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222760600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222761200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222761800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222770000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222770600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222771200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222771800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222780000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222780600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222781200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222781800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222790000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222790600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222791200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222791800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222800000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222800600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222801200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222801800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222810000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222810600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222811200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222811800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222820000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222820600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222821200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222821800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222830000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222830600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222831200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222831800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222840000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222841200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222841800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222850000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222850600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222851200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222851800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222860000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222860600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222861800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222870000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222870600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222871200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222871800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222880000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222880600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222881200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222881800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222890000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222890600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222891200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222891800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222900000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222900600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222901200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222901800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222910000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222910600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222911200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222911800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222912359.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222920600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222921200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222921800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222930000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222930600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222931200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222931800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222940000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222940600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222941200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222941800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222950000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222950600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222951200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222951800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222960000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222960600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222961200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222961800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222970000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222970600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222971200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222971800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222980000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222980600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222981200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222981800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222990000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222990600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222991200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20222991800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223000000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223000600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223001200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223001800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223010000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223010600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223011200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223011800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223020000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223020600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223021200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223021800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223030000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223030600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223031200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223031800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223040000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223040600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223041200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223041800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223050000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223050600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223051024.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223051200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223051800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223060000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223060600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223061200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223061800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223070000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223070600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223071200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223071800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223080000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223080600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223081200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223081800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223090000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223090600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223091200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223091800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223100000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223100600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223101200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223101800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223110000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223110637.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223111200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223111800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223120000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223120600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223121200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223121305.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223121800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223130000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223130600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223131200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223131800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223140000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223140600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223141200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223141800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223150000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223150600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223200000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223230600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223231200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223231800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223240000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223240600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223241200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223241800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223250000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223250600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223251200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223251800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223260000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223260600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223261200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223261800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223270000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223271200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223271800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223280000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223280600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223281200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223281800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223290000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223290600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223291200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223291800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223300000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223300600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223301200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223301800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223310000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223310600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223311200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223311800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223320000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223320600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223320630.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223321200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223330000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223330600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223331200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223340000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223340600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223341800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223350000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223350600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223351200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223351800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223360000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223361200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223361800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223370600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223371200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223371800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223380000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223380600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223381200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223390000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223390632.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223391200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223391546.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223391800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223400000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223400600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223401200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223401800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223410000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223411200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223411800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223420000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223420600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223421200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223421800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223430000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223430600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223431200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223431213.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223431800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223440000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223440600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223441200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223441800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223450000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223451200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223451800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223460000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223461200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223461800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223470600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223471200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223480000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223480600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223481200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223481800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223490000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223490600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223491200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223491800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223500000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223500600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223501200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223501800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223510000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223510600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223511200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223511800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223520600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223521200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223521800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223530000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223530646.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223531200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223540000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223540600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223541200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223541800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223550000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223550600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223551200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223560000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223560541.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223560600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223561200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223561800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223570000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223570600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223571200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223571800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223580000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223580600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223581200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223581800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223590000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223590600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223591800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223600000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223600600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223601800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223610000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223610600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223611200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223611800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223620000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223620600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223621200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223621800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223630000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223630600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223631800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223640000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223640600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223641200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223641800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223650000.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223650600.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223651200.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20223651800.csv
+Broken load: /home/datasets4/stein/jena_experiment_2022/2022/rest_dates/BD20230010000.csv
+load all tables --- 48.0802583694458 seconds ---
+Broken tables and faulty table times detected: 1179 from 1551
+load all tables --- 102.59122443199158 seconds ---
+Broken tables and faulty table times detected: 0 from 1551
+join all tables --- 105.76171922683716 seconds ---
+drop Unamed columns --- 107.85333251953125 seconds ---
+round to minutes --- 107.85998558998108 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]']
+map wrong columns --- 107.86087155342102 seconds ---
+Missing columns: ['soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]']
+add missing columns --- 107.87389612197876 seconds ---
+Time uplicated dates: 15445
+2022-05-06 12:00:00    4
+2022-05-06 00:00:00    4
+2022-05-02 00:00:00    4
+2022-05-08 12:00:00    4
+2022-05-09 06:00:00    4
+                      ..
+2022-12-28 11:06:00    1
+2022-12-28 11:07:00    1
+2022-12-28 11:08:00    1
+2022-12-28 11:09:00    1
+2023-01-01 05:59:00    1
+Name: t[s], Length: 524556, dtype: int64
+Out of year dates: 1084
+spread table to full timeSeries.  --- 112.60706114768982 seconds ---
+remove duplicates --- 112.97314524650574 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.

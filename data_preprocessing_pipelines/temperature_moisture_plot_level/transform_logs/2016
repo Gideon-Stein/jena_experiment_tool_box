@@ -1,0 +1,357 @@
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D001bis050/BD20160050602.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D001bis050/BD20160070000.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D051bis100/BD20160810812.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D051bis100/BD20160950733.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D051bis100/BD20160991200.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D101bis150/BD20161120710.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D201bis250/BD20162210747.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D201bis250/BD20162320600.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D201bis250/BD20162361801.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D251bis300/BD20162560737.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D251bis300/BD20162631233.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D251bis300/BD20162631300.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D301bis366/BD20163010708.csv
+load all tables --- 82.50242686271667 seconds ---
+Broken tables and faulty table times detected: 13 from 1572
+join all tables --- 92.2399754524231 seconds ---
+drop Unamed columns --- 92.75453639030457 seconds ---
+round to minutes --- 92.76063442230225 seconds ---
+Wrong columns found: []
+Attempt to correct with: []
+map wrong columns --- 92.7609269618988 seconds ---
+Missing columns: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]']
+add missing columns --- 92.76348543167114 seconds ---
+Time uplicated dates: 1160
+2016-05-03 23:55:00    2
+2016-04-14 05:59:00    2
+2016-11-05 18:02:00    2
+2016-11-04 08:14:00    2
+2016-01-13 18:02:00    2
+                      ..
+2016-02-03 05:50:00    1
+2016-12-05 09:53:00    1
+2016-05-20 04:08:00    1
+2016-10-31 20:44:00    1
+2016-11-14 00:57:00    1
+Name: t[s], Length: 466871, dtype: int64
+Out of year dates: 0
+spread table to full timeSeries.  --- 94.97584939002991 seconds ---
+remove duplicates --- 95.33021593093872 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.
+Values in table: 527040
+Filtered values: soil_temp_05cm_depth_1A01N[°C]         0
+soil_temp_15cm_depth_1A01N[°C]         0
+soil_temp_05cm_depth_1A02M[°C]         0
+soil_temp_15cm_depth_1A02M[°C]         0
+soil_temp_05cm_depth_1A03N[°C]         0
+soil_temp_15cm_depth_1A03N[°C]         0
+soil_temp_05cm_depth_1A04M[°C]         0
+soil_temp_15cm_depth_1A04M[°C]         0
+soil_temp_05cm_depth_1A05N[°C]      4432
+soil_temp_15cm_depth_1A05N[°C]      4301
+soil_temp_05cm_depth_1A06M[°C]         0
+soil_temp_15cm_depth_1A06M[°C]         0
+soil_temp_05cm_depth_1A07N[°C]         0
+soil_temp_15cm_depth_1A07N[°C]         0
+soil_temp_05cm_depth_1A08M[°C]     83320
+soil_temp_15cm_depth_1A08M[°C]         0
+soil_temp_05cm_depth_1A09N[°C]         0
+soil_temp_15cm_depth_1A09N[°C]         0
+soil_temp_05cm_depth_1A10M[°C]         0
+soil_temp_15cm_depth_1A10M[°C]         0
+soil_temp_05cm_depth_1A11N[°C]         0
+soil_temp_15cm_depth_1A11N[°C]         0
+soil_temp_05cm_depth_1A12M[°C]         0
+soil_temp_15cm_depth_1A12M[°C]         0
+soil_temp_05cm_depth_1A13M[°C]         0
+soil_temp_15cm_depth_1A13M[°C]         0
+soil_temp_05cm_depth_1A14M[°C]         0
+soil_temp_15cm_depth_1A14M[°C]         0
+soil_temp_05cm_depth_1A15M[°C]         0
+soil_temp_15cm_depth_1A15M[°C]         0
+soil_temp_05cm_depth_1A16M[°C]         0
+soil_temp_15cm_depth_1A16M[°C]      7899
+soil_temp_05cm_depth_1A17M[°C]         0
+soil_temp_15cm_depth_1A17M[°C]         0
+soil_temp_05cm_depth_1A18M[°C]         0
+soil_temp_15cm_depth_1A18M[°C]         0
+soil_temp_05cm_depth_1A19M[°C]         0
+soil_temp_15cm_depth_1A19M[°C]         0
+soil_temp_05cm_depth_1A20M[°C]         0
+soil_temp_15cm_depth_1A20M[°C]         0
+soil_temp_05cm_depth_1A21M[°C]         0
+soil_temp_15cm_depth_1A21M[°C]         0
+soil_temp_05cm_depth_1A22M[°C]         0
+soil_temp_15cm_depth_1A22M[°C]         0
+soil_temp_05cm_depth_2A01M[°C]         0
+soil_temp_15cm_depth_2A01M[°C]         0
+soil_temp_60cm_depth_2A01M[°C]         0
+soil_temp_05cm_depth_2A02M[°C]         0
+soil_temp_15cm_depth_2A02M[°C]         0
+soil_temp_60cm_depth_2A02M[°C]         0
+soil_temp_05cm_depth_2A03M[°C]         0
+soil_temp_15cm_depth_2A03M[°C]         0
+soil_temp_60cm_depth_2A03M[°C]         0
+soil_temp_05cm_depth_2A04M[°C]       544
+soil_temp_15cm_depth_2A04M[°C]         0
+soil_temp_60cm_depth_2A04M[°C]         0
+soil_temp_05cm_depth_2A05M[°C]         0
+soil_temp_15cm_depth_2A05M[°C]         0
+soil_temp_60cm_depth_2A05M[°C]         0
+soil_temp_05cm_depth_2A06M[°C]         0
+soil_temp_15cm_depth_2A06M[°C]         0
+soil_temp_60cm_depth_2A06M[°C]         0
+soil_temp_05cm_depth_2A07M[°C]         0
+soil_temp_15cm_depth_2A07M[°C]         0
+soil_temp_60cm_depth_2A07M[°C]         0
+soil_temp_05cm_depth_2A08M[°C]      8389
+soil_temp_15cm_depth_2A08M[°C]         0
+soil_temp_60cm_depth_2A08M[°C]      4902
+soil_temp_05cm_depth_2A09M[°C]         0
+soil_temp_15cm_depth_2A09M[°C]         0
+soil_temp_60cm_depth_2A09M[°C]         0
+soil_temp_05cm_depth_2A10M[°C]         0
+soil_temp_15cm_depth_2A10M[°C]         0
+soil_temp_60cm_depth_2A10M[°C]         0
+soil_temp_05cm_depth_2A11M[°C]         0
+soil_temp_15cm_depth_2A11M[°C]         0
+soil_temp_60cm_depth_2A11M[°C]         0
+soil_temp_05cm_depth_2A12M[°C]     55549
+soil_temp_15cm_depth_2A12M[°C]         0
+soil_temp_60cm_depth_2A12M[°C]         0
+soil_temp_05cm_depth_2A13M[°C]         0
+soil_temp_15cm_depth_2A13M[°C]         0
+soil_temp_60cm_depth_2A13M[°C]         0
+soil_temp_05cm_depth_2A14M[°C]         0
+soil_temp_15cm_depth_2A14M[°C]         0
+soil_temp_60cm_depth_2A14M[°C]         0
+soil_temp_05cm_depth_2A15M[°C]         0
+soil_temp_15cm_depth_2A15M[°C]         0
+soil_temp_60cm_depth_2A15M[°C]         0
+soil_temp_05cm_depth_2A16M[°C]         0
+soil_temp_15cm_depth_2A16M[°C]         0
+soil_temp_60cm_depth_2A16M[°C]         0
+soil_temp_05cm_depth_2A17M[°C]         0
+soil_temp_15cm_depth_2A17M[°C]         0
+soil_temp_60cm_depth_2A17M[°C]         0
+soil_temp_05cm_depth_2A18M[°C]         0
+soil_temp_15cm_depth_2A18M[°C]         0
+soil_temp_60cm_depth_2A18M[°C]         0
+soil_temp_05cm_depth_2A19M[°C]         0
+soil_temp_15cm_depth_2A19M[°C]         0
+soil_temp_60cm_depth_2A19M[°C]         0
+soil_temp_05cm_depth_2A20M[°C]         0
+soil_temp_15cm_depth_2A20M[°C]         0
+soil_temp_60cm_depth_2A20M[°C]         0
+soil_temp_05cm_depth_2A21M[°C]         0
+soil_temp_15cm_depth_2A21M[°C]         0
+soil_temp_60cm_depth_2A21M[°C]         0
+soil_temp_05cm_depth_2A22M[°C]         0
+soil_temp_15cm_depth_2A22M[°C]         0
+soil_temp_60cm_depth_2A22M[°C]         0
+soil_temp_05cm_depth_3A01N[°C]         0
+soil_temp_15cm_depth_3A01N[°C]         0
+soil_temp_05cm_depth_3A02M[°C]         0
+soil_temp_15cm_depth_3A02M[°C]         0
+soil_temp_05cm_depth_3A03N[°C]         0
+soil_temp_15cm_depth_3A03N[°C]         0
+soil_temp_05cm_depth_3A04M[°C]         0
+soil_temp_15cm_depth_3A04M[°C]         0
+soil_temp_05cm_depth_3A05N[°C]         0
+soil_temp_15cm_depth_3A05N[°C]    315819
+soil_temp_05cm_depth_3A06N[°C]         0
+soil_temp_15cm_depth_3A06N[°C]         0
+soil_temp_05cm_depth_3A07N[°C]         0
+soil_temp_15cm_depth_3A07N[°C]         0
+soil_temp_05cm_depth_3A08M[°C]         0
+soil_temp_15cm_depth_3A08M[°C]         0
+soil_temp_05cm_depth_3A09N[°C]         0
+soil_temp_15cm_depth_3A09N[°C]         0
+soil_temp_05cm_depth_3A10M[°C]         0
+soil_temp_15cm_depth_3A10M[°C]         0
+soil_temp_05cm_depth_3A11N[°C]         3
+soil_temp_15cm_depth_3A11N[°C]    230708
+soil_temp_05cm_depth_3A12M[°C]         0
+soil_temp_15cm_depth_3A12M[°C]         0
+soil_temp_05cm_depth_3A13M[°C]         0
+soil_temp_15cm_depth_3A13M[°C]         0
+soil_temp_05cm_depth_3A14M[°C]         0
+soil_temp_15cm_depth_3A14M[°C]         0
+soil_temp_05cm_depth_3A15M[°C]         0
+soil_temp_15cm_depth_3A15M[°C]         0
+soil_temp_05cm_depth_3A16M[°C]         0
+soil_temp_15cm_depth_3A16M[°C]         0
+soil_temp_05cm_depth_3A17M[°C]         0
+soil_temp_15cm_depth_3A17M[°C]         0
+soil_temp_05cm_depth_3A19M[°C]         0
+soil_temp_15cm_depth_3A19M[°C]         0
+soil_temp_05cm_depth_3A20M[°C]         0
+soil_temp_15cm_depth_3A20M[°C]         0
+soil_temp_05cm_depth_3A21M[°C]         0
+soil_temp_15cm_depth_3A21M[°C]         0
+soil_temp_05cm_depth_3A22M[°C]         0
+soil_temp_15cm_depth_3A22M[°C]         0
+soil_temp_05cm_depth_3A23M[°C]         0
+soil_temp_15cm_depth_3A23M[°C]         0
+soil_temp_05cm_depth_3A24M[°C]         0
+soil_temp_15cm_depth_3A24M[°C]         0
+soil_temp_05cm_depth_4A01M[°C]         0
+soil_temp_15cm_depth_4A01M[°C]         0
+soil_temp_05cm_depth_4A02M[°C]         0
+soil_temp_15cm_depth_4A02M[°C]         0
+soil_temp_05cm_depth_4A03M[°C]         0
+soil_temp_15cm_depth_4A03M[°C]         0
+soil_temp_05cm_depth_4A04M[°C]         0
+soil_temp_15cm_depth_4A04M[°C]         0
+soil_temp_05cm_depth_4A05M[°C]         0
+soil_temp_15cm_depth_4A05M[°C]         0
+soil_temp_05cm_depth_4A06M[°C]         0
+soil_temp_15cm_depth_4A06M[°C]         0
+soil_temp_05cm_depth_4A07M[°C]         0
+soil_temp_15cm_depth_4A07M[°C]         0
+soil_temp_05cm_depth_4A08M[°C]         0
+soil_temp_15cm_depth_4A08M[°C]         0
+soil_temp_05cm_depth_4A09M[°C]         0
+soil_temp_15cm_depth_4A09M[°C]         0
+soil_temp_05cm_depth_4A10M[°C]         0
+soil_temp_15cm_depth_4A10M[°C]         0
+soil_temp_05cm_depth_4A11M[°C]         0
+soil_temp_15cm_depth_4A11M[°C]         0
+soil_temp_05cm_depth_4A12M[°C]         0
+soil_temp_15cm_depth_4A12M[°C]         0
+soil_temp_05cm_depth_4A13M[°C]     75317
+soil_temp_15cm_depth_4A13M[°C]         0
+soil_temp_05cm_depth_4A14M[°C]    137678
+soil_temp_15cm_depth_4A14M[°C]       478
+soil_temp_05cm_depth_4A15M[°C]         0
+soil_temp_15cm_depth_4A15M[°C]         0
+soil_temp_05cm_depth_4A16M[°C]         0
+soil_temp_15cm_depth_4A16M[°C]         0
+soil_temp_05cm_depth_4A17M[°C]         0
+soil_temp_15cm_depth_4A17M[°C]         0
+soil_temp_05cm_depth_4A18M[°C]         0
+soil_temp_15cm_depth_4A18M[°C]         0
+soil_temp_05cm_depth_4A19M[°C]         0
+soil_temp_15cm_depth_4A19M[°C]         0
+soil_temp_05cm_depth_4A20M[°C]         0
+soil_temp_15cm_depth_4A20M[°C]         0
+soil_temp_05cm_depth_4A21M[°C]         0
+soil_temp_15cm_depth_4A21M[°C]         0
+soil_temp_05cm_depth_4A22M[°C]         0
+soil_temp_15cm_depth_4A22M[°C]         0
+soil_temp_05cm_depth_4A23M[°C]         0
+soil_temp_15cm_depth_4A23M[°C]         0
+dtype: int64
+Filtered values: air_temp_30cm_hei_2A01M[°C]         0
+air_temp_30cm_hei_2A02M[°C]         0
+air_temp_30cm_hei_2A03M[°C]         0
+air_temp_30cm_hei_2A04M[°C]         0
+air_temp_30cm_hei_2A05M[°C]         0
+air_temp_30cm_hei_2A06M[°C]         0
+air_temp_30cm_hei_2A07M[°C]         0
+air_temp_30cm_hei_2A08M[°C]         0
+air_temp_30cm_hei_2A09M[°C]    217683
+air_temp_30cm_hei_2A10M[°C]         0
+air_temp_30cm_hei_2A11M[°C]     57002
+air_temp_30cm_hei_2A12M[°C]         0
+air_temp_30cm_hei_2A13M[°C]         0
+air_temp_30cm_hei_2A14M[°C]         0
+air_temp_30cm_hei_2A15M[°C]         0
+air_temp_30cm_hei_2A16M[°C]         0
+air_temp_30cm_hei_2A17M[°C]         0
+air_temp_30cm_hei_2A18M[°C]     38900
+air_temp_30cm_hei_2A19M[°C]         0
+air_temp_30cm_hei_2A20M[°C]         0
+air_temp_30cm_hei_2A21M[°C]         0
+air_temp_30cm_hei_2A22M[°C]         0
+dtype: int64
+Filtered values: surface_temp_south_west_2A01M[°C]        0
+surface_temp_south_west_2A02M[°C]        0
+surface_temp_south_west_2A03M[°C]        0
+surface_temp_south_west_2A04M[°C]        0
+surface_temp_south_west_2A05M[°C]        0
+surface_temp_south_west_2A06M[°C]        0
+surface_temp_south_west_2A07M[°C]        0
+surface_temp_south_west_2A08M[°C]     3109
+surface_temp_south_west_2A09M[°C]        0
+surface_temp_south_west_2A10M[°C]        0
+surface_temp_south_west_2A11M[°C]        0
+surface_temp_south_west_2A12M[°C]        0
+surface_temp_south_west_2A13M[°C]        0
+surface_temp_south_west_2A14M[°C]      169
+surface_temp_south_west_2A15M[°C]       62
+surface_temp_south_west_2A16M[°C]        0
+surface_temp_south_west_2A17M[°C]        0
+surface_temp_south_west_2A18M[°C]        0
+surface_temp_south_west_2A19M[°C]        0
+surface_temp_south_west_2A20M[°C]        0
+surface_temp_south_west_2A21M[°C]        0
+surface_temp_south_west_2A22M[°C]    53028
+dtype: int64
+Filtered values: air_rel_humidiy_30cm_hei_2A01M[%]     70568
+air_rel_humidiy_30cm_hei_2A02M[%]     90192
+air_rel_humidiy_30cm_hei_2A03M[%]     97070
+air_rel_humidiy_30cm_hei_2A04M[%]     22644
+air_rel_humidiy_30cm_hei_2A05M[%]     66125
+air_rel_humidiy_30cm_hei_2A06M[%]     65084
+air_rel_humidiy_30cm_hei_2A07M[%]     11803
+air_rel_humidiy_30cm_hei_2A08M[%]     61771
+air_rel_humidiy_30cm_hei_2A09M[%]     24615
+air_rel_humidiy_30cm_hei_2A10M[%]     76407
+air_rel_humidiy_30cm_hei_2A11M[%]     36945
+air_rel_humidiy_30cm_hei_2A12M[%]     94907
+air_rel_humidiy_30cm_hei_2A13M[%]     25222
+air_rel_humidiy_30cm_hei_2A14M[%]     73383
+air_rel_humidiy_30cm_hei_2A15M[%]     24112
+air_rel_humidiy_30cm_hei_2A16M[%]     66199
+air_rel_humidiy_30cm_hei_2A17M[%]     26533
+air_rel_humidiy_30cm_hei_2A18M[%]    139128
+air_rel_humidiy_30cm_hei_2A19M[%]     41988
+air_rel_humidiy_30cm_hei_2A20M[%]     59958
+air_rel_humidiy_30cm_hei_2A21M[%]     20318
+air_rel_humidiy_30cm_hei_2A22M[%]     69878
+dtype: int64
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D001bis050/BD20160050602.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D001bis050/BD20160070000.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D051bis100/BD20160810812.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D051bis100/BD20160950733.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D051bis100/BD20160991200.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D101bis150/BD20161120710.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D201bis250/BD20162210747.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D201bis250/BD20162320600.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D201bis250/BD20162361801.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D251bis300/BD20162560737.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D251bis300/BD20162631233.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D251bis300/BD20162631300.csv
+Broken load: /home/datasets4/stein/jena_experiment/raw/2016/Y2016D301bis366/BD20163010708.csv
+load all tables --- 119.37500977516174 seconds ---
+Broken tables and faulty table times detected: 13 from 1572
+join all tables --- 133.03822255134583 seconds ---
+drop Unamed columns --- 133.70330595970154 seconds ---
+round to minutes --- 133.71135807037354 seconds ---
+Wrong columns found: []
+Attempt to correct with: []
+map wrong columns --- 133.7116448879242 seconds ---
+Missing columns: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]']
+add missing columns --- 133.7145276069641 seconds ---
+Time uplicated dates: 1160
+2016-05-03 23:55:00    2
+2016-04-14 05:59:00    2
+2016-11-05 18:02:00    2
+2016-11-04 08:14:00    2
+2016-01-13 18:02:00    2
+                      ..
+2016-02-03 05:50:00    1
+2016-12-05 09:53:00    1
+2016-05-20 04:08:00    1
+2016-10-31 20:44:00    1
+2016-11-14 00:57:00    1
+Name: t[s], Length: 466871, dtype: int64
+Out of year dates: 0
+spread table to full timeSeries.  --- 136.2798810005188 seconds ---
+remove duplicates --- 136.75869417190552 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.

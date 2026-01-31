@@ -1,0 +1,237 @@
+Broken load: /home/datasets4/stein/jena_experiment_new_raw_data/jena_experiment_2023/2023/data/BD20232050559.csv
+load all tables --- 47.91602087020874 seconds ---
+Broken tables and faulty table times detected: 1 from 1576
+join all tables --- 61.1911985874176 seconds ---
+drop Unamed columns --- 62.2173535823822 seconds ---
+round to minutes --- 62.239108085632324 seconds ---
+Wrong columns found: ['soil_temp_05cm_depth_3A06M[°C]', 'soil_temp_15cm_depth_3A06M[°C]']
+Attempt to correct with: ['soil_temp_05cm_depth_3A06N[°C]', 'soil_temp_15cm_depth_3A06N[°C]']
+map wrong columns --- 62.240073442459106 seconds ---
+Missing columns: ['soil_temp_05cm_depth_3A13M[°C]', 'soil_temp_15cm_depth_3A13M[°C]', 'soil_temp_05cm_depth_3A14M[°C]', 'soil_temp_15cm_depth_3A14M[°C]', 'soil_temp_05cm_depth_3A15M[°C]', 'soil_temp_15cm_depth_3A15M[°C]', 'soil_temp_05cm_depth_3A16M[°C]', 'soil_temp_15cm_depth_3A16M[°C]', 'soil_temp_05cm_depth_3A17M[°C]', 'soil_temp_15cm_depth_3A17M[°C]', 'soil_temp_05cm_depth_3A19M[°C]', 'soil_temp_15cm_depth_3A19M[°C]', 'soil_temp_05cm_depth_3A20M[°C]', 'soil_temp_15cm_depth_3A20M[°C]', 'soil_temp_05cm_depth_3A21M[°C]', 'soil_temp_15cm_depth_3A21M[°C]', 'soil_temp_05cm_depth_3A22M[°C]', 'soil_temp_15cm_depth_3A22M[°C]', 'soil_temp_05cm_depth_3A23M[°C]', 'soil_temp_15cm_depth_3A23M[°C]', 'soil_temp_05cm_depth_3A24M[°C]', 'soil_temp_15cm_depth_3A24M[°C]', 'soil_temp_05cm_depth_4A21M[°C]', 'soil_temp_15cm_depth_4A21M[°C]']
+add missing columns --- 62.27680158615112 seconds ---
+Time uplicated dates: 1550
+t[s]
+2023-07-25 05:59:00    2
+2023-05-15 17:59:00    2
+2023-03-05 23:59:00    2
+2023-06-25 05:59:00    2
+2023-11-21 17:59:00    2
+                      ..
+2023-12-31 20:42:00    1
+2023-12-31 20:43:00    1
+2023-12-31 20:44:00    1
+2023-12-31 20:45:00    1
+2024-01-01 23:59:00    1
+Name: count, Length: 538639, dtype: int64
+Out of year dates: 15543
+spread table to full timeSeries.  --- 68.64243769645691 seconds ---
+remove duplicates --- 69.4314317703247 seconds ---
+Consistency test passed
+Running some additional tests
+All tests passed.
+Loading /home/datasets4/stein/transformed_years/classic/classic_2023.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2023.csv
+Cast to long format 
+Filter 
+Values in table: 47304000
+After removals: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             1385837
+soil_temp_15cm_depth             1754067
+soil_temp_05cm_depth_removed     1385837
+soil_temp_15cm_depth_removed     1754067
+dtype: int64
+After boxplot: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             2444135
+soil_temp_15cm_depth             2725493
+soil_temp_05cm_depth_removed     2444135
+soil_temp_15cm_depth_removed     2725493
+dtype: int64
+After custom1: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             2444135
+soil_temp_15cm_depth             2725493
+soil_temp_05cm_depth_removed     2444135
+soil_temp_15cm_depth_removed     2725493
+dtype: int64
+After custom2: 
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             2444135
+soil_temp_15cm_depth             2725493
+soil_temp_05cm_depth_removed     2444135
+soil_temp_15cm_depth_removed     2725493
+dtype: int64
+datetime                        47304000
+plotcode                        47304000
+soil_temp_05cm_depth             2444135
+soil_temp_15cm_depth             2725493
+soil_temp_05cm_depth_removed     2444135
+soil_temp_15cm_depth_removed     2725493
+dtype: int64
+summing time..
+Loading /home/datasets4/stein/transformed_years/classic/classic_2023.csv
+Sum time /home/datasets4/stein/transformed_years/classic/classic_2023.csv
+Cast to long format 
+Filter 
+Values in table: 11563200
+datetime                            11563200
+plotcode                            11563200
+soil_temp_15cm_depth                   94567
+soil_temp_05cm_depth                  408943
+air_temp_30cm_hei                          0
+surface_temp_south_west                    0
+soil_temp_60cm_depth                  686806
+air_rel_humidiy_30cm_hei                   0
+soil_temp_15cm_depth_removed           94567
+soil_temp_05cm_depth_removed          408943
+air_temp_30cm_hei_removed                  0
+surface_temp_south_west_removed            0
+soil_temp_60cm_depth_removed          686806
+air_rel_humidiy_30cm_hei_removed           0
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+soil_temp_15cm_depth                   94567
+soil_temp_05cm_depth                  408943
+air_temp_30cm_hei                     710793
+surface_temp_south_west                    0
+soil_temp_60cm_depth                  686806
+air_rel_humidiy_30cm_hei                   0
+soil_temp_15cm_depth_removed           94567
+soil_temp_05cm_depth_removed          408943
+air_temp_30cm_hei_removed             710793
+surface_temp_south_west_removed            0
+soil_temp_60cm_depth_removed          686806
+air_rel_humidiy_30cm_hei_removed           0
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+soil_temp_15cm_depth                   94567
+soil_temp_05cm_depth                  408943
+air_temp_30cm_hei                     710793
+surface_temp_south_west               729410
+soil_temp_60cm_depth                  686806
+air_rel_humidiy_30cm_hei                   0
+soil_temp_15cm_depth_removed           94567
+soil_temp_05cm_depth_removed          408943
+air_temp_30cm_hei_removed             710793
+surface_temp_south_west_removed       729410
+soil_temp_60cm_depth_removed          686806
+air_rel_humidiy_30cm_hei_removed           0
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+soil_temp_15cm_depth                   94567
+soil_temp_05cm_depth                  408943
+air_temp_30cm_hei                     710793
+surface_temp_south_west               729410
+soil_temp_60cm_depth                  686806
+air_rel_humidiy_30cm_hei             2567059
+soil_temp_15cm_depth_removed           94567
+soil_temp_05cm_depth_removed          408943
+air_temp_30cm_hei_removed             710793
+surface_temp_south_west_removed       729410
+soil_temp_60cm_depth_removed          686806
+air_rel_humidiy_30cm_hei_removed     2567059
+dtype: int64
+After removals: 
+datetime                            11563200
+plotcode                            11563200
+soil_temp_15cm_depth                   94567
+soil_temp_05cm_depth                  408943
+air_temp_30cm_hei                     710793
+surface_temp_south_west               729410
+soil_temp_60cm_depth                  686806
+air_rel_humidiy_30cm_hei             2567059
+soil_temp_15cm_depth_removed           94567
+soil_temp_05cm_depth_removed          408943
+air_temp_30cm_hei_removed             710793
+surface_temp_south_west_removed       729410
+soil_temp_60cm_depth_removed          686806
+air_rel_humidiy_30cm_hei_removed     2567059
+dtype: int64
+After boxplot: 
+datetime                            11563200
+plotcode                            11563200
+soil_temp_15cm_depth                  351995
+soil_temp_05cm_depth                  754688
+air_temp_30cm_hei                    1553558
+surface_temp_south_west              2088243
+soil_temp_60cm_depth                 1197709
+air_rel_humidiy_30cm_hei             3121001
+soil_temp_15cm_depth_removed          351995
+soil_temp_05cm_depth_removed          754688
+air_temp_30cm_hei_removed            1553558
+surface_temp_south_west_removed      2088243
+soil_temp_60cm_depth_removed         1197709
+air_rel_humidiy_30cm_hei_removed     3121001
+dtype: int64
+After custom1: 
+datetime                            11563200
+plotcode                            11563200
+soil_temp_15cm_depth                  351995
+soil_temp_05cm_depth                  754688
+air_temp_30cm_hei                    1553558
+surface_temp_south_west              2088243
+soil_temp_60cm_depth                 1197709
+air_rel_humidiy_30cm_hei             3121001
+soil_temp_15cm_depth_removed          351995
+soil_temp_05cm_depth_removed          754688
+air_temp_30cm_hei_removed            1553558
+surface_temp_south_west_removed      2088243
+soil_temp_60cm_depth_removed         1197709
+air_rel_humidiy_30cm_hei_removed     3121001
+dtype: int64
+After custom2: 
+datetime                            11563200
+plotcode                            11563200
+soil_temp_15cm_depth                  351995
+soil_temp_05cm_depth                  754688
+air_temp_30cm_hei                    1553558
+surface_temp_south_west              2088243
+soil_temp_60cm_depth                 1197709
+air_rel_humidiy_30cm_hei             3121001
+soil_temp_15cm_depth_removed          351995
+soil_temp_05cm_depth_removed          754688
+air_temp_30cm_hei_removed            1553558
+surface_temp_south_west_removed      2088243
+soil_temp_60cm_depth_removed         1197709
+air_rel_humidiy_30cm_hei_removed     3121001
+dtype: int64
+After custom3: 
+datetime                            11563200
+plotcode                            11563200
+soil_temp_15cm_depth                  351995
+soil_temp_05cm_depth                  754688
+air_temp_30cm_hei                    1553558
+surface_temp_south_west              2088243
+soil_temp_60cm_depth                 1197709
+air_rel_humidiy_30cm_hei             3121001
+soil_temp_15cm_depth_removed          351995
+soil_temp_05cm_depth_removed          754688
+air_temp_30cm_hei_removed            1553558
+surface_temp_south_west_removed      2088243
+soil_temp_60cm_depth_removed         1197709
+air_rel_humidiy_30cm_hei_removed     3121001
+dtype: int64
+datetime                            11563200
+plotcode                            11563200
+soil_temp_15cm_depth                  351995
+soil_temp_05cm_depth                  754688
+air_temp_30cm_hei                    1553558
+surface_temp_south_west              2088243
+soil_temp_60cm_depth                 1197709
+air_rel_humidiy_30cm_hei             3121001
+soil_temp_15cm_depth_removed          351995
+soil_temp_05cm_depth_removed          754688
+air_temp_30cm_hei_removed            1553558
+surface_temp_south_west_removed      2088243
+soil_temp_60cm_depth_removed         1197709
+air_rel_humidiy_30cm_hei_removed     3121001
+dtype: int64
+summing time..
