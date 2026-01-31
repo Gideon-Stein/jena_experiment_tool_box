@@ -22,7 +22,8 @@ Each subproject ships its own environment or requirements file. Follow the instr
 
 ## Maintainer
 
-This repository is maintained by Gideon Stein. For questions or contributions, contact the repository owner at [mailto:example@example.com](mailto:gideon@steinml.de).
+This repository is maintained by [@GideonStein](https://github.com/Gideon-Stein),
+For questions or contributions, feel free to contact me.
 
 
 
